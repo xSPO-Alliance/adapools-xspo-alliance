@@ -18,5 +18,5 @@ Registration JSON Example.
 }
 ```
 
-If you want to play an active role in this Alliance, or just hang out with other xSPOs, please join our discord:
+If you want to play an active role in this alliance, or just to hang out with other xSPOs, please join our discord:
 https://discord.gg/XD9VfcgT
