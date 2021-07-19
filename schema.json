@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "title": "AdaPool Alliance Registry Schema",
+  "description": "Schema to validate JSON Structure for the AdaPools registry File",
+  "type": "object",
+  "properties": {
+    "adapools": {
+      "type": "object",
+      "properties": {
+        "about": {
+          "type": "object"
+        },
+        "members": {
+          "type": "object",
+          "patternProperties": {
+            "^[0-9]*$": {
+              "type": "object",
+              "properties": {
+                "pool_id": {
+                  "type": "string",
+                  "pattern": ".{56}"
+                },
+                "member_since": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "name": {
+                  "type": "string",
+                  "pattern": "([a-zA-Z0-9])* \\(.*\\)"
+                }
+              },
+              "required": [
+                "pool_id",
+                "member_since",
+                "name"
+              ],
+          	  "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "about",
+        "members"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "adapools"
+  ],
+  "additionalProperties": false
+}
