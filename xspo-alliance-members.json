@@ -2,18 +2,18 @@
     "adapools": {
         "about": {
             "name": "xSPO Alliance",
-            "description_short": "SPO's with less than 1m stake",
-            "description_long": "Full description.",
-            "website": "https://adapools.org",
+            "description_short": "[xSPO] is a fun group of pools with XS (eXtra Small) stakes of less than 1m ADA",
+            "description_long": "[xSPO] is short for XS (eXtra Small) Stake Pool Operators. We are a laid-back group, where starting SPO's with a small stake/pledge (smaller than 1m ADA) can meet similar sized and like minded peers. Our mission: Having fun while helping each other grow.",
+            "website": "https://discord.gg/VGMnRjeH9d",
             "url_png_icon_64x64": "http(s) url to pool icon; not animated; max 40kb",
-            "url_png_logo": "http(s) url to pool logo; not animated; max 50kb",
+            "url_png_logo": "",
             "social": {
                 "twitter_handle": "",
-                "telegram_handle": "",
+                "telegram_handle": "xspogroup",
                 "facebook_handle": "",
                 "youtube_handle": "",
                 "twitch_handle": "",
-                "discord_handle": "xSPO",
+                "discord_handle": "VGMnRjeH9d",
                 "github_handle": "xSPO-Alliance"
             },
             "types": {
