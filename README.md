@@ -4,7 +4,7 @@ In this repo stake pool operators can register to become a member of the xSPO Al
 
 By submitting a pull request you agree that all the submited information will be made publicly available to everyone.
 
-Also, by submitting you agree that you fit the critera of an xSPO.  Our rules are very simple, just have less than ₳ ___ in total active stake, and be an active member of our community on discord.
+Also, by submitting you agree that you fit the critera of an xSPO.  Our rules are very simple, just have less than ₳1M in total active stake, and be an active member of our community on discord.
 
 To register, simply create a pull request that adds your pool name and id to the members json file.
 
