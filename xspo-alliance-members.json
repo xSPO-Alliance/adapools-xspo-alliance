@@ -1,0 +1,38 @@
+{
+    "adapools": {
+        "about": {
+            "name": "xSPO Alliance",
+            "description_short": "SPO's with less than 1m stake",
+            "description_long": "Full description.",
+            "website": "https://adapools.org",
+            "url_png_icon_64x64": "http(s) url to pool icon; not animated; max 40kb",
+            "url_png_logo": "http(s) url to pool logo; not animated; max 50kb",
+            "social": {
+                "twitter_handle": "",
+                "telegram_handle": "",
+                "facebook_handle": "",
+                "youtube_handle": "",
+                "twitch_handle": "",
+                "discord_handle": "xSPO",
+                "github_handle": ""
+            },
+            "types": {
+                "charity": false,
+                "business": false,
+                "beneficial": false
+            }
+        },
+        "members": {
+            "0": {
+                "pool_id": "cb87bf12be816ecd5cd6e167442670e4024d85e0005c8623651b371f",
+                "member_since": "2021-05-18",
+                "name": "A4G (ADA4GOOD)"
+            },
+            "1": {
+                "pool_id": "075a870caa0a0cf20a3c2cf514be05e2064ef1ba71b2381e8f16a09e",
+                "member_since": "2020-05-18",
+                "name": "VITAL (Responsible Staking)"
+            }
+        }
+    }
+}
