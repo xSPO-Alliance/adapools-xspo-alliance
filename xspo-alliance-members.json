@@ -38,6 +38,11 @@
                 "member_since": "2021-07-19",
                 "name": "PANL (PANL Stake Pool)"
             }
+            "3": {
+                "pool_id": "xx",
+                "member_since": "2021-07-19",
+                "name": "TEST"
+            }
         }
     }
 }
