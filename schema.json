@@ -19,7 +19,7 @@
               "properties": {
                 "pool_id": {
                   "type": "string",
-                  "pattern": ".{56}"
+                  "pattern": "(?!pool.*).{56}"
                 },
                 "member_since": {
                   "type": "string",
