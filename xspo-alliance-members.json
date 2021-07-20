@@ -42,11 +42,16 @@
                 "pool_id": "5cff121b7239ea76035bcb79711674a29fdf35d0bbe83a212467fab9",
                 "member_since": "2021-07-20",
                 "name": "SPIDR (SpidarPool)"
-            },
+            },            
             "4": {
                 "pool_id": "7a58916420571bcb037159d772275a04e968e83dfad750af26f943fd",
                 "member_since": "2021-05-18",
                 "name": "CHEWY (CHEWY Pool)"
+            }, 
+            "5": {
+                "pool_id": "f65731aa68706607718d140426c75cd7ac2c40703c31c325fdd46f91",
+                "member_since": "2021-05-18",
+                "name": "ARARE (AdaRarePool)"
             }
         }
     }
