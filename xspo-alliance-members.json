@@ -37,6 +37,11 @@
                 "pool_id": "05e11c24a4de15366c6d548f8847589164d02260b6a059a08c22be2a",
                 "member_since": "2021-07-19",
                 "name": "PANL (PANL Stake Pool)"
+            },
+            "3": {
+                "pool_id": "5cff121b7239ea76035bcb79711674a29fdf35d0bbe83a212467fab9",
+                "member_since": "2021-07-20",
+                "name": "[SPIDR] SpidarPool"
             }
         }
     }
