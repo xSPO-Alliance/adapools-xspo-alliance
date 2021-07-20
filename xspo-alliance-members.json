@@ -62,6 +62,11 @@
                 "pool_id": "72770c5d9dbf120676a6293d921fd7eeee454409620c3fdb671a405a",
                 "member_since": "2021-06-28",
                 "name": "MERO (Merovingian Cardano Stakepool)"
+            },
+            "8": {
+                "pool_id": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
+                "member_since": "2021-07-14",
+                "name": "MINI1 (Cardano ADA Mini Pool Switzerland)"
             }
         }
     }
