@@ -42,7 +42,12 @@
                 "pool_id": "5cff121b7239ea76035bcb79711674a29fdf35d0bbe83a212467fab9",
                 "member_since": "2021-07-20",
                 "name": "SPIDR (SpidarPool)"
-            }
+            },
+            "4": {
+                "pool_id": "pool17etnr2ngwpnqwuvdzszzd36u67kzcsrs8scuxf0a63hezy9zvpv",
+                "member_since": "2021-05-18",
+                "name": "ARARE (AdaRarePool)"
+            
         }
     }
 }
