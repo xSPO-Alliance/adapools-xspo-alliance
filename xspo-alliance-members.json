@@ -57,6 +57,11 @@
                 "pool_id": "538299a358e79a289c8de779f8cd09dd6a6bb286de717d1f744bb357",
                 "member_since": "2021-07-20",
                 "name": "APEX (APEX Cardano Pool)"
+            },
+            "7": {
+                "pool_id": "72770c5d9dbf120676a6293d921fd7eeee454409620c3fdb671a405a",
+                "member_since": "2021-06-28",
+                "name": "MERO (Merovingian Cardano Stakepool)"
             }
         }
     }
