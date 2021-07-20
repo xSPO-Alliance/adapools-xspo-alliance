@@ -38,10 +38,15 @@
                 "member_since": "2021-07-19",
                 "name": "PANL (PANL Stake Pool)"
             },
+            "3": {
+                "pool_id": "5cff121b7239ea76035bcb79711674a29fdf35d0bbe83a212467fab9",
+                "member_since": "2021-07-20",
+                "name": "SPIDR (SpidarPool)"
+            },
             "4": {
                 "pool_id": "7a58916420571bcb037159d772275a04e968e83dfad750af26f943fd",
                 "member_since": "2021-05-18",
-                "name": "CHEWY (CHEWY Stake Pool)"
+                "name": "CHEWY (CHEWY Pool)"
             }
         }
     }
