@@ -72,7 +72,12 @@
                 "pool_id": "48fd30a022a3daaed7806f5c8739516129b32146f0efd1440c1fa14a",
                 "member_since": "2021-07-20",
                 "name": "NFTS (NFTS Pool)"
-            }            
+            },
+            "10": {
+                "pool_id": "a5db584e578e62611de7f8a4062ad9079a2e59ca33442662d0912a30",
+                "member_since": "2021-07-20",
+                "name": "D13 (DREAM13 Pool)"
+            },
         }
     }
 }
