@@ -92,6 +92,11 @@
                 "pool_id": "a5db584e578e62611de7f8a4062ad9079a2e59ca33442662d0912a30",
                 "member_since": "2021-07-20",
                 "name": "D13 (DREAM13 Pool)"
+            },
+            "14": {
+                "pool_id": "51694f0d52a25a3ade521472a9c575205651b2c1253410449e1c1de9",
+                "member_since": "2021-07-23",
+                "name": "BOSON (Ada4Science Pool)"
             }
         }
     }
