@@ -64,6 +64,41 @@
                 "name": "MERO (Merovingian Cardano Stakepool)"
             },
             "8": {
+                "pool_id": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
+                "member_since": "2021-07-14",
+                "name": "MINI1 (Cardano ADA Mini Pool Switzerland)"
+            },
+            "9": {
+                "pool_id": "48fd30a022a3daaed7806f5c8739516129b32146f0efd1440c1fa14a",
+                "member_since": "2021-07-20",
+                "name": "NFTS (NFTS Pool)"
+            },
+            "10": {
+                "pool_id": "576e0390ac54e3751afdaa8aa256f41b84a6324006f23991f6fdefb7",
+                "member_since": "2021-07-21",
+                "name": "USONE (Us As One)"
+            },
+            "11": {
+                "pool_id": "381ad61d5031c2a570c268d2f018bfb65c6eb7e32e535a58384f9a21",
+                "member_since": "2021-07-21",
+                "name": "ALFA (Alfa Pool)"
+            },
+            "12": {
+                "pool_id": "aa6dd7ae211c87f6cadd6031a641e224d00f49c5cb736a7a502d5056",
+                "member_since": "2021-07-21",
+                "name": "STAY (Here To STAY)"
+            },
+            "13": {
+                "pool_id": "a5db584e578e62611de7f8a4062ad9079a2e59ca33442662d0912a30",
+                "member_since": "2021-07-20",
+                "name": "D13 (DREAM13 Pool)"
+            },
+            "14": {
+                "pool_id": "51694f0d52a25a3ade521472a9c575205651b2c1253410449e1c1de9",
+                "member_since": "2021-07-23",
+                "name": "BOSON (Ada4Science Pool)"
+            },
+            "15": {
                 "pool_id": "9837e1eca79504f57acd4e12f2db93ee04a76bca308cae61a6ee205a",
                 "member_since": "2021-07-20",
                 "name": "SANTO (Santo Staking Pool)"
