@@ -107,7 +107,12 @@
                 "pool_id": "5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b",
                 "member_since": "2021-07-25",
                 "name": "ST4NA (Stake for Nature)"
-            }
+            },
+	    "17": {
+		"pool_id": "28e0a3969fa22f29d5b13e0a00826a6d6bdd80dec01b1cf60deb29bf",
+	        "member_since": "2021-07-25",
+		"name": "IRF (IRF ADA)"
+	    }			
         }
     }
 }
