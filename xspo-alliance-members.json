@@ -114,10 +114,15 @@
                 "name": "PSYA (PsyADA)"
             },
       	    "18": {
-		            "pool_id": "28e0a3969fa22f29d5b13e0a00826a6d6bdd80dec01b1cf60deb29bf",
-	              "member_since": "2021-07-25",
-		            "name": "IRF (IRF ADA)"
-	          }			
+                "pool_id": "28e0a3969fa22f29d5b13e0a00826a6d6bdd80dec01b1cf60deb29bf",
+                "member_since": "2021-07-25",
+                "name": "IRF (IRF ADA)"
+            },
+      	    "19": {
+                "pool_id": "1dc1e011d522a077a20b2659bd0ee257e0d80f105f5dc998d4cfda7c",
+                "member_since": "2021-07-26",
+                "name": "GINGR (Ginger's Pool)"
+            }		
         }
     }
 }
