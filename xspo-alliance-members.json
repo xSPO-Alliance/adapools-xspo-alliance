@@ -108,11 +108,16 @@
                 "member_since": "2021-07-25",
                 "name": "ST4NA (Stake for Nature)"
             },
-	    "17": {
-		"pool_id": "28e0a3969fa22f29d5b13e0a00826a6d6bdd80dec01b1cf60deb29bf",
-	        "member_since": "2021-07-25",
-		"name": "IRF (IRF ADA)"
-	    }			
+            "17": {
+                "pool_id": "111646b0848804b1c0ff51888432c9c4b0b0aa3b55f11ecbd0e36624",
+                "member_since": "2021-07-25",
+                "name": "PSYA (PsyADA)"
+            },
+      	    "18": {
+		            "pool_id": "28e0a3969fa22f29d5b13e0a00826a6d6bdd80dec01b1cf60deb29bf",
+	              "member_since": "2021-07-25",
+		            "name": "IRF (IRF ADA)"
+	          }			
         }
     }
 }
