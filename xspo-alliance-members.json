@@ -18,8 +18,8 @@
             },
             "types": {
                 "charity": false,
-                "business": false,
-                "beneficial": false
+                "business": true,
+                "beneficial": true
             }
         },
         "members": {
