@@ -124,6 +124,11 @@
                 "name": "GINGR (Ginger's Pool)"
             },
       	    "20": {
+                "pool_id": "2b5ac5073e3e8071024263a8fe69e4577bcf3bfed41110ced8ac8aa7",
+                "member_since": "2021-05-18",
+                "name": "NEXUS (NEXUS Stake Pool)"
+            },
+            "21": {
                 "pool_id": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
                 "member_since": "2021-07-26",
                 "name": "00000 (Adaberry Pi)"
