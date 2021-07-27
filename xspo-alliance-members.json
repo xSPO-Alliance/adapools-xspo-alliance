@@ -122,6 +122,11 @@
                 "pool_id": "1dc1e011d522a077a20b2659bd0ee257e0d80f105f5dc998d4cfda7c",
                 "member_since": "2021-07-26",
                 "name": "GINGR (Ginger's Pool)"
+            },
+      	    "20": {
+                "pool_id": "2b5ac5073e3e8071024263a8fe69e4577bcf3bfed41110ced8ac8aa7",
+                "member_since": "2021-05-18",
+                "name": "NEXUS (NEXUS Stake Pool)"
             }		
         }
     }
