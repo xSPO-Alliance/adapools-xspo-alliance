@@ -136,7 +136,8 @@
             "22": {
                 "pool_id": "1be0613ee44270f56b5fbb71f667528e1d877d77d349dd7324d50869",
                 "member_since": "2021-07-26",
-                "name": "RSV (Reservoir Node)"     
+                "name": "RSV (Reservoir Node)"
+           }
         }
     }
 }
