@@ -132,7 +132,11 @@
                 "pool_id": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
                 "member_since": "2021-07-26",
                 "name": "00000 (Adaberry Pi)"
-            }
+            },
+            "22": {
+                "pool_id": "1be0613ee44270f56b5fbb71f667528e1d877d77d349dd7324d50869",
+                "member_since": "2021-07-26",
+                "name": "RSV (Reservoir Node)"     
         }
     }
 }
