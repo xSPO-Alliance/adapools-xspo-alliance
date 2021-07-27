@@ -42,12 +42,12 @@
                 "pool_id": "5cff121b7239ea76035bcb79711674a29fdf35d0bbe83a212467fab9",
                 "member_since": "2021-07-20",
                 "name": "SPIDR (SpidarPool)"
-            },            
+            },
             "4": {
                 "pool_id": "7a58916420571bcb037159d772275a04e968e83dfad750af26f943fd",
                 "member_since": "2021-05-18",
                 "name": "CHEWY (CHEWY Pool)"
-            }, 
+            },
             "5": {
                 "pool_id": "f65731aa68706607718d140426c75cd7ac2c40703c31c325fdd46f91",
                 "member_since": "2021-05-18",
@@ -137,7 +137,12 @@
                 "pool_id": "1be0613ee44270f56b5fbb71f667528e1d877d77d349dd7324d50869",
                 "member_since": "2021-07-26",
                 "name": "RSV (Reservoir Node)"
-           }
+            },
+	          "23": {
+		            "pool_id": "c8a1648c3fdc0b7d5cd877bad022fb48d619eb04f74c7ec87ba5a6fc",
+		            "member_since": "2021-07-27",
+		            "name": "IPIB (Italians Pool It Better)"
+            }
         }
     }
 }
