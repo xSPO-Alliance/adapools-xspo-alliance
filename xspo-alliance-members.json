@@ -147,6 +147,11 @@
 		"pool_id": "51c46851f53579f04ac4dfe8cde1182976d78b058abd4f1f7a59d4b3",
 		"member_since": "2021-07-27",
 		"name": "CAPYB (Capybaral Pool)"
+            },
+            "25": {
+		"pool_id": "91991d9238f3f270a46fc237acc3abcdf2456ff163c1639951d75d15",
+		"member_since": "2021-06-30",
+		"name": "COINZ (ADA Coinz)"
             }
         }
     }
