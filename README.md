@@ -1,9 +1,10 @@
 # Registration
 
-In this repo stake pool operators can register to become a member of the xSPO Alliance
+In this repo stake pool operators can register to become a member of the xSPO Alliance. After you have become an official member your pool will be visible on https://adapools.org/alli and also on https://adafolio.com/community-portfolios
+Please like the latter so we stay on top of the list!
 
+#Disclaimer
 By submitting a pull request you agree that all the submited information will be made publicly available to everyone.
-
 Also, by submitting you agree that you fit the critera of an xSPO.  Our rules are very simple, just have less than ₳1M in total active stake as you join, and be an active member of our community on discord.
 
 # REQUIREMENTS:
