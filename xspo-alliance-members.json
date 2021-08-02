@@ -167,6 +167,11 @@
 		"pool_id": "6c1c1fc2b1e3e1ac056f6dd4dd4c3b78e66bd01896ca6e98a4d2431e",
 		"member_since": "2021-05-28",
 		"name": "RELAY (Relay Stake Pool)" 
+            },
+            "29": {
+		"pool_id": "5e1c0f2519b2ea005de5c418568a3323d7a2dddb2dc1e6a39d88cd02",
+		"member_since": "2021-08-02",
+		"name": "STUPD (Stupid Cotton)" 
             }
         }
     }
