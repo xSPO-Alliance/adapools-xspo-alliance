@@ -158,12 +158,11 @@
 		"member_since": "2021-08-01",
 		"name": "ADAUS (El ADA Pool AUSTRAL)"
             },
-            "26": {
+            "27": {
 		"pool_id": "627a4ecacdc3d0e3fb5fe9a8cee8880a43069ec2f46d5217decef71c",
 		"member_since": "2021-08-01",
-		"name": "KAYA Singapore"
+		"name": "KAYA (Kaya Singapore)" 
             }
-
-	}
+        }
     }
 }
