@@ -172,6 +172,11 @@
 		"pool_id": "5e1c0f2519b2ea005de5c418568a3323d7a2dddb2dc1e6a39d88cd02",
 		"member_since": "2021-08-02",
 		"name": "STUPD (Stupid Cotton)" 
+            },
+            "30": {
+		"pool_id": "0089edb03016268a135babbbe8fb1f12f5789fc7718e67255bfbe570",
+		"member_since": "2021-08-02",
+		"name": "ESG (ESGpool)" 
             }
         }
     }
