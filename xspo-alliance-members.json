@@ -152,6 +152,11 @@
 		"pool_id": "91991d9238f3f270a46fc237acc3abcdf2456ff163c1639951d75d15",
 		"member_since": "2021-06-30",
 		"name": "COINZ (ADA Coinz)"
+            },
+            "26": {
+                "pool_id": "38d44f2bbccd27b654e532e6937e3a60b900168082f5c1b4fe236974",
+		"member_since": "2021-08-02",
+		"name": "ALPCH (Alpen Cardano)"
             }
         }
     }
