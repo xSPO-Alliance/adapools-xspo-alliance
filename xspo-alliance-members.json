@@ -189,9 +189,9 @@
 		"name": "HARM (harmlesscoin.com)"
             },
 	    "33": {
-	        "pool_id": "pool1hvl0yy8vrcuh747hj6eqyh75hp2spdy6263hlrgjmvtwkjxy904",
-	        "member_since": "2021-08-02",
-	        "name": "STICK (Coruna)"
+	  "pool_id": "pool1hvl0yy8vrcuh747hj6eqyh75hp2spdy6263hlrgjmvtwkjxy904",
+	  "member_since": "2021-08-02",
+	  "name": "STICK (Coruna)"
             }
         }
     }
