@@ -182,6 +182,11 @@
 		"pool_id": "d7dc0487d80b04e9eb77e3d128debded2da917647df35da25267689f",
 		"member_since": "2021-08-02",
 		"name": "ANEW (anew)"
+            },
+	    "32": {
+	    "pool_id": "pool1hvl0yy8vrcuh747hj6eqyh75hp2spdy6263hlrgjmvtwkjxy904",
+	    "member_since": "2021-08-02",
+	    "name": "STICK (Coruna)"
             }
         }
     }
