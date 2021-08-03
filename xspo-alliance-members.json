@@ -183,10 +183,15 @@
 		"member_since": "2021-08-02",
 		"name": "ANEW (anew)"
             },
-	    "32": {
-	    "pool_id": "pool1hvl0yy8vrcuh747hj6eqyh75hp2spdy6263hlrgjmvtwkjxy904",
-	    "member_since": "2021-08-02",
-	    "name": "STICK (Coruna)"
+            "32": {
+		"pool_id": "8ae61dd5202bc4903d95f75b50eecaa2e8d60ef1e36f81d1ccf6f65e",
+		"member_since": "2021-08-02",
+		"name": "HARM (harmlesscoin.com)"
+            },
+	    "33": {
+	        "pool_id": "pool1hvl0yy8vrcuh747hj6eqyh75hp2spdy6263hlrgjmvtwkjxy904",
+	        "member_since": "2021-08-02",
+	        "name": "STICK (Coruna)"
             }
         }
     }
