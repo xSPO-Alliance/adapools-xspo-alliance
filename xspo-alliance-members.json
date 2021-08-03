@@ -154,9 +154,49 @@
 		"name": "COINZ (ADA Coinz)"
             },
             "26": {
-                "pool_id": "38d44f2bbccd27b654e532e6937e3a60b900168082f5c1b4fe236974",
+		"pool_id": "25ee82c7a1b2c8158e9c4480e08ede426c4a2324a2c102faaf3e763c",
+		"member_since": "2021-08-01",
+		"name": "ADAUS (El ADA Pool AUSTRAL)"
+            },
+            "27": {
+		"pool_id": "627a4ecacdc3d0e3fb5fe9a8cee8880a43069ec2f46d5217decef71c",
+		"member_since": "2021-08-01",
+		"name": "KAYA (Kaya Singapore)" 
+            },
+            "28": {
+		"pool_id": "6c1c1fc2b1e3e1ac056f6dd4dd4c3b78e66bd01896ca6e98a4d2431e",
+		"member_since": "2021-05-28",
+		"name": "RELAY (Relay Stake Pool)" 
+            },
+            "29": {
+		"pool_id": "5e1c0f2519b2ea005de5c418568a3323d7a2dddb2dc1e6a39d88cd02",
 		"member_since": "2021-08-02",
-		"name": "ALPCH (Alpen Cardano)"
+		"name": "STUPD (Stupid Cotton)" 
+            },
+            "30": {
+		"pool_id": "0089edb03016268a135babbbe8fb1f12f5789fc7718e67255bfbe570",
+		"member_since": "2021-08-02",
+		"name": "ESG (ESGpool)" 
+            },
+            "31": {
+		"pool_id": "d7dc0487d80b04e9eb77e3d128debded2da917647df35da25267689f",
+		"member_since": "2021-08-02",
+		"name": "ANEW (anew)"
+            },
+            "32": {
+		"pool_id": "8ae61dd5202bc4903d95f75b50eecaa2e8d60ef1e36f81d1ccf6f65e",
+		"member_since": "2021-08-02",
+		"name": "HARM (harmlesscoin.com)"
+            },
+	    "33": {
+	        "pool_id": "pool1hvl0yy8vrcuh747hj6eqyh75hp2spdy6263hlrgjmvtwkjxy904",
+	        "member_since": "2021-08-02",
+	        "name": "STICK (Coruna)"
+            },
+	    "34": {
+	        "pool_id": "38d44f2bbccd27b654e532e6937e3a60b900168082f5c1b4fe236974",
+	        "member_since": "2021-08-02",
+	        "name": "ALPCH (Alpen Cardano)"
             }
         }
     }
