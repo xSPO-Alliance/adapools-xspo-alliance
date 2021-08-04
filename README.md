@@ -58,4 +58,4 @@ Just drop a message in discord and we will fix it together.
 
 # What else?
 If you want to play an active role in this alliance, or just to hang out with other xSPOs, please join our discord:
-https://discord.gg/XD9VfcgT
+https://discord.gg/cPZpRFndWz
