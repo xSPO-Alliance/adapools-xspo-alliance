@@ -207,6 +207,12 @@
 	        "pool_id": "fb82466458cb60c5295b8d335c24c83d85d510e0e012b877bcadbe98",
 	        "member_since": "2021-08-03",
 	        "name": "GUI (GUI Pool)"
+	    },
+		},
+	    "37": {
+	        "pool_id": "302f38b9b9cf8ace04859882b78e885cec18ee88832e7267224c2b28",
+	        "member_since": "2021-08-04",
+	        "name": "KYOKU (KYOKU Pool)"
 	    }
         }
     }
