@@ -192,6 +192,11 @@
 	        "pool_id": "pool1hvl0yy8vrcuh747hj6eqyh75hp2spdy6263hlrgjmvtwkjxy904",
 	        "member_since": "2021-08-02",
 	        "name": "STICK (Coruna)"
+	    },
+	    "36": {
+	        "pool_id": "pool17taqml487n9t4r9a6ppvf9qv0qlw2lu4zcrzwfdsfcv6xp7uqym",
+	        "member_since": "2021-08-03",
+	        "name": "PSB (PSILOBYTE)"
             }
         }
     }
