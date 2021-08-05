@@ -217,6 +217,11 @@
 	        "pool_id": "fdb8e1e7f181f23d31f09bb4547370ef104688b37b3e7f4fdb222f4f",
 	        "member_since": "2021-08-04",
 	        "name": "ATFF (Austrian Volunteer Fire Fighters)"
+	    },
+	    "39": {
+	        "pool_id": "0747be3311283c447d5d4a61cf9157844bbe5b1d4157c9c27c39b8d7",
+	        "member_since": "2021-08-04",
+	        "name": "BEAGL (BeaglePool)"
 	    }
         }
     }
