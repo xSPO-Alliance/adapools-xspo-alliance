@@ -232,6 +232,11 @@
 	        "pool_id": "8875e01215177b4506e9644ad6f9bda0aea6306ad217e4bb6653e1f9",
 	        "member_since": "2021-08-06",
 	        "name": "ASTRO (ASTROPOOL)"
+	    },
+	    "42": {
+	        "pool_id": "3805681d8d4bc9c7f298c24fdeca3406849e2db84a0708718d96d0b2",
+	        "member_since": "2021-08-06",
+	        "name": "one (EnigmA pool)"
 	    }        
         }
     }
