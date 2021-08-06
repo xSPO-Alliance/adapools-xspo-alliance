@@ -227,7 +227,12 @@
 	        "pool_id": "cf7249855783f4ca98e0d5249da8c0c362dc1de36294f46ccc720fba",
 	        "member_since": "2021-08-05",
 	        "name": "HODLR (Hodler Staking Services)"
-	    }
+	    },
+	    "41": {
+	        "pool_id": "8875e01215177b4506e9644ad6f9bda0aea6306ad217e4bb6653e1f9",
+	        "member_since": "2021-08-06",
+	        "name": "ASTRO (ASTROPOOL)"
+	    }        
         }
     }
 }
