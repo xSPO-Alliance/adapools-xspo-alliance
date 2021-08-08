@@ -257,6 +257,11 @@
 	        "pool_id": "e1ae99532bbe499351d123769bb5d49a20a4607f067b0919d7a1ece7",
 	        "member_since": "2021-08-08",
 	        "name": "DECI (decentral.iced)"
+            },
+            "47": {    
+               "pool_id": "297b5acd8b90df8a1bfd98aa1a61f323b87fead4b8a2b55f2fb83ce6",
+               "member_since": "2021-07-18",
+               "name": "AdaLoop (ALoop)"
             }
         }
     }
