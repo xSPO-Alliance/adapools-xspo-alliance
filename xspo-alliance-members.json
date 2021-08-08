@@ -258,15 +258,15 @@
 	        "member_since": "2021-08-08",
 	        "name": "DECI (decentral.iced)"
             },
-      "47": {
+            "47": {
 	        "pool_id": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
 	        "member_since": "2021-08-08",
 	        "name": "SUDTI (Southtyrol Pool)"
             },
-      "48": {    
-          "pool_id": "297b5acd8b90df8a1bfd98aa1a61f323b87fead4b8a2b55f2fb83ce6",
-          "member_since": "2021-08-08",
-          "name": "AdaLoop (ALoop)"
+            "48": {    
+                "pool_id": "297b5acd8b90df8a1bfd98aa1a61f323b87fead4b8a2b55f2fb83ce6",
+                "member_since": "2021-08-08",
+                "name": "AdaLoop (ALoop)"
             }
         }
     }
