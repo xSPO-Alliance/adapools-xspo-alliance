@@ -272,6 +272,11 @@
                 "pool_id": "e2be8bcd95ee62227a2484be8619d2f2f800ec89eb2deacaa743d130",
                 "member_since": "2021-08-09",
                 "name": "ADEN (Cardano ADEN Stake Pool)"
+            },
+            "50": {    
+                "pool_id": "ac4c79de638c8bb08997e939dccde43fe347a392d11a7ddf77bf3816",
+                "member_since": "2021-08-10",
+                "name": "XSEC (XSEC Cardano ADA Stake Pool)"
             }
         }
     }
