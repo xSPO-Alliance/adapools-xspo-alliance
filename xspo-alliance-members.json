@@ -278,10 +278,15 @@
                 "member_since": "2021-08-10",
                 "name": "XSEC (XSEC Cardano ADA Stake Pool)"
             },
-            "51": {    
+            "51": {
                 "pool_id": "2f5de17f4aef94923d82520eb9787d3081772bdea1264d919dcf48cb",
                 "member_since": "2021-08-17",
                 "name": "HUG (Happy HUG Staking)"
+            },
+          "52": {
+                "pool_id": "bce4f15e81e2d2d9fe5c061f02f89ced9a56654a753f14d8409505bb",
+                "member_since": "2021-08-17",
+                "name": "ISTAN (ISTANPOOL Cardano ADA Stake Pool)"
             }
         }
     }
