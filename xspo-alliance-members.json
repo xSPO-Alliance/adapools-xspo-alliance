@@ -113,12 +113,12 @@
                 "member_since": "2021-07-25",
                 "name": "PSYA (PsyADA)"
             },
-            "18": {
+      	    "18": {
                 "pool_id": "28e0a3969fa22f29d5b13e0a00826a6d6bdd80dec01b1cf60deb29bf",
                 "member_since": "2021-07-25",
                 "name": "IRF (IRF ADA)"
             },
-            "19": {
+      	    "19": {
                 "pool_id": "1dc1e011d522a077a20b2659bd0ee257e0d80f105f5dc998d4cfda7c",
                 "member_since": "2021-07-26",
                 "name": "GINGR (Ginger's Pool)"
@@ -268,12 +268,12 @@
                 "member_since": "2021-08-08",
                 "name": "AdaLoop (ALoop)"
             },
-            "49": {
+            "49": {    
                 "pool_id": "e2be8bcd95ee62227a2484be8619d2f2f800ec89eb2deacaa743d130",
                 "member_since": "2021-08-09",
                 "name": "ADEN (Cardano ADEN Stake Pool)"
             },
-            "50": {
+            "50": {    
                 "pool_id": "ac4c79de638c8bb08997e939dccde43fe347a392d11a7ddf77bf3816",
                 "member_since": "2021-08-10",
                 "name": "XSEC (XSEC Cardano ADA Stake Pool)"
@@ -283,12 +283,12 @@
                 "member_since": "2021-08-17",
                 "name": "HUG (Happy HUG Staking)"
             },
-          "52": {
+            "52": {
                 "pool_id": "bce4f15e81e2d2d9fe5c061f02f89ced9a56654a753f14d8409505bb",
                 "member_since": "2021-08-17",
                 "name": "ISTAN (ISTANPOOL Cardano ADA Stake Pool)"
             },
-         "53": {
+            "53": {
                 "pool_id": "7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3",
                 "member_since": "2021-08-17",
                 "name": "PGWAD (PGWADA Stake pool)"
