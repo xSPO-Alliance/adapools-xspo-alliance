@@ -292,6 +292,11 @@
                 "pool_id": "7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3",
                 "member_since": "2021-08-17",
                 "name": "PGWAD (PGWADA Stake pool)"
+            },
+            "54": {
+                "pool_id": "f96b040819395ea1a0fe845da0181e399db99224e3088e82fbc441b2",
+                "member_since": "2021-08-28",
+                "name": "MUNIN (ravenpool)"
             }
         }
     }
