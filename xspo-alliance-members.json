@@ -297,6 +297,11 @@
                 "pool_id": "f96b040819395ea1a0fe845da0181e399db99224e3088e82fbc441b2",
                 "member_since": "2021-08-28",
                 "name": "MUNIN (ravenpool)"
+            },
+            "55": {
+                "pool_id": "718f15efee599d498a7582c4f56a940cfebffc14e850656db8d529e1",
+                "member_since": "2021-08-29",
+                "name": "HIPPO (HIPPO pool)"
             }
         }
     }
