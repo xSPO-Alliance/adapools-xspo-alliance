@@ -309,9 +309,14 @@
                 "name": "HONEY (Lambda Honeypot)"
             },
             "57": {
+                "pool_id": "f765c73fa3700f6fa735310ebc0255265613db23fd7bb14e8d84e795",
+                "member_since": "2021-09-01",
+                "name": "HELAS (Ellada)"    
+            },
+            "58": {
                 "pool_id": "aed2477a1b56db48312eb9dc98803b482e33e51fd37d23e6817051e6",
                 "member_since": "2021-09-01",
-                "name": "ARA (ARA StakePool)"
+                "name": "ARA (Ara)"
             }
         }
     }
