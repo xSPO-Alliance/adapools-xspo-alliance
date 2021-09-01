@@ -317,6 +317,11 @@
                 "pool_id": "aed2477a1b56db48312eb9dc98803b482e33e51fd37d23e6817051e6",
                 "member_since": "2021-09-01",
                 "name": "ARA (Ara)"
+            },
+            "59": {
+                "pool_id": "1df219217b1487843371e0d145f8ef6d6aca2e999b5a963c30a32446",
+                "member_since": "2021-09-01",
+                "name": "CMX (CardanoMEX)"
             }
         }
     }
