@@ -307,6 +307,11 @@
                 "pool_id": "5be57ce6d1225697f4ad4090355f0a72d6e1e2446d1d768f36aa118c",
                 "member_since": "2021-09-01",
                 "name": "HONEY (Lambda Honeypot)"
+            },
+            "57": {
+                "pool_id": "aed2477a1b56db48312eb9dc98803b482e33e51fd37d23e6817051e6",
+                "member_since": "2021-09-01",
+                "name": "ARA (ARA StakePool)"
             }
         }
     }
