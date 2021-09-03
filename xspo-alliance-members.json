@@ -327,6 +327,11 @@
                 "pool_id": "f9317946c36f6ea5625732382ba4de05ddf4a3fe5952caa838cee051",
                 "member_since": "2021-09-03",
                 "name": "HELLO (ADAttitude)"
+            },
+            "61": {
+                "pool_id": "b9147445047312aa139a331390bba715eebb58f1b66c96e660e48986",
+                "member_since": "2021-09-03",
+                "name": "BLU (ADABLUE Stake Pool)"
             }
         }
     }
