@@ -323,6 +323,11 @@
                 "member_since": "2021-09-01",
                 "name": "CMX (CardanoMEX)"
             }
+            "60": {
+                "pool_id": "f9317946c36f6ea5625732382ba4de05ddf4a3fe5952caa838cee051",
+                "member_since": "2021-09-03",
+                "name": "HELLO (ADAttitude)"
+            }
         }
     }
 }
