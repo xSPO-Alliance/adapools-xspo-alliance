@@ -332,6 +332,11 @@
                 "pool_id": "b9147445047312aa139a331390bba715eebb58f1b66c96e660e48986",
                 "member_since": "2021-09-03",
                 "name": "BLU (ADABLUE Stake Pool)"
+            },
+            "62": {
+                "pool_id": "cf0f698eaf884ea22ef9442ceda4eed30ff538f43b4f21780c60052f",
+                "member_since": "2021-09-04",
+                "name": "REGEN (The Regenerative Farming Pool)"
             }
         }
     }
