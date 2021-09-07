@@ -337,6 +337,11 @@
                 "pool_id": "cf0f698eaf884ea22ef9442ceda4eed30ff538f43b4f21780c60052f",
                 "member_since": "2021-09-04",
                 "name": "REGEN (The Regenerative Farming Pool)"
+            },
+            "63": {
+                "pool_id": "e80753d6214589d0682aa53cc44cd033a72a4299da8dc82696a93b5e",
+                "member_since": "2021-09-07",
+                "name": "PEAK (PEAK Pool)"
             }
         }
     }
