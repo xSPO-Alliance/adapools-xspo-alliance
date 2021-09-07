@@ -332,6 +332,11 @@
                 "pool_id": "b9147445047312aa139a331390bba715eebb58f1b66c96e660e48986",
                 "member_since": "2021-09-03",
                 "name": "BLU (ADABLUE Stake Pool)"
+            },
+            "62": {
+                "pool_id": "e80753d6214589d0682aa53cc44cd033a72a4299da8dc82696a93b5e",
+                "member_since": "2021-09-07",
+                "name": "PEAK (PEAK Pool)"
             }
         }
     }
