@@ -347,6 +347,11 @@
                 "pool_id": "pool1w2alpqttaulpukcrz0j902kk8wmq68q9qm50c6npaypk7yypy5a",
                 "member_since": "2021-09-08",
                 "name": "KIBA (KIBATSU Club Stake Pool)"
+            },
+            "65": {
+                "pool_id": "d61ab012cf4b0c24daf2447309638b25573f85b0a7e4ffdb60db9b22",
+                "member_since": "2021-09-08",
+                "name": "ECP (Earn Coin Pool)"
             }
         }
     }
