@@ -348,6 +348,11 @@
                 "member_since": "2021-09-08",
                 "name": "KIBA (KIBATSU Club Stake Pool)"
             }
+            "65": {
+                "pool_id": "29889ecc8151e5a93fcd321cd905eee0f50c8364273550205058bfe8",
+                "member_since": "2021-09-10",
+                "name": "VLHLA (Valhalla pool)"
+            }
         }
     }
 }
