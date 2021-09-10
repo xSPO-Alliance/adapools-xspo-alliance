@@ -348,6 +348,11 @@
                 "member_since": "2021-09-08",
                 "name": "KIBA (KIBATSU Club Stake Pool)"
             }
+            "65": {
+                "pool_id": "pool12ndf7w5f4fdn746s5zlay4aexvcsjncnnmjwfp8falascjqav3y",
+                "member_since": "2021-09-09",
+                "name": "SAMON (Salmon Pool)"
+            }
         }
     }
 }
