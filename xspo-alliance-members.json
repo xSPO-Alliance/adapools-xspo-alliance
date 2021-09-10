@@ -372,6 +372,11 @@
                 "pool_id": "059b4217a24a8c67a363968ff1db13a17ed96e611362450c115b2415",
                 "member_since": "2021-09-09",
                 "name": "AMOON (ADA Moon Stake Pool)"
+            },
+            "70": {
+                "pool_id": "98a8866a15c8ccdd880a270c300bfd111c7def2cd00583f1c4b8cb11",
+                "member_since": "2021-09-10",
+                "name": "RRTX (Round Rock Stake Pool)"
             }
         }
     }
