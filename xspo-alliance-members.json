@@ -362,6 +362,11 @@
                 "pool_id": "29889ecc8151e5a93fcd321cd905eee0f50c8364273550205058bfe8",
                 "member_since": "2021-09-10",
                 "name": "VLHLA (Valhalla pool)"
+            },
+            "68": {
+                "pool_id": "54da9f3a89aa5b3f5750a0bfd257b93331094f139ee4e484e9effb0c",
+                "member_since": "2021-09-09",
+                "name": "SAMON (Salmon Pool)"
             }
         }
     }
