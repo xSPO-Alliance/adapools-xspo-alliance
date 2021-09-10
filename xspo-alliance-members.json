@@ -349,7 +349,32 @@
                 "name": "KIBA (KIBATSU Club Stake Pool)"
             },
             "65": {
-                "pool_id": "pool1nz5gv6s4erxdmzq2yuxrqzlazyw8mmev6qzc8uwyhr93zcylpxh",
+                "pool_id": "d61ab012cf4b0c24daf2447309638b25573f85b0a7e4ffdb60db9b22",
+                "member_since": "2021-09-08",
+                "name": "ECP (Earn Coin Pool)"
+            },
+            "66": {
+                "pool_id": "66e23c4d144f945e72f9ba40fee7ef0b8a62b7fcb02cdfeeca4cfb63",
+                "member_since": "2021-09-09",
+                "name": "VAPOR (VAPOR Pool)"
+            },
+            "67": {
+                "pool_id": "29889ecc8151e5a93fcd321cd905eee0f50c8364273550205058bfe8",
+                "member_since": "2021-09-10",
+                "name": "VLHLA (Valhalla pool)"
+            },
+            "68": {
+                "pool_id": "54da9f3a89aa5b3f5750a0bfd257b93331094f139ee4e484e9effb0c",
+                "member_since": "2021-09-09",
+                "name": "SAMON (Salmon Pool)"
+            },
+            "69": {
+                "pool_id": "059b4217a24a8c67a363968ff1db13a17ed96e611362450c115b2415",
+                "member_since": "2021-09-09",
+                "name": "AMOON (ADA Moon Stake Pool)"
+            },
+            "70": {
+                "pool_id": "98a8866a15c8ccdd880a270c300bfd111c7def2cd00583f1c4b8cb11",
                 "member_since": "2021-09-10",
                 "name": "RRTX (Round Rock Stake Pool)"
             }
