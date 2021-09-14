@@ -382,6 +382,11 @@
                 "pool_id": "782310d6e6ab81cde977da3eef0a9f533bd255dadd30d01d33e0dde6",
                 "member_since": "2021-09-12",
                 "name": "SPKL (Sparkle Stake Pool)"
+            },
+            "72": {
+                "pool_id": "c4039f4fa97ed735b884800d6d605dbc65fbe995c4ba70b532e162a2",
+                "member_since": "2021-09-14",
+                "name": "CBH (Cardano Blockhouse)"
             }
         }
     }
