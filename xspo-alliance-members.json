@@ -392,6 +392,11 @@
                 "pool_id": "559a8f376d4ddeb2df64ac42cfc4e95f28d6042499f4e45b15900f4a",
                 "member_since": "2021-09-14",
                 "name": "RENEW (RenewPool)"
+	    },
+	    "74": {
+                "pool_id": "27b1b4470c84db78ce1ffbfff77bb068abb4e47d43cb6009caaa3523",
+                "member_since": "2021-09-14",
+                "name": "CSCS (CloudStruct Cardano Staking)"
             }
         }
     }
