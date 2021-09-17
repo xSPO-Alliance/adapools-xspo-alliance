@@ -397,12 +397,17 @@
                 "pool_id": "27b1b4470c84db78ce1ffbfff77bb068abb4e47d43cb6009caaa3523",
                 "member_since": "2021-09-14",
                 "name": "CSCS (CloudStruct Cardano Staking)"
-            },
+	    },
 	    "75": {
                 "pool_id": "f0e3c8d48efb750cdf256b68babc880787bc688972acfbbee1ffc537",
                 "member_since": "2021-09-16",
                 "name": "ADAR (ADA Rewards)"
-            }		
+            },	    
+	    "76": {
+                "pool_id": "a5b7de0846612aa8ccdc4d0e8092e381dd34059b6584eacf0bcab7b9",
+                "member_since": "2021-09-12",
+                "name": "GAME (Gaming Cardano)"
+            }
         }
     }
 }
