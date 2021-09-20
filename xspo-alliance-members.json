@@ -407,8 +407,13 @@
                 "pool_id": "a5b7de0846612aa8ccdc4d0e8092e381dd34059b6584eacf0bcab7b9",
                 "member_since": "2021-09-12",
                 "name": "GAME (Gaming Cardano)"
-            },	    
-	    "77": {
+            },
+            "77": {
+                "pool_id": "d44442e0f92b4173205c4e8609cd48cbbb09c7dbcb805704c22be1ff",
+                "member_since": "2021-09-19",
+                "name": "MOAI (Moai Pool)"
+	    },	    
+	    "78": {
                 "pool_id": "f06bccfa2d64e58989542975c105147e0872fcea2fd72c6739a6f118",
                 "member_since": "2021-09-20",
                 "name": "FYTO (Fytoboros Pool)"
