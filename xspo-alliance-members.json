@@ -88,11 +88,6 @@
                 "member_since": "2021-07-21",
                 "name": "STAY (Here To STAY)"
             },
-            "13": {
-                "pool_id": "a5db584e578e62611de7f8a4062ad9079a2e59ca33442662d0912a30",
-                "member_since": "2021-07-20",
-                "name": "D13 (DREAM13 Pool)"
-            },
             "14": {
                 "pool_id": "51694f0d52a25a3ade521472a9c575205651b2c1253410449e1c1de9",
                 "member_since": "2021-07-23",
@@ -122,11 +117,6 @@
                 "pool_id": "1dc1e011d522a077a20b2659bd0ee257e0d80f105f5dc998d4cfda7c",
                 "member_since": "2021-07-26",
                 "name": "GINGR (Ginger's Pool)"
-            },
-            "20": {
-                "pool_id": "7a58916420571bcb037159d772275a04e968e83dfad750af26f943fd",
-                "member_since": "2021-05-18",
-                "name": "CHEWY (CHEWY Pool)"
             },
             "21": {
                 "pool_id": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
@@ -242,11 +232,6 @@
                 "pool_id": "9084ebeb011e610e695068a74fa883dac5eda55faca77107b5f40064",
                 "member_since": "2021-08-06",
                 "name": "DOC (DOC Stake Pool)"
-            },
-            "44": {
-                "pool_id": "a37460a9b761e67b18f0262ad18f80263f6b6d143c33a9873965ecd3",
-                "member_since": "2021-08-06",
-                "name": "MAJOR (Major Pool)"
             },
             "45": {
                 "pool_id": "ad46d051c0eb09b8fad1f371d44d1e0d7f928d301e90bd4a4ed33a5a",
