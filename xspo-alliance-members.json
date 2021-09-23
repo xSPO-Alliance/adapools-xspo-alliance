@@ -407,6 +407,11 @@
                 "pool_id": "f40a1c4277473391aaa1afed488f88f8de33bde521923031c8b5106d",
                 "member_since": "2021-09-21",
                 "name": "PROOF (Proof Stake Pool)"
+            },
+	    "80": {
+                "pool_id": "94c0e5587cdd116140d35dd701b79e66840ce9b44b0f83b6917b40e1",
+                "member_since": "2021-09-23",
+                "name": "KTSNE (KitsuneCrypto High Yield Pool)"
             }
         }
     }
