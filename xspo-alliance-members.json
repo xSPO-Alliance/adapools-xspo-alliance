@@ -412,6 +412,11 @@
                 "pool_id": "94c0e5587cdd116140d35dd701b79e66840ce9b44b0f83b6917b40e1",
                 "member_since": "2021-09-23",
                 "name": "KTSNE (KitsuneCrypto High Yield Pool)"
+            },
+            "81": {
+                "pool_id": "6083db098b3574bf583fee83c879c19c2d908dbf19b1184d272f9632",
+                "member_since": "2021-09-24",
+                "name": "LHS (Lighthouse Stake Pool)"
             }
         }
     }
