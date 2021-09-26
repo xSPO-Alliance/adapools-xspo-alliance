@@ -417,6 +417,11 @@
                 "pool_id": "6083db098b3574bf583fee83c879c19c2d908dbf19b1184d272f9632",
                 "member_since": "2021-09-24",
                 "name": "LHS (Lighthouse Stake Pool)"
+            },
+	    "82": {
+                "pool_id": "e00dac4566812442174bcfb4c12225f7a305606eed12f62e62085253",
+                "member_since": "2021-09-26",
+                "name": "WOT (WottleNFT)"
             }
         }
     }
