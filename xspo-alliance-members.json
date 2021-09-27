@@ -422,6 +422,11 @@
                 "pool_id": "e00dac4566812442174bcfb4c12225f7a305606eed12f62e62085253",
                 "member_since": "2021-09-26",
                 "name": "WOT (WottleNFT)"
+	    },
+	    "83": {
+                "pool_id": "682fd73eea4d7370b6f7a781c80b1252817b23f74688cea6257471f3",
+                "member_since": "2021-09-27",
+                "name": "Chef (Chef Pool)"
             }
         }
     }
