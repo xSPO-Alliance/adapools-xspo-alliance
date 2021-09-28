@@ -422,11 +422,13 @@
                 "pool_id": "e00dac4566812442174bcfb4c12225f7a305606eed12f62e62085253",
                 "member_since": "2021-09-26",
                 "name": "WOT (WottleNFT)"
-	    },
+
+            },
        	    "83": {
 		"pool_id": "84e69ba6de4da2b5067148d0e870e25e4887323df077c6f0677c36dc",
 		"member_since": "2021-09-27",
 		"name": "SPCTR (Specterpool)"
+
 	    },
 	    "84": {
                 "pool_id": "682fd73eea4d7370b6f7a781c80b1252817b23f74688cea6257471f3",
