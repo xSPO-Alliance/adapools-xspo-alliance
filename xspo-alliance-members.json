@@ -437,6 +437,11 @@
                 "pool_id": "39025777f1d7c42746bc961b03b1690c26db08153d458dc74fcb034b",
                 "member_since": "2021-10-01",
                 "name": "AROCK (ADARockPool)"
+		                },
+	    "86": {
+                "pool_id": "1ae768c8f263ddf7804a91cc0ade84cddfc63a2697a274a3fa762b0c",
+                "member_since": "2021-10-02",
+                "name": "MOKUM (Mokum Stake Pool)"
             }
         }
     }
