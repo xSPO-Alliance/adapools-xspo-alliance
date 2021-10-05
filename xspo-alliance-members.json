@@ -447,6 +447,11 @@
                 "pool_id": "c8ee084a463b89a6e7fe9f2e35506dd98d09047ea6d29866375e363d",
                 "member_since": "2021-10-04",
                 "name": "TSAR (TSAR Stake Pool)"
+            },
+	          "88": {
+                "pool_id": "dcb37c1940e79633705c4348ee31a4040e231ec1baa24d63d7b9b451",
+                "member_since": "2021-10-05",
+                "name": "ADACO (ADACO Stake Pool)"
             }
         }
     }
