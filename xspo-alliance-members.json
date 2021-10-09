@@ -108,12 +108,12 @@
                 "member_since": "2021-07-25",
                 "name": "PSYA (PsyADA)"
             },
-      	    "18": {
+            "18": {
                 "pool_id": "28e0a3969fa22f29d5b13e0a00826a6d6bdd80dec01b1cf60deb29bf",
                 "member_since": "2021-07-25",
                 "name": "IRF (IRF ADA)"
             },
-      	    "19": {
+            "19": {
                 "pool_id": "1dc1e011d522a077a20b2659bd0ee257e0d80f105f5dc998d4cfda7c",
                 "member_since": "2021-07-26",
                 "name": "GINGR (Ginger's Pool)"
@@ -382,13 +382,13 @@
                 "pool_id": "27b1b4470c84db78ce1ffbfff77bb068abb4e47d43cb6009caaa3523",
                 "member_since": "2021-09-14",
                 "name": "CSCS (CloudStruct Cardano Staking)"
-	          },
-	          "75": {
+              },
+              "75": {
                 "pool_id": "f0e3c8d48efb750cdf256b68babc880787bc688972acfbbee1ffc537",
                 "member_since": "2021-09-16",
                 "name": "ADAR (ADA Rewards)"
-            },	    
-	          "76": {
+            },      
+              "76": {
                 "pool_id": "a5b7de0846612aa8ccdc4d0e8092e381dd34059b6584eacf0bcab7b9",
                 "member_since": "2021-09-12",
                 "name": "GAME (Gaming Cardano)"
@@ -397,18 +397,18 @@
                 "pool_id": "d44442e0f92b4173205c4e8609cd48cbbb09c7dbcb805704c22be1ff",
                 "member_since": "2021-09-19",
                 "name": "MOAI (Moai Pool)"
-	          },	    
-	          "78": {
+              },        
+              "78": {
                 "pool_id": "f06bccfa2d64e58989542975c105147e0872fcea2fd72c6739a6f118",
                 "member_since": "2021-09-20",
                 "name": "FYTO (Fytoboros Pool)"
-		        },	    
-	          "79": {
+                },      
+              "79": {
                 "pool_id": "f40a1c4277473391aaa1afed488f88f8de33bde521923031c8b5106d",
                 "member_since": "2021-09-21",
                 "name": "PROOF (Proof Stake Pool)"
             },
-	          "80": {
+              "80": {
                 "pool_id": "94c0e5587cdd116140d35dd701b79e66840ce9b44b0f83b6917b40e1",
                 "member_since": "2021-09-23",
                 "name": "KTSNE (KitsuneCrypto High Yield Pool)"
@@ -418,7 +418,7 @@
                 "member_since": "2021-09-24",
                 "name": "LHS (Lighthouse Stake Pool)"
             },
-	          "82": {
+              "82": {
                 "pool_id": "e00dac4566812442174bcfb4c12225f7a305606eed12f62e62085253",
                 "member_since": "2021-09-26",
                 "name": "WOT (WottleNFT)"
@@ -428,35 +428,40 @@
                 "member_since": "2021-09-27",
                  "name": "SPCTR (Specterpool)"
             },
-	          "84": {
+              "84": {
                 "pool_id": "682fd73eea4d7370b6f7a781c80b1252817b23f74688cea6257471f3",
                 "member_since": "2021-09-27",
                 "name": "Chef (Chef Pool)"
             },
-	          "85": {
+              "85": {
                 "pool_id": "39025777f1d7c42746bc961b03b1690c26db08153d458dc74fcb034b",
                 "member_since": "2021-10-01",
                 "name": "AROCK (ADARockPool)"
             },
-	          "86": {
+              "86": {
                 "pool_id": "1ae768c8f263ddf7804a91cc0ade84cddfc63a2697a274a3fa762b0c",
                 "member_since": "2021-10-02",
                 "name": "MOKUM (Mokum Stake Pool)"
             },
-	          "87": {
+              "87": {
                 "pool_id": "c8ee084a463b89a6e7fe9f2e35506dd98d09047ea6d29866375e363d",
                 "member_since": "2021-10-04",
                 "name": "TSAR (TSAR Stake Pool)"
             },
-	          "88": {
+              "88": {
                 "pool_id": "dcb37c1940e79633705c4348ee31a4040e231ec1baa24d63d7b9b451",
                 "member_since": "2021-10-05",
                 "name": "ADACO (ADACO Stake Pool)"
             },
-	        "89": {
+            "89": {
                 "pool_id": "ea3bcd0f7eef6dcc792b7530d2eed388f57e81204e307f6ba9b35c47",
                 "member_since": "2021-10-09",
                 "name": "BANTN (BANTN Stake Pool)"
+            },
+            "90": {
+                "pool_id":  "c3b0794f0729a6d783e4fd5612a38ae275235f0a37485301ae59cf0d",
+                "member_since": "2021-10-09",
+                "name": "PPDAC (PPDAC LTD)"
             }
         }
     }
