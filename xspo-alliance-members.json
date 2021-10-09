@@ -452,7 +452,12 @@
                 "pool_id": "dcb37c1940e79633705c4348ee31a4040e231ec1baa24d63d7b9b451",
                 "member_since": "2021-10-05",
                 "name": "ADACO (ADACO Stake Pool)"
-            }
+            },
+		  "89": {
+		"pool_id":  "pool1cwc8jnc89xnd0qlyl4tp9gu2uf6jxhc2xay9xqdwt88s66a5yzx",
+	        "member_since": "2021-10-09",
+		"name": "PPDAC (PPDAC LTD)"
+	    }
         }
     }
 }
