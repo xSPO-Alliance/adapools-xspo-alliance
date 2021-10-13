@@ -459,22 +459,22 @@
                 "name": "BANTN (BANTN Stake Pool)"
             },
             "90": {
-                "pool_id":  "c3b0794f0729a6d783e4fd5612a38ae275235f0a37485301ae59cf0d",
+                "pool_id": "c3b0794f0729a6d783e4fd5612a38ae275235f0a37485301ae59cf0d",
                 "member_since": "2021-10-09",
                 "name": "PPDAC (PPDAC LTD)"
             },
             "91": {
-                "pool_id":  "90e719ff625d4652a6f41568f9cdc0c8ddf90a7556929b4d30298e8c",
+                "pool_id": "90e719ff625d4652a6f41568f9cdc0c8ddf90a7556929b4d30298e8c",
                 "member_since": "2021-10-12",
                 "name": "MYLO (Mylo Pool)"
             },
             "92": {
-                "pool_id":  "70ab9e73071c50927631a218137d53e765665a578b744feeae3c5d81",
+                "pool_id": "70ab9e73071c50927631a218137d53e765665a578b744feeae3c5d81",
                 "member_since": "2021-10-12",
                 "name": "Faso (FasoPool)"
             },
             "93": {
-                "pool_id":  "040d79b06f8ad1a94bd8fbc9eac9ba8ccf44a332d9d7f003d85f9393",
+                "pool_id": "040d79b06f8ad1a94bd8fbc9eac9ba8ccf44a332d9d7f003d85f9393",
                 "member_since": "2021-10-13",
                 "name": "BRNS (Bardels Pool)"
             }
