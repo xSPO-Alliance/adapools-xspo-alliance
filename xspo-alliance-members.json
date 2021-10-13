@@ -477,6 +477,11 @@
                 "pool_id":  "e26f5504209e57a5536007d49b63c50c73be0213da750d71062201df",
                 "member_since": "2021-10-13",
                 "name": "NEMO (NEMO POOL)"
+            },
+            "94": {
+                "pool_id": "040d79b06f8ad1a94bd8fbc9eac9ba8ccf44a332d9d7f003d85f9393",
+                "member_since": "2021-10-13",
+                "name": "BRNS (Bardels Pool)"
             }
         }
     }
