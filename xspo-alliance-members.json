@@ -487,7 +487,12 @@
                 "pool_id": "59a5636fc0427e6eeb3cf23016fce0e749b2f4a3f0f589d6caa10f05",
                 "member_since": "2021-09-10",
                 "name": "ROG (Republic of Gamers)"
-            }            
+            },
+            "96": {
+                "pool_id": "a0ba245eee2cfffe25ae6589084309755ee59a1f9d7c71a01c58f6f5",
+                "member_since": "2021-10-14",
+                "name": "BOLD (Bold Pool)"
+            }
         }
     }
 }
