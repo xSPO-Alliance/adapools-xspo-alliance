@@ -11,6 +11,7 @@ Also, by submitting you agree that you fit the critera of an xSPO.  Our rules ar
 - Github Account
 - Pool_id
 - Less than 1m Stake
+- Single Pool Operator
 
 # STEP 1 (Fork the SPA registration repo):
 Go to github.com and login with your account.
