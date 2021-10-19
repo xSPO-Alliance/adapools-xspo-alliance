@@ -497,6 +497,11 @@
                 "pool_id": "5acb298631df3b460a636ecff975400ca7dd9dcffdcc53aa10964ccd",
                 "member_since": "2021-10-18",
                 "name": "LBC1M (LBCrypt Pool)"
+            },
+             "98": {
+                "pool_id": "4f3410f074e7363091a1cc1c21b128ae423d1cce897bd19478e534bb",
+                "member_since": "2021-07-21",
+                "name": "PIXEL (Pixel Pool)"
             }
         }
     }
