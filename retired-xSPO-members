@@ -16,6 +16,11 @@
       "name": "CHEWY (CHEWY Pool)",
       "retiring_epoch": "288"
     },
+    "36": {
+        "pool_id": "fb82466458cb60c5295b8d335c24c83d85d510e0e012b877bcadbe98",
+        "member_since": "2021-08-03",
+        "name": "GUI (GUI Pool)"
+    },
     "44": {
       "pool_id": "a37460a9b761e67b18f0262ad18f80263f6b6d143c33a9873965ecd3",
       "member_since": "2021-08-06",
