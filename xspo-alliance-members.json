@@ -502,6 +502,11 @@
                 "pool_id": "74d66da57368e12f12bd07f303da7f8cd3c2494af9e32e4dea210c58",
                 "member_since": "2021-10-19",
                 "name": "CB1 (Coudre Bros Pool)"
+            },
+            "100": {
+                "pool_id": "5e759d13110d744637b618668b54b30b12cb638bb3c5400654338c54",
+                "member_since": "2021-10-20",
+                "name": "LYNX (Lynx Cardano Stake Pool)"
             }
         }
     }
