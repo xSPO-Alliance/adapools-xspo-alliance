@@ -512,7 +512,12 @@
                 "pool_id": "386c5cc510bb93b7a85d741af0170e873fe7477534199dec4b2725db",
                 "member_since": "2021-10-20",
                 "name": "001 (Cardano is the Way)"
+            }, 
+            "102": {
+                "pool_id": "pool126f65lklaqw39jgx9wl8klqtx99evewxk0x5yc2jzzp5wfs8fde",
+                "member_since": "2021-10-21",
+                "name": "XPPX (Prophet Pool)"
             }
-        }
+        }    
     }
 }
