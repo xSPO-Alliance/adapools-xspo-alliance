@@ -517,6 +517,11 @@
                 "pool_id": "5693aa7edfe81d12c9062bbe7b7c0b314b9665c6b3cd426152108347",
                 "member_since": "2021-10-21",
                 "name": "XPPX (Prophet)"
+            }, 
+            "103": {
+                "pool_id": "2c69918f9d408e48fec0a24986fa56f1325fb427d6a279cd7bdb825a",
+                "member_since": "2021-10-22",
+                "name": "CASBA (NeoCasbah)"
             }
         }    
     }
