@@ -522,6 +522,11 @@
                 "pool_id": "2c69918f9d408e48fec0a24986fa56f1325fb427d6a279cd7bdb825a",
                 "member_since": "2021-10-22",
                 "name": "CASBA (NeoCasbah)"
+                }, 
+            "104": {
+                "pool_id": "df0d1b70945b0c4d6560ee64837ca54e025eabbe710e256f6836273e",
+                "member_since": "2021-10-26",
+                "name": "CARN (Carnegie Stake Pool)"
             }
         }    
     }
