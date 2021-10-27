@@ -527,6 +527,11 @@
                 "pool_id": "df0d1b70945b0c4d6560ee64837ca54e025eabbe710e256f6836273e",
                 "member_since": "2021-10-26",
                 "name": "CARN (Carnegie Stake Pool)"
+            },
+            "104": {
+                "pool_id": "4ec6dab61e2c65dae29be13d774b40f5a10e5d6652b3baf1bb61b45a",
+                "member_since": "2021-10-27",
+                "name": "TLP (Terry's Lair)"
             }
         }    
     }
