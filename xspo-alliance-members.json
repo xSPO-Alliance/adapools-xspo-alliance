@@ -542,7 +542,12 @@
                 "pool_id": "a463f246be423fa966aa5f7dff358ad2ae87fa670d487645530a19d9",
                 "member_since": "2021-11-01",
                 "name": "MONTY (Holy Grail Staking)"
-            }
+            },
+            "108": {
+                "pool_id": "9f51c3f17ab8fcfb4b467ba6df45378f296a39e4a8770491419e7d41",
+                "member_since": "2021-11-01",
+                "name": "PERKY (Perky Pool)"
+            }            
         }    
     }
 }
