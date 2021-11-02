@@ -537,6 +537,11 @@
                 "pool_id": "48b18f581c5e77a19870e8399e4d2100c66b2e15243c9557e79f2165",
                 "member_since": "2021-10-31",
                 "name": "SOIL (ADA4 SOIL)"
+            },
+            "107": {
+                "pool_id": "a463f246be423fa966aa5f7dff358ad2ae87fa670d487645530a19d9",
+                "member_since": "2021-11-01",
+                "name": "MONTY (Holy Grail Staking)"
             }
         }    
     }
