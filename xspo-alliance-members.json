@@ -532,8 +532,23 @@
                 "pool_id": "4ec6dab61e2c65dae29be13d774b40f5a10e5d6652b3baf1bb61b45a",
                 "member_since": "2021-10-27",
                 "name": "TLP (Terry's Lair)"
-            }
+            },
             "106": {
+                "pool_id": "48b18f581c5e77a19870e8399e4d2100c66b2e15243c9557e79f2165",
+                "member_since": "2021-10-31",
+                "name": "SOIL (ADA4 SOIL)"
+            },
+            "107": {
+                "pool_id": "a463f246be423fa966aa5f7dff358ad2ae87fa670d487645530a19d9",
+                "member_since": "2021-11-01",
+                "name": "MONTY (Holy Grail Staking)"
+            },
+            "108": {
+                "pool_id": "9f51c3f17ab8fcfb4b467ba6df45378f296a39e4a8770491419e7d41",
+                "member_since": "2021-11-01",
+                "name": "PERKY (Perky Pool)"
+            },
+            "109": {
                 "pool_id": "63335621af9e092677e3d1859e981b4899606cc983a5ef93b9382080",
                 "member_since": "2021-10-31",
                 "name": "KOI (KoiPond)"
