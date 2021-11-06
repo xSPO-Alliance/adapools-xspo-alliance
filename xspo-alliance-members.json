@@ -562,7 +562,13 @@
                 "pool_id": "331711ffbc442853ede9bbf478f6c7ddc62772cd1633df72285878d3",
                 "member_since": "2021-11-06",
                 "name": "LOVLK (LoveLike Stakepool)"
+            },
+            "112": {
+                "pool_id": "5283b9e53fff62fa8578f428e816a7e28e2ee6cf3db57b453b71c68b",
+                "member_since": "2021-11-06",
+                "name": "PBDOT (PaleBlueDot pool)"
             }
+
         }    
     }
 }
