@@ -567,6 +567,11 @@
                 "pool_id": "5283b9e53fff62fa8578f428e816a7e28e2ee6cf3db57b453b71c68b",
                 "member_since": "2021-11-06",
                 "name": "PBDOT (PaleBlueDot pool)"
+            },
+            "113": {
+                "pool_id": "09a0c14484d3f421e813bfd509b102be1d327aa1077aae3076f5efec",
+                "member_since": "2021-11-09",
+                "name": "MIDT (midnort pool)"
             }
 
         }    
