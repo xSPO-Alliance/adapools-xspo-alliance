@@ -582,6 +582,11 @@
                 "pool_id": "effc78f36adf09718712f78a4ae84f02e6d7cd79e3c9492fcaa2a7f5",
                 "member_since": "2021-11-11",
                 "name": "GOLGI (GOLGI Italy Pool 1)"
+            },
+            "116": {
+                "pool_id": "4fbb9ac6b2c977ee76da892315fb1e26697a87bf8b54917efaa60053",
+                "member_since": "2021-11-11",
+                "name": "TILI (Stake Pool of Tili.Gallery)"
             }
         }    
     }
