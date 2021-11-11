@@ -577,8 +577,12 @@
                 "pool_id": "b6b911b7f178f893d01190458490155f5fcd8ccdfae2f1e026003b0e",
                 "member_since": "2021-11-09",
                 "name": "DEVIO (devio.dev pool)"
+            },
+            "115": {
+                "pool_id": "effc78f36adf09718712f78a4ae84f02e6d7cd79e3c9492fcaa2a7f5",
+                "member_since": "2021-11-11",
+                "name": "GOLGI (GOLGI Italy Pool 1)"
             }
-
         }    
     }
 }
