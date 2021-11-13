@@ -26,6 +26,54 @@
       "member_since": "2021-08-06",
       "name": "MAJOR (Major Pool)",
       "retiring_epoch": "287"
+    },
+    "9": {
+      "pool_id": "48fd30a022a3daaed7806f5c8739516129b32146f0efd1440c1fa14a",
+      "member_since": "2021-07-20",
+      "name": "NFTS (NFTS Pool)",
+      "retiring_epoch": "301"
+    },
+    "26": {
+      "pool_id": "25ee82c7a1b2c8158e9c4480e08ede426c4a2324a2c102faaf3e763c",
+      "member_since": "2021-08-01",
+      "name": "ADAUS (El ADA Pool AUSTRAL)",
+      "retiring_epoch": "296"
+    },
+    "52": {
+      "pool_id": "bce4f15e81e2d2d9fe5c061f02f89ced9a56654a753f14d8409505bb",
+      "member_since": "2021-08-17",
+      "name": "ISTAN (ISTANPOOL Cardano ADA Stake Pool)"
+      "retiring_epoch": "301"
+    },
+    "54": {
+      "pool_id": "f96b040819395ea1a0fe845da0181e399db99224e3088e82fbc441b2",
+      "member_since": "2021-08-28",
+      "name": "MUNIN (ravenpool)",
+      "retiring_epoch": "297"
+    },
+    "70": {
+      "pool_id": "98a8866a15c8ccdd880a270c300bfd111c7def2cd00583f1c4b8cb11",
+      "member_since": "2021-09-10",
+      "name": "RRTX (Round Rock Stake Pool)",
+      "retiring_epoch": "298"
+    },
+    "79": {
+      "pool_id": "f40a1c4277473391aaa1afed488f88f8de33bde521923031c8b5106d",
+      "member_since": "2021-09-21",
+      "name": "PROOF (Proof Stake Pool)",
+      "retiring_epoch": "298"
+    },
+    "83": {
+      "pool_id": "84e69ba6de4da2b5067148d0e870e25e4887323df077c6f0677c36dc",
+      "member_since": "2021-09-27",
+      "name": "SPCTR (Specterpool)",
+      "retiring_epoch": "298"
+    },
+    "88": {
+      "pool_id": "dcb37c1940e79633705c4348ee31a4040e231ec1baa24d63d7b9b451",
+      "member_since": "2021-10-05",
+      "name": "ADACO (ADACO Stake Pool)",
+      "retiring_epoch": "297"
     }
   }
 }
