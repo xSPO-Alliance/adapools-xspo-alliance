@@ -547,8 +547,12 @@
         "pool_id": "4fbb9ac6b2c977ee76da892315fb1e26697a87bf8b54917efaa60053",
         "member_since": "2021-11-11",
         "name": "TILI (Stake Pool of Tili.Gallery)"
+      },
+      "117": {
+        "pool_id": "d7a2dd6a3bfd42fdac79e58893524bf66d6287b28108cd7162ff6c29",
+        "member_since": "2021-11-12",
+        "name": "MAUI (Maui ADA Pool)"
       }
     }    
   }
 }
-
