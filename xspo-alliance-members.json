@@ -562,6 +562,11 @@
         "pool_id": "033c7a00ae33e9a0fa6802b388ccfa5ca9633d712231c41c468c2d39",
         "member_since": "2021-11-15",
         "name": "STLL (Share The LoveLace Pool)"
+      },
+       "120": {
+        "pool_id": "8b315cd9c1b128c5cfe70925a786f6db96cf220bbcea8a2a9c6afdb9",
+        "member_since": "2021-11-15",
+        "name": "ANTRX (Antrix)"
       }
     }    
   }
