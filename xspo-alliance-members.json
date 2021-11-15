@@ -557,6 +557,11 @@
         "pool_id": "e86907283ec8c2cca199e639dd6904a3f1d6c980f2ba1e8df76086d6",
         "member_since": "2021-11-15",
         "name": "ELEV8 (Elevate Staking Pool)"
+      },
+      "119": {
+        "pool_id": "033c7a00ae33e9a0fa6802b388ccfa5ca9633d712231c41c468c2d39",
+        "member_since": "2021-11-15",
+        "name": "STLL (Share The LoveLace Pool)"
       }
     }    
   }
