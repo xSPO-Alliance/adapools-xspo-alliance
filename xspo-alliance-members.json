@@ -567,6 +567,11 @@
         "pool_id": "8b315cd9c1b128c5cfe70925a786f6db96cf220bbcea8a2a9c6afdb9",
         "member_since": "2021-11-15",
         "name": "ANTRX (Antrix)"
+      },
+       "121": {
+        "pool_id": "c9a397b8aa1d963030999d4edfd0f809f290f9899c73dfa1ad3a6d70",
+        "member_since": "2021-11-18",
+        "name": "SQRL (ADASquirrel Stake Pool)"
       }
     }    
   }
