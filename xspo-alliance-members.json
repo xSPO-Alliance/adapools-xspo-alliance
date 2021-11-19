@@ -572,6 +572,11 @@
         "pool_id": "c9a397b8aa1d963030999d4edfd0f809f290f9899c73dfa1ad3a6d70",
         "member_since": "2021-11-18",
         "name": "SQRL (ADASquirrel Stake Pool)"
+      },
+       "122": {
+        "pool_id": "14eae9da8ab6d322176ea88f40e9d32d843996bf2de88240e35594ea",
+        "member_since": "2021-11-18",
+        "name": "ENVY (Envy Stake Pool)"
       }
     }    
   }
