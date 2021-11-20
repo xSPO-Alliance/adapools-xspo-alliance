@@ -582,6 +582,11 @@
         "pool_id": "435f7f1af165a0696f8142f8f2863f2e2e71c5cab269d264ad5b6367",
         "member_since": "2021-11-19",
         "name": "RCKSP (Rckstr Stake Pool)"
+      },
+       "124": {
+        "pool_id": "fc0ef418b0cce20c7a1ac7b8aec9dabd8e9e83b3fcb88c228b4f2c1d",
+        "member_since": "2021-11-20",
+        "name": "LGBTQ pride pool"
       }
     }    
   }
