@@ -577,6 +577,11 @@
         "pool_id": "14eae9da8ab6d322176ea88f40e9d32d843996bf2de88240e35594ea",
         "member_since": "2021-11-18",
         "name": "ENVY (Envy Stake Pool)"
+      },
+       "123": {
+        "pool_id": "435f7f1af165a0696f8142f8f2863f2e2e71c5cab269d264ad5b6367",
+        "member_since": "2021-11-19",
+        "name": "RCKSP (Rckstr Stake Pool)"
       }
     }    
   }
