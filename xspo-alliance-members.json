@@ -587,7 +587,12 @@
         "pool_id": "fc0ef418b0cce20c7a1ac7b8aec9dabd8e9e83b3fcb88c228b4f2c1d",
         "member_since": "2021-11-20",
         "name": "LGBTQ (LGBTQ pride pool)"
-      }
+           },
+       "125": {
+        "pool_id": "f685ec1bd556b584dc764b9c2aca83d65d4231268d42337dbd041a50",
+        "member_since": "2021-11-24",
+        "name": "WOOD (Forest Stake Pool)"
+            }
     }    
   }
 }
