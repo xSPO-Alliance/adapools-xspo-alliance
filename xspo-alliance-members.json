@@ -592,6 +592,11 @@
         "pool_id": "f685ec1bd556b584dc764b9c2aca83d65d4231268d42337dbd041a50",
         "member_since": "2021-11-24",
         "name": "WOOD (Forest Stake Pool)"
+      },
+       "126": {
+        "pool_id": "38c2ea35c92392314b84f70535632b1b8ac3d3bd99fa7786296b160c",
+        "member_since": "2021-11-25",
+        "name": "FLUID (FLUID pool)"
       }
     }
   }
