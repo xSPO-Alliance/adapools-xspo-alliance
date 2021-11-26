@@ -602,6 +602,11 @@
         "pool_id": "4d9333fceb79761fb826b22395c4bff84740fbfa8af232d6f6944eb7",
         "member_since": "2021-11-26",
         "name": "FAM (Cardano Family Darkartopia)"
+      },
+       "128": {
+        "pool_id": "f1ae552b032c2d87a416f4067eaf4636b3fe5e80230a1f63aa33f6bc",
+        "member_since": "2021-11-27",
+        "name": "SEA (Seaside Staking)"
       }
     }
   }
