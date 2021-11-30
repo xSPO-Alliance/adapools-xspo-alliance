@@ -607,7 +607,12 @@
         "pool_id": "f1ae552b032c2d87a416f4067eaf4636b3fe5e80230a1f63aa33f6bc",
         "member_since": "2021-11-27",
         "name": "SEA (Seaside Staking)"
-      }
+      },
+      "128": {
+        "pool_id": "6255693643d2dcb804bb89effd50d8ea743bbae07ad62a3b5174ff25",
+        "member_since": "2021-11-30",
+        "name": "PLUTO (Pluto Stake Pool)"
+      }  
     }
   }
 }
