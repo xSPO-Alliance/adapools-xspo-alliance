@@ -607,7 +607,12 @@
         "pool_id": "f1ae552b032c2d87a416f4067eaf4636b3fe5e80230a1f63aa33f6bc",
         "member_since": "2021-11-27",
         "name": "SEA (Seaside Staking)"
-      }
+      },
+       "129": {
+        "pool_id": "c22942e1b855136643d1e6e5a75266fb891d87727a8cbf06acd17208",
+        "member_since": "2021-11-30",
+        "name": "WOOF (WOOF pool)"
+      }      
     }
   }
 }
