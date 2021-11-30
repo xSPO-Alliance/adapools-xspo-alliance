@@ -612,7 +612,12 @@
         "pool_id": "c22942e1b855136643d1e6e5a75266fb891d87727a8cbf06acd17208",
         "member_since": "2021-11-30",
         "name": "WOOF (WOOF pool)"
-      }      
+      },
+      "130": {
+        "pool_id": "6255693643d2dcb804bb89effd50d8ea743bbae07ad62a3b5174ff25",
+        "member_since": "2021-11-30",
+        "name": "PLUTO (Pluto Stake Pool)"
+      }
     }
   }
 }
