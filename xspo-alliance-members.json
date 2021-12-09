@@ -617,6 +617,11 @@
         "pool_id": "6255693643d2dcb804bb89effd50d8ea743bbae07ad62a3b5174ff25",
         "member_since": "2021-11-30",
         "name": "PLUTO (Pluto Stake Pool)"
+      },
+      "131": {
+        "pool_id": "d7876f8358f5e479ae2839de62d43353b07b2006a40fbf94e723c18c",
+        "member_since": "2021-12-09",
+        "name": "MADT (MAD TURK Stake Pool)"
       }
     }
   }
