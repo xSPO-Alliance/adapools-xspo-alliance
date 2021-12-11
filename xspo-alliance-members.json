@@ -622,6 +622,11 @@
         "pool_id": "d7876f8358f5e479ae2839de62d43353b07b2006a40fbf94e723c18c",
         "member_since": "2021-12-09",
         "name": "MADT (MAD TURK Stake Pool)"
+      },
+      "132": {
+        "pool_id": "b67b0635ab2b26df9e44ba14fac3560720ca0902446d68fe282d4b97",
+        "member_since": "2021-12-11",
+        "name": "UPSTR (Upstream Stake Pool)"
       }
     }
   }
