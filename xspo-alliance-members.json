@@ -624,6 +624,11 @@
         "name": "MADT (MAD TURK Stake Pool)"
       },
       "132": {
+        "pool_id": "b67b0635ab2b26df9e44ba14fac3560720ca0902446d68fe282d4b97",
+        "member_since": "2021-12-11",
+        "name": "UPSTR (Upstream Stake Pool)"
+      },
+      "133": {
         "pool_id": "01fbe26f514707ff29c38aa597ad8ff86a1572e760858d0e7ae4fc32",
         "member_since": "2021-12-11",
         "name": "LSSP (Lone Star Stake Pool)"
