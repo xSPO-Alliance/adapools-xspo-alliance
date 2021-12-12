@@ -632,6 +632,11 @@
         "pool_id": "01fbe26f514707ff29c38aa597ad8ff86a1572e760858d0e7ae4fc32",
         "member_since": "2021-12-11",
         "name": "LSSP (Lone Star Stake Pool)"
+      },
+      "134": {
+        "pool_id": "679b1d8a164791f21ab5a9a7fd2c8cfc108f76aad351912ec841847e",
+        "member_since": "2021-12-12",
+        "name": "ISLA (La ISLA ADA StakePool)"
       }
     }
   }
