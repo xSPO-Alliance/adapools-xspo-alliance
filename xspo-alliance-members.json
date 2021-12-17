@@ -642,6 +642,11 @@
         "pool_id": "fffda60991eafa48674f7137a76e11ddc2464e94c73a4319629072b4",
         "member_since": "2021-12-15",
         "name": "ROSE (Rose Pool Staking)"
+      },
+      "136": {
+        "pool_id": "4dbdfb68de96a563719f7df2b3cf7c98fb547a3e7edca2a547d35852",
+        "member_since": "2021-12-17",
+        "name": "WISH (WISH Pool)"
       }
     }
   }
