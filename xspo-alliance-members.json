@@ -647,6 +647,11 @@
         "pool_id": "4dbdfb68de96a563719f7df2b3cf7c98fb547a3e7edca2a547d35852",
         "member_since": "2021-12-17",
         "name": "WISH (WISH Pool)"
+              },
+      "137": {
+        "pool_id": "50d717b296beeea2167d0c529ceb33634e5f80a049d35e406fccdce1",
+        "member_since": "2021-12-17",
+        "name": "BRAZL (BrazilPool)"
       }
     }
   }
