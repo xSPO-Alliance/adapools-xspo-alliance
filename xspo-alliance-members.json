@@ -652,6 +652,11 @@
         "pool_id": "50d717b296beeea2167d0c529ceb33634e5f80a049d35e406fccdce1",
         "member_since": "2021-12-17",
         "name": "BRAZL (BrazilPool)"
+      },
+      "138": {
+        "pool_id": "df2c28671a7d2e9b29703547533543926445f3a70f119a07af41d434",
+        "member_since": "2021-12-19",
+        "name": "JED (JED Stakepool)"
       }
     }
   }
