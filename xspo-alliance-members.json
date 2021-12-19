@@ -654,6 +654,11 @@
         "name": "BRAZL (BrazilPool)"
       },
       "138": {
+        "pool_id": "138031b823a08dec4535e583ca8ea91530abd9c62b1c0b768fd1f834",
+        "member_since": "2021-12-18",
+        "name": "VROOM (CarPool)"
+      },
+      "139": {
         "pool_id": "df2c28671a7d2e9b29703547533543926445f3a70f119a07af41d434",
         "member_since": "2021-12-19",
         "name": "JED (JED Stakepool)"
