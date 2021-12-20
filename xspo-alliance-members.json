@@ -662,6 +662,11 @@
         "pool_id": "df2c28671a7d2e9b29703547533543926445f3a70f119a07af41d434",
         "member_since": "2021-12-19",
         "name": "JED (JED Stakepool)"
+      },
+      "140": {
+        "pool_id": "6858fc0ed225ad40157e358cff1d08ccc306b6ab00bdc96301fbedef",
+        "member_since": "2021-08-29",
+        "name": "DODO (The DODO Pool)"
       }
     }
   }
