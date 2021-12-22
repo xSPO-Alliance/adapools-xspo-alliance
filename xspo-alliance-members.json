@@ -669,9 +669,19 @@
         "name": "DODO (The DODO Pool)"
       },
       "141": {
+        "pool_id": "e3f8a83cefed03fe4ebdc4f50f3cdd880a7c2fd0b2ce7ff9da9cdce2",
+        "member_since": "2021-12-21",
+        "name": "VOLCY (VOLCY stakePool)"
+      },
+      "142": {
+        "pool_id": "342350284fd76ba9dbd7fd4ed579b2a2058d5ee558f8872b37817b28",
+        "member_since": "2021-12-22",
+        "name": "SNAKE (AdaSnakePool)"
+      },
+      "143": {
         "pool_id": "72100e82150b95fab37f7d9e155b6c083c1de629fea1b760f894aec6",
         "member_since": "2021-12-20",
-        "name": "Xystence - ADA against child abuse"
+        "name": "XST (Xystence - ADA against child abuse)"
       }
     }
   }
