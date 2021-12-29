@@ -687,6 +687,11 @@
         "pool_id": "2a05c534817a0b97ce0c5a2354b6e35a067c52408fa70c77e0b5e378",
         "member_since": "2021-12-23",
         "name": "ARMN (Harmonic)"
+      },
+      "145": {
+        "pool_id": "dcc0b4406e0bec0d315446f9627365e7fba9e9e786e020c4dd19d25b",
+        "member_since": "2021-12-29",
+        "name": "GECKO (Gecko Stake Pool)"
       }
     }
   }
