@@ -163,16 +163,6 @@
         "member_since": "2021-08-02",
         "name": "ANEW (anew)"
       },
-      "32": {
-        "pool_id": "8ae61dd5202bc4903d95f75b50eecaa2e8d60ef1e36f81d1ccf6f65e",
-        "member_since": "2021-08-02",
-        "name": "HARM (harmlesscoin.com)"
-      },
-      "33": {
-        "pool_id": "bb3ef210ec1e397f57d796b2025fd4b85500b49a56a37f8d12db16eb",
-        "member_since": "2021-08-02",
-        "name": "STICK (Coruna)"
-      },
       "34": {
         "pool_id": "38d44f2bbccd27b654e532e6937e3a60b900168082f5c1b4fe236974",
         "member_since": "2021-08-02",
@@ -278,11 +268,6 @@
         "member_since": "2021-09-01",
         "name": "ARA (Ara)"
       },
-      "59": {
-        "pool_id": "1df219217b1487843371e0d145f8ef6d6aca2e999b5a963c30a32446",
-        "member_since": "2021-09-01",
-        "name": "CMX (CardanoMEX)"
-      },
       "60": {
         "pool_id": "f9317946c36f6ea5625732382ba4de05ddf4a3fe5952caa838cee051",
         "member_since": "2021-09-03",
@@ -373,20 +358,10 @@
         "member_since": "2021-09-20",
         "name": "FYTO (Fytoboros Pool)"
       },
-      "80": {
-        "pool_id": "94c0e5587cdd116140d35dd701b79e66840ce9b44b0f83b6917b40e1",
-        "member_since": "2021-09-23",
-        "name": "KTSNE (KitsuneCrypto High Yield Pool)"
-      },
       "81": {
         "pool_id": "6083db098b3574bf583fee83c879c19c2d908dbf19b1184d272f9632",
         "member_since": "2021-09-24",
         "name": "LHS (Lighthouse Stake Pool)"
-      },
-      "82": {
-        "pool_id": "e00dac4566812442174bcfb4c12225f7a305606eed12f62e62085253",
-        "member_since": "2021-09-26",
-        "name": "WOT (WottleNFT)"
       },
       "84": {
         "pool_id": "682fd73eea4d7370b6f7a781c80b1252817b23f74688cea6257471f3",
@@ -527,11 +502,6 @@
         "pool_id": "5283b9e53fff62fa8578f428e816a7e28e2ee6cf3db57b453b71c68b",
         "member_since": "2021-11-06",
         "name": "PBDOT (PaleBlueDot pool)"
-      },
-      "113": {
-        "pool_id": "09a0c14484d3f421e813bfd509b102be1d327aa1077aae3076f5efec",
-        "member_since": "2021-11-09",
-        "name": "MIDN (midnort pool)"
       },
       "114": {
         "pool_id": "b6b911b7f178f893d01190458490155f5fcd8ccdfae2f1e026003b0e",
