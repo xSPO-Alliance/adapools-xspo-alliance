@@ -74,6 +74,42 @@
       "member_since": "2021-10-05",
       "name": "ADACO (ADACO Stake Pool)",
       "retiring_epoch": "297"
+    },
+    "32": {
+        "pool_id": "8ae61dd5202bc4903d95f75b50eecaa2e8d60ef1e36f81d1ccf6f65e",
+        "member_since": "2021-08-02",
+        "name": "HARM (harmlesscoin.com)",
+        "retiring_epoch": "310"
+    },
+    "33": {
+        "pool_id": "bb3ef210ec1e397f57d796b2025fd4b85500b49a56a37f8d12db16eb",
+        "member_since": "2021-08-02",
+        "name": "STICK (Coruna)",
+        "retiring_epoch": "310"
+    },
+    "59": {
+        "pool_id": "1df219217b1487843371e0d145f8ef6d6aca2e999b5a963c30a32446",
+        "member_since": "2021-09-01",
+        "name": "CMX (CardanoMEX)",
+        "retiring_epoch": "310"
+    },
+    "80": {
+        "pool_id": "94c0e5587cdd116140d35dd701b79e66840ce9b44b0f83b6917b40e1",
+        "member_since": "2021-09-23",
+        "name": "KTSNE (KitsuneCrypto High Yield Pool)",
+        "retiring_epoch": "310"
+    },
+    "82": {
+        "pool_id": "e00dac4566812442174bcfb4c12225f7a305606eed12f62e62085253",
+        "member_since": "2021-09-26",
+        "name": "WOT (WottleNFT)",
+        "retiring_epoch": "310"
+    },
+    "113": {
+        "pool_id": "09a0c14484d3f421e813bfd509b102be1d327aa1077aae3076f5efec",
+        "member_since": "2021-11-09",
+        "name": "MIDN (midnort pool)",
+        "retiring_epoch": "310"
     }
   }
 }
