@@ -662,6 +662,11 @@
         "pool_id": "dcc0b4406e0bec0d315446f9627365e7fba9e9e786e020c4dd19d25b",
         "member_since": "2021-12-29",
         "name": "GECKO (Gecko Stake Pool)"
+      },
+      "146": {
+        "pool_id": "d04e478446390de60b5905a0e29a57bc562c936c3620b1a1763cf0ef",
+        "member_since": "2021-01-02",
+        "name": "ZPCT (Zero Percent Staking)"
       }
     }
   }
