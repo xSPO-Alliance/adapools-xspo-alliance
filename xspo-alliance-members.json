@@ -697,6 +697,11 @@
         "pool_id": "76e80e1b3f622c7051f222453497b0667e12892f5d94ee565d17dc52",
         "member_since": "2022-01-14",
         "name": "EU01 (StakePool247.eu)"          
+      },
+      "153": {
+        "pool_id": "063951946e3d221231229a73c92446fdb9532d813e3b0d6144f16ece",
+        "member_since": "2022-01-15",
+        "name": "MPOL (Maple Pool)"
       }
     }
   }
