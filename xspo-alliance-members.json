@@ -707,6 +707,11 @@
         "pool_id": "4ebf3e184e2bf7b6c4a5998126088432369ade380fa5a08690f1b618",
         "member_since": "2022-01-16",
         "name": "DYNO (Dyno Pool)"
+      },
+       "155": {
+        "pool_id": "",
+        "member_since": "2022-01-17",
+        "name": "FBSD - FreeBSD Stake Pool"
       }
     }
   }
