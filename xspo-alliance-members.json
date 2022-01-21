@@ -713,6 +713,12 @@
         "member_since": "2022-01-17",
         "name": "FBSD (FreeBSD Stake Pool)"
       }
+      },
+       "156": {
+        "pool_id": "4b4e09f1acb8957ecff8c36091b9a6dedce48c9df8f64d7744d2b080",
+        "member_since": "2022-01-21",
+        "name": "MOST (Mostaking.com)"
+      }
     }
   }
 }
