@@ -722,6 +722,11 @@
         "pool_id": "b75a65868d3fd3583e423833381d104c02bedd3a83c9392d92e421b1",
         "member_since": "2021-05-26",
         "name": "META (META Stake Pool)"  
+      },
+       "158": {
+        "pool_id": "a39c252e5179a5919a0b74b22bfc279801c3c88c305f7d3655b09a0d",
+        "member_since": "2022-01-29",
+        "name": "VETS (VETS Stake Pool)" 
       }
     }
   }
