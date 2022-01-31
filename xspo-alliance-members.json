@@ -727,6 +727,11 @@
         "pool_id": "a39c252e5179a5919a0b74b22bfc279801c3c88c305f7d3655b09a0d",
         "member_since": "2022-01-29",
         "name": "VETS (VETS Stake Pool)" 
+      },
+       "159": {
+        "pool_id": "07c3280a92a3010a1713e3cb22bfa82624a33061ad20c7b359e7252d",
+        "member_since": "2022-01-30",
+        "name": "ROAM (ROAM Stake Pool)" 
       }
     }
   }
