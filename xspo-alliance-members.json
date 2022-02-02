@@ -732,6 +732,11 @@
         "pool_id": "07c3280a92a3010a1713e3cb22bfa82624a33061ad20c7b359e7252d",
         "member_since": "2022-01-30",
         "name": "ROAM (ROAM Stake Pool)" 
+      },
+       "160": {
+        "pool_id": "dc3852b69aacfec0fc276e1971f03fa37984fc40b57fb97441c38f3e",
+        "member_since": "2022-02-02",
+        "name": "EZPZ (EazyPeazy)" 
       }
     }
   }
