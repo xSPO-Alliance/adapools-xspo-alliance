@@ -743,6 +743,12 @@
         "member_since": "2022-02-04",
         "name": "SRN (ADASRN)"
       }
+      ,
+       "162": {
+        "pool_id": "12d4d2f7a7c5b4ae10853d093257d71bd3ac6d2abccc2b65fc0bff8f",
+        "member_since": "2022-02-05",
+        "name": "46S (46 South Stake Pool)"
+      }
     }
   }
 }
