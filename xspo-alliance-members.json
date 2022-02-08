@@ -762,6 +762,11 @@
         "pool_id": "24bfb62716d755bbf035fcb3f7e87a8d325fde0f04062e692aff3216",
         "member_since": "2022-02-07",
         "name": "PFL01 (Pool For Lovelace 01)"
+      },
+       "166": {
+        "pool_id": "88021ea76e8b0141feb976cccf0887a9a2385cc58370283c40abf06e",
+        "member_since": "2022-02-08",
+        "name": "CIEL (CIEL Stake Pool)"
       }
     }
   }
