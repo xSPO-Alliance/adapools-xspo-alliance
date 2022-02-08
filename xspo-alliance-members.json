@@ -691,7 +691,7 @@
       "151": {
         "pool_id": "d9931174a5260bf4ce6d94b3097fbaa0c4567e6a293ce91aa18c78fc",
         "member_since": "2022-01-13",
-        "name": "SIMIA (simia one stake pool)"          
+        "name": "SPIN (AdaSpin Stake Pool)"          
       },
       "152": {
         "pool_id": "76e80e1b3f622c7051f222453497b0667e12892f5d94ee565d17dc52",
@@ -712,6 +712,56 @@
         "pool_id": "5808e8716e8b968c3043fc9bdc21db652c916ce97ffaddfe891db16c",
         "member_since": "2022-01-17",
         "name": "FBSD (FreeBSD Stake Pool)"
+      },
+       "156": {
+        "pool_id": "ca97f539e6a878e7a7d87d762982a016ac6959d76719c8212a4a39e0",
+        "member_since": "2022-01-23",
+        "name": "DEV (Development Stake Pool)"
+      },
+       "157": {
+        "pool_id": "b75a65868d3fd3583e423833381d104c02bedd3a83c9392d92e421b1",
+        "member_since": "2021-05-26",
+        "name": "META (META Stake Pool)"  
+      },
+       "158": {
+        "pool_id": "a39c252e5179a5919a0b74b22bfc279801c3c88c305f7d3655b09a0d",
+        "member_since": "2022-01-29",
+        "name": "VETS (VETS Stake Pool)" 
+      },
+       "159": {
+        "pool_id": "07c3280a92a3010a1713e3cb22bfa82624a33061ad20c7b359e7252d",
+        "member_since": "2022-01-30",
+        "name": "ROAM (ROAM Stake Pool)" 
+      },
+       "160": {
+        "pool_id": "dc3852b69aacfec0fc276e1971f03fa37984fc40b57fb97441c38f3e",
+        "member_since": "2022-02-02",
+        "name": "EZPZ (EazyPeazy)" 
+      },
+       "161": {
+        "pool_id": "cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0",
+        "member_since": "2022-02-04",
+        "name": "SRN (ADASRN)"
+      },
+       "162": {
+        "pool_id": "12d4d2f7a7c5b4ae10853d093257d71bd3ac6d2abccc2b65fc0bff8f",
+        "member_since": "2022-02-05",
+        "name": "46S (46 South Stake Pool)"
+      },
+       "163": {
+        "pool_id": "9fa14b049b735e287da702a2b0a7c2a6612e81db9cc4284339a6a2f1",
+        "member_since": "2022-02-05",
+        "name": "RABIT (rabbitholepools)"
+      },
+       "164": {
+        "pool_id": "86d3b37680b0b5d91717d782774640823d85a0f64b4b2881de1ded86",
+        "member_since": "2022-02-06",
+        "name": "HAPPY (Happy Raspberry ❤️)"
+      },
+       "165": {
+        "pool_id": "24bfb62716d755bbf035fcb3f7e87a8d325fde0f04062e692aff3216",
+        "member_since": "2022-02-07",
+        "name": "PFL01 (Pool For Lovelace 01)"
       }
       },
        "156": {
