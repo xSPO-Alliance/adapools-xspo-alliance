@@ -767,6 +767,11 @@
         "pool_id": "88021ea76e8b0141feb976cccf0887a9a2385cc58370283c40abf06e",
         "member_since": "2022-02-08",
         "name": "CIEL (CIEL Stake Pool)"
+      },
+      "167": {
+        "pool_id": "764bcdf4629bffa904fbc6ca7228ff37382c70620cbed9c9cb436e87",
+        "member_since": "2022-02-10",
+        "name": "ADRIA (Adria Stake Pool)"
       }
     }
   }
