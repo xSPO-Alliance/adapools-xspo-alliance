@@ -758,6 +758,11 @@
         "member_since": "2022-02-10",
         "name": "ADRIA (Adria Stake Pool)"
       }
+      "168": {
+        "pool_id": "b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80",
+        "member_since": "2022-02-13",
+        "name": "4WARD (ADA for Warriors)"
+      }
     }
   }
 }
