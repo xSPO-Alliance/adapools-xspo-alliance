@@ -772,6 +772,11 @@
         "pool_id": "7a173fdf2ceee8a24ddc173be6810cf3259a80fe02a8d10923921d17",
         "member_since": "2022-02-14",
         "name": "STKCH (Stake Pool in Geneva)"
+      },
+      "171": {
+        "pool_id": "6782865c91a230fb379a433a0630a68a9adcdca9e518ad73302ef805",
+        "member_since": "2022-02-20",
+        "name": "[CBITS] CardanoBits Stake Pool"
       }
     }
   }
