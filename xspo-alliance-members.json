@@ -774,9 +774,14 @@
         "name": "STKCH (Stake Pool in Geneva)"
       },
       "171": {
+        "pool_id": "4a4e69f422ffe7f75e22cb05658372351b702b8630ab9a9a7c3f8e60",
+        "member_since": "2022-02-19",
+        "name": "CCYT (Crypto Catalyst)"
+      },
+      "172": {
         "pool_id": "6782865c91a230fb379a433a0630a68a9adcdca9e518ad73302ef805",
         "member_since": "2022-02-20",
-        "name": "[CBITS] CardanoBits Stake Pool"
+        "name": "CBITS (CardanoBits Stake Pool)"
       }
     }
   }
