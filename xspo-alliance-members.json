@@ -782,6 +782,11 @@
         "pool_id": "6782865c91a230fb379a433a0630a68a9adcdca9e518ad73302ef805",
         "member_since": "2022-02-20",
         "name": "CBITS (CardanoBits Stake Pool)"
+      },
+      "173": {
+        "pool_id": "d7e062ee4a829c38c7d7616af5666e79cfa6bca819a987b6a1b17ced",
+        "member_since": "2022-02-20",
+        "name": "SPORE (sporepool)"
       }
     }
   }
