@@ -787,6 +787,11 @@
         "pool_id": "d7e062ee4a829c38c7d7616af5666e79cfa6bca819a987b6a1b17ced",
         "member_since": "2022-02-20",
         "name": "SPORE (sporepool)"
+      },
+      "174": {
+        "pool_id": "a223873b6d882d07c44bfd2baac9f5acbb09c5b886858404cb375a99",
+        "member_since": "2022-02-21",
+        "name": "MNSTR (MonSter Stake Pool)"
       }
     }
   }
