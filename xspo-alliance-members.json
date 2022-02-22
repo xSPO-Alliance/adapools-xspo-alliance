@@ -378,11 +378,6 @@
         "member_since": "2021-10-02",
         "name": "MOKUM (Mokum Stake Pool)"
       },
-      "87": {
-        "pool_id": "c8ee084a463b89a6e7fe9f2e35506dd98d09047ea6d29866375e363d",
-        "member_since": "2021-10-04",
-        "name": "TSAR (TSAR Stake Pool)"
-      },
       "89": {
         "pool_id": "ea3bcd0f7eef6dcc792b7530d2eed388f57e81204e307f6ba9b35c47",
         "member_since": "2021-10-09",
@@ -457,11 +452,6 @@
         "pool_id": "2c69918f9d408e48fec0a24986fa56f1325fb427d6a279cd7bdb825a",
         "member_since": "2021-10-22",
         "name": "CASBA (NeoCasbah)"
-      }, 
-      "104": {
-        "pool_id": "df0d1b70945b0c4d6560ee64837ca54e025eabbe710e256f6836273e",
-        "member_since": "2021-10-26",
-        "name": "CARN (Carnegie Stake Pool)"
       },
       "105": {
         "pool_id": "4ec6dab61e2c65dae29be13d774b40f5a10e5d6652b3baf1bb61b45a",
@@ -658,11 +648,6 @@
         "member_since": "2021-12-23",
         "name": "ARMN (Harmonic)"
       },
-      "145": {
-        "pool_id": "dcc0b4406e0bec0d315446f9627365e7fba9e9e786e020c4dd19d25b",
-        "member_since": "2021-12-29",
-        "name": "GECKO (Gecko Stake Pool)"
-      },
       "146": {
         "pool_id": "d04e478446390de60b5905a0e29a57bc562c936c3620b1a1763cf0ef",
         "member_since": "2022-01-02",
@@ -762,6 +747,51 @@
         "pool_id": "24bfb62716d755bbf035fcb3f7e87a8d325fde0f04062e692aff3216",
         "member_since": "2022-02-07",
         "name": "PFL01 (Pool For Lovelace 01)"
+      },
+       "166": {
+        "pool_id": "88021ea76e8b0141feb976cccf0887a9a2385cc58370283c40abf06e",
+        "member_since": "2022-02-08",
+        "name": "CIEL (CIEL Stake Pool)"
+      },
+      "167": {
+        "pool_id": "764bcdf4629bffa904fbc6ca7228ff37382c70620cbed9c9cb436e87",
+        "member_since": "2022-02-10",
+        "name": "ADRIA (Adria Stake Pool)"
+      },
+      "168": {
+        "pool_id": "b6063f0f2fa05d98132f15defed4c69c06ea61451b4ea4cea0ce1b80",
+        "member_since": "2022-02-13",
+        "name": "4WARD (ADA for Warriors)"
+      },
+      "169": {
+        "pool_id": "69892569215cabbe4b4351827bebf00c6052611c0ea10c3f3a574667",
+        "member_since": "2022-02-14",
+        "name": "POET (The Poolnet)"
+      },
+      "170": {
+        "pool_id": "7a173fdf2ceee8a24ddc173be6810cf3259a80fe02a8d10923921d17",
+        "member_since": "2022-02-14",
+        "name": "STKCH (Stake Pool in Geneva)"
+      },
+      "171": {
+        "pool_id": "4a4e69f422ffe7f75e22cb05658372351b702b8630ab9a9a7c3f8e60",
+        "member_since": "2022-02-19",
+        "name": "CCYT (Crypto Catalyst)"
+      },
+      "172": {
+        "pool_id": "6782865c91a230fb379a433a0630a68a9adcdca9e518ad73302ef805",
+        "member_since": "2022-02-20",
+        "name": "CBITS (CardanoBits Stake Pool)"
+      },
+      "173": {
+        "pool_id": "d7e062ee4a829c38c7d7616af5666e79cfa6bca819a987b6a1b17ced",
+        "member_since": "2022-02-20",
+        "name": "SPORE (sporepool)"
+      },
+      "174": {
+        "pool_id": "a223873b6d882d07c44bfd2baac9f5acbb09c5b886858404cb375a99",
+        "member_since": "2022-02-21",
+        "name": "MNSTR (MonSter Stake Pool)"
       }
       },
        "156": {
