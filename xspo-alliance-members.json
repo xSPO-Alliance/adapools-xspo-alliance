@@ -797,6 +797,11 @@
         "pool_id": "20c00ebe39ed12dbd2f3e84a5b57b85c972d1039cf79c70d893b6227",
         "member_since": "2022-02-22",
         "name": "NODO (Cardanodo)"
+      },
+      "176": {
+        "pool_id": "6d9751817286a5a69e139f74f8290f7a9adc4a97d2a79cd0bb64053b",
+        "member_since": "2022-02-23",
+        "name": "ELIK (Elik Pool)"
       }
     }
   }
