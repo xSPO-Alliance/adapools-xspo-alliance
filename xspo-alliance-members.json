@@ -792,6 +792,11 @@
         "pool_id": "a223873b6d882d07c44bfd2baac9f5acbb09c5b886858404cb375a99",
         "member_since": "2022-02-21",
         "name": "MNSTR (MonSter Stake Pool)"
+      },
+      "175": {
+        "pool_id": "20c00ebe39ed12dbd2f3e84a5b57b85c972d1039cf79c70d893b6227",
+        "member_since": "2022-02-22",
+        "name": "NODO (Cardanodo)"
       }
     }
   }
