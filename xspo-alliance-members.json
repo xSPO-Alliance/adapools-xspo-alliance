@@ -792,6 +792,11 @@
         "pool_id": "a223873b6d882d07c44bfd2baac9f5acbb09c5b886858404cb375a99",
         "member_since": "2022-02-21",
         "name": "MNSTR (MonSter Stake Pool)"
+      },
+      "175": {
+        "pool_id": "6d9751817286a5a69e139f74f8290f7a9adc4a97d2a79cd0bb64053b",
+        "member_since": "2022-02-23",
+        "name": "ELIK (Elik Pool)"
       }
     }
   }
