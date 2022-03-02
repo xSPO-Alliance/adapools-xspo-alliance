@@ -817,6 +817,11 @@
         "pool_id": "4b4e09f1acb8957ecff8c36091b9a6dedce48c9df8f64d7744d2b080",
         "member_since": "2022-03-01",
         "name": "MOST (Mostaking.com)"
+       },
+       "180": {
+        "pool_id": "4c15ba0f7f36b581e1ce18e095070695d96f584de0f00e41b16511bd",
+        "member_since": "2022-03-02",
+        "name": "BIRD (Adaverse.com)"
       }
     }
   }
