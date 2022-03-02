@@ -822,6 +822,11 @@
         "pool_id": "029378e3fa199ee6510325406a7eb7d5001927c6294db06b53049499",
         "member_since": "2022-03-01",
         "name": "ASTCH (Assurance Tech Pool)"
+      },
+       "181": {
+        "pool_id": "3c28d08beab81c1852ef4787495f5c14cd31880cf0cf108cb6185bd2",
+        "member_since": "2022-03-01",
+        "name": "SSPO (Single Stake sspo.one)"
       }
     }
   }
