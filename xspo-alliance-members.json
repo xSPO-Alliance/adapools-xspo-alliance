@@ -822,11 +822,16 @@
         "pool_id": "3c28d08beab81c1852ef4787495f5c14cd31880cf0cf108cb6185bd2",
         "member_since": "2022-03-01",
         "name": "SSPO (Single Stake sspo.one)"
-      },
+      },      
        "182": {
         "pool_id": "cc7a01f31985bdbea49e87e9308a18d5318254c911f0b5289e763bd5",
         "member_since": "2022-03-07",
         "name": "KASH (Kash Pool)"
+      },
+       "183": {
+        "pool_id": "39c6ec8fe6dd619d005f17905dde221e31cbd4aadf5eecef9c611311",
+        "member_since": "2022-03-08",
+        "name": "EQUTY (One Equity)"
       }
     }
   }
