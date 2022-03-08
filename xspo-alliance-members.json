@@ -822,6 +822,11 @@
         "pool_id": "3c28d08beab81c1852ef4787495f5c14cd31880cf0cf108cb6185bd2",
         "member_since": "2022-03-01",
         "name": "SSPO (Single Stake sspo.one)"
+      },
+      "183": {
+        "pool_id": "39c6ec8fe6dd619d005f17905dde221e31cbd4aadf5eecef9c611311",
+        "member_since": "2022-03-08",
+        "name": "EQUTY (One Equty)"
       }
     }
   }
