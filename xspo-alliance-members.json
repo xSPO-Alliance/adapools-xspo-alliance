@@ -832,6 +832,11 @@
         "pool_id": "39c6ec8fe6dd619d005f17905dde221e31cbd4aadf5eecef9c611311",
         "member_since": "2022-03-08",
         "name": "EQUTY (One Equity)"
+      },
+      "184": {
+        "pool_id": "41ddaaf2303176365dc36a58483aa8aba694da490d04d84783d418e1",
+        "member_since": "2022-03-11",
+        "name": "KNGHT (Knights of Cardano)"
       }
     }
   }
