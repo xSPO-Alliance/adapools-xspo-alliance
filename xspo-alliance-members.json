@@ -842,6 +842,11 @@
         "pool_id": "e542f88759c997c8a3357a542efbf00c85405baea7f6006b3b344160",
         "member_since": "2022-03-15",
         "name": "777 (Feeling lucky?)"
+      },
+       "186": {
+        "pool_id": "232b0ab2239204974aa236cf022ab95301a1772609f3c6907628cde2",
+        "member_since": "2022-03-17",
+        "name": "MERK (Merkle Validator)"
       }
     }
   }
