@@ -852,6 +852,11 @@
         "pool_id": "15b80fb09b9541a2786a7dda7c516178f9acef18ef9c98d7146f5d2e",
         "member_since": "2022-03-17",
         "name": "T2H (Techs2help)"
+      },
+      "188": {
+        "pool_id": "pool1y6gjnv4qqzwt8ctsf45f36a8vqn7wrlcvnmcft9drfjrgs2shaq",
+        "member_since": "2022-03-21",
+        "name": "SASP (Simple ADA Stake Pool)"
       }
     }
   }
