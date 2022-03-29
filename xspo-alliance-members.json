@@ -862,14 +862,12 @@
         "pool_id": "269129b2a0009cb3e1704d6898eba76027e70ff864f784acad1a6434",
         "member_since": "2022-03-21",
         "name": "SASP (Simple ADA Stake Pool)"
-      }
-      ,
-      "188": {
+      },
+      "190": {
         "pool_id": "d8cc8d4198e23dbc5685c6682e6ea06e82fbd93879e42086e64ccc21",
         "member_since": "2022-03-15",
         "name": "PET♥ (PetLoverStake)"
-      }
-      ,
+      },
       "191": {
         "pool_id": "3bd3996595321d951291b11e1331061c5d8659d9e69390536dfc922c",
         "member_since": "2022-03-29",
