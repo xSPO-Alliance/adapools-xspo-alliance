@@ -872,7 +872,11 @@
         "pool_id": "3bd3996595321d951291b11e1331061c5d8659d9e69390536dfc922c",
         "member_since": "2022-03-29",
         "name": "EURO (by cardano-tools.io)"
-      }
+      },
+      "191": {
+        "pool_id": "02a3682f9ae2f27356222d3b79baefacca30cf567b85db035a8db3ea",
+        "member_since": "2022-03-29",
+        "name": "inFi (inFinite Possibilities)"
     }
   }
 }
