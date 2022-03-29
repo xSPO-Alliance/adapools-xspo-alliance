@@ -877,6 +877,11 @@
         "pool_id": "437963c2905ae3ccca93f9590f6fa331e52267ad70a347d102670192",
         "member_since": "2022-03-29",
         "name": "TCATL (Atocatl Pool)"
+      },
+      "193": {
+        "pool_id": "02a3682f9ae2f27356222d3b79baefacca30cf567b85db035a8db3ea",
+        "member_since": "2022-03-29",
+        "name": "inFi (inFinite Possibilities)"
       }
     }
   }
