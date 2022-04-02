@@ -887,6 +887,11 @@
         "pool_id": "09d4cd832d9c3bf96551d86622f2205947c978a6e1e3b1e827596297",
         "member_since": "2022-03-30",
         "name": "RCADA (80s Arcade Synth Wave Stake Cardano Pool)"
+      },
+      "195": {
+        "pool_id": "46a1e410fab850127d532108d8c00c81c407b25cc5608baaa541c62f",
+        "member_since": "2022-04-02",
+        "name": "GETI (Geldtiger)"
       }
     }
   }
