@@ -892,6 +892,11 @@
         "pool_id": "46a1e410fab850127d532108d8c00c81c407b25cc5608baaa541c62f",
         "member_since": "2022-04-02",
         "name": "GETI (Geldtiger)"
+      },
+      "196": {
+        "pool_id": "222c897174e01dff2d8146d2d58dd5e8633336092f05ca8955d5e734",
+        "member_since": "2022-04-09",
+        "name": "CCART (Chimera Arc Reactor Pool)"
       }
     }
   }
