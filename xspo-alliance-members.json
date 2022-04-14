@@ -897,6 +897,11 @@
         "pool_id": "222c897174e01dff2d8146d2d58dd5e8633336092f05ca8955d5e734",
         "member_since": "2022-04-09",
         "name": "CCART (Chimera Arc Reactor Pool)"
+      },
+      "197": {
+        "pool_id": "3162c21a847e9869471ae27b7f1f52600291c1f5bbbea8e3572d3f8f",
+        "member_since": "2021-03-20",
+        "name": "MAMBA (Mamba Pool)"
       }
     }
   }
