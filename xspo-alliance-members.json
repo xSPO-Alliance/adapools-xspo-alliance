@@ -912,6 +912,11 @@
         "pool_id": "EC5B48B7106B22CA49C4FBAFAD4B46D0524D6D8527CC90432DDD4862",
         "member_since": "2022-04-15",
         "name": "PLZ (Poolarized Pool)"
+      },
+      "200": {
+        "pool_id": "4b9049b66d926ada722408b9beeaae9ef3d2ffe2377d9b17f6e078ef",
+        "member_since": "2022-04-15",
+        "name": "CLP (Charity Lounge Pool)"
       }
     }
   }
