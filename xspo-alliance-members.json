@@ -918,6 +918,12 @@
         "member_since": "2022-04-28",
         "name": "CLP (Charity Lounge Pool)"
       }
+            },
+      "201": {
+        "pool_id": "1c220012e987c342ec4b4c6cea04501d0cf003459804b0e7018d3c73",
+        "member_since": "2021-05-29",
+        "name": "ALICE (Alice Stake Pool)"
+      }
     }
   }
 }
