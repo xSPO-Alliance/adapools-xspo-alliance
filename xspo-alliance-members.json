@@ -947,6 +947,11 @@
         "pool_id": "666768d552a3408574bccea7361e951dd6aa7a35903a6ece6802c72b",
         "member_since": "2022-05-05",
         "name": "BITB (Bitterbal Pool)"
+      },
+      "207": {
+        "pool_id": "6c3c35c806ef129a5664af590f00db662f90f19ae78b6421f049ebb9",
+        "member_since": "2022-05-09",
+        "name": "REETG (Reet Good Cardano)"
       }
     }
   }
