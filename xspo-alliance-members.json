@@ -957,6 +957,11 @@
         "pool_id": "1e5f4eebc56a6726fd36af2f870b3bd62b204f3cd1b36e32e8a56737",
         "member_since": "2022-05-18",
         "name": "TOKEN (Token Stake Pool)"
+      },
+      "209": {
+        "pool_id": "6814b41473d2cdc32f12421d3944fb700a7c332edc48838acd7781ca",
+        "member_since": "2022-05-21",
+        "name": "EUTXO (Pool for EUTXO Innovation)"
       }
     }
   }
