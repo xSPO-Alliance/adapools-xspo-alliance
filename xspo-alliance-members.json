@@ -962,6 +962,11 @@
         "pool_id": "6814b41473d2cdc32f12421d3944fb700a7c332edc48838acd7781ca",
         "member_since": "2022-05-21",
         "name": "EUTXO (Pool for EUTXO Innovation)"
+      },
+      "210": {
+        "pool_id": "68cc6dc773c067328a43e5e21086b515d23f8326c59035245996f34b",
+        "member_since": "2022-05-22",
+        "name": "CNFT (CNFT Stake Pool)"
       }
     }
   }
