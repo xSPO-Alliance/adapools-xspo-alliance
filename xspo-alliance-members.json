@@ -967,7 +967,11 @@
         "pool_id": "68cc6dc773c067328a43e5e21086b515d23f8326c59035245996f34b",
         "member_since": "2022-05-22",
         "name": "CNFT (CNFT Stake Pool)"
-      }
+      },
+      "211": {
+        "pool_id": "fa8b96740590a9638e8b548ca07992c776efda3ea56f50f8d99bf73d",
+        "member_since": "2021-05-04",
+        "name": "GREAT (GREAT Stake Pool)"
     }
   }
 }
