@@ -977,6 +977,11 @@
         "pool_id": "e28f147e344364afeb14c6d05c0f88497a0f3b4aaa82339d9accc67e",
         "member_since": "2022-05-29",
         "name": "ROCI (TI-Rocinante)"
+      },
+      "213": {
+        "pool_id": "a803d6a5b213b52b38c4d7b97c934b904810c36e40a9d7260670d618",
+        "member_since": "2022-06-02",
+        "name": "BEADA (BeADA Stake Pool)"
       }
     }
   }
