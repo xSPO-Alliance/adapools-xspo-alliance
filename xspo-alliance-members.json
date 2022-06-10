@@ -982,6 +982,11 @@
         "pool_id": "a803d6a5b213b52b38c4d7b97c934b904810c36e40a9d7260670d618",
         "member_since": "2022-06-02",
         "name": "BEADA (BeADA Stake Pool)"
+      },
+      "214": {
+        "pool_id": "aa5fc91d88b98507943118997ff06f6cd2e27cd8d79d7e89e7f406b9",
+        "member_since": "2022-06-09",
+        "name": "BOATS (Harbor Stake Pool)"
       }
     }
   }
