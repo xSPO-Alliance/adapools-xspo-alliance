@@ -987,6 +987,11 @@
         "pool_id": "aa5fc91d88b98507943118997ff06f6cd2e27cd8d79d7e89e7f406b9",
         "member_since": "2022-06-09",
         "name": "BOATS (Harbor Stake Pool)"
+      },
+      "215": {
+        "pool_id": "2873902b027727676630f3c9c63830183049b7e09998bd7b90114e13",
+        "member_since": "2022-06-15",
+        "name": "PREEB"
       }
     }
   }
