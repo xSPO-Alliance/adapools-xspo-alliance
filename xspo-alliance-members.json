@@ -992,6 +992,11 @@
         "pool_id": "2873902b027727676630f3c9c63830183049b7e09998bd7b90114e13",
         "member_since": "2022-06-15",
         "name": "PREEB (PREEB)"
+      },
+      "216": {
+        "pool_id": "f4ebee070198a0db41e46d5e59a7c582357013d15b907f65ad75d55e",
+        "member_since": "2022-06-26",
+        "name": "HEPHY (Hephaestus Stake Pool)"
       }
     }
   }
