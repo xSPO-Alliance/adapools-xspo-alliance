@@ -1002,6 +1002,11 @@
         "pool_id": "52f3e43e2ac95a0903343406fa6c76f1a05666aed2d5ea61bdf64a0e",
         "member_since": "2022-06-29",
         "name": "SURF (SURF)"
+      },
+      "218": {
+        "pool_id": "213ccec05701bd77a8613e48f09ea42504c50d5d709ad16339ef0638",
+        "member_since": "2022-07-02",
+        "name": "Fat Frog Cardano Stake Pool (FFR)"
       }
     }
   }
