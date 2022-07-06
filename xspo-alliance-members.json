@@ -1017,6 +1017,11 @@
         "pool_id": "1ae6ca324f47cdc2b95bb7ca15e59e56666f5112136d83f069bf583a",
         "member_since": "2022-07-06",
         "name": "Stake Green (STKGR)"
+      },
+      "221": {
+        "pool_id": "4be1c3218b5c9e36750734c79ea7a9f7c71bde50e0e9159354232598",
+        "member_since": "2022-07-06",
+        "name": "Wild Pool (WILD)"
       }
     }
   }
