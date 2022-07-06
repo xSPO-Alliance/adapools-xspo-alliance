@@ -1012,6 +1012,11 @@
         "pool_id": "359f35c5dbf9121784988355771054feb9c82d61d1f2b1226cea5448",
         "member_since": "2022-07-05",
         "name": "Panda Panda Pool (PPP)"
+      },
+      "220": {
+        "pool_id": "1ae6ca324f47cdc2b95bb7ca15e59e56666f5112136d83f069bf583a",
+        "member_since": "2022-07-06",
+        "name": "Stake Green (STKGR)"
       }
     }
   }
