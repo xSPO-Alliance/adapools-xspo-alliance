@@ -1027,6 +1027,11 @@
         "pool_id": "bb32c21c1ca7dc8f73fad1b6263987139a868fad820b3c3069fefcd6",
         "member_since": "2022-07-08",
         "name": "Hamster Stake Pool (HAMDA)"
+      },
+      "223": {
+        "pool_id": "bc8553a9b0b33cc6622e0ed0e22bac378f5c2b4601d940e0eddbe79d",
+        "member_since": "2022-07-08",
+        "name": "The Scene Pool (SCENE)"
       }
     }
   }
