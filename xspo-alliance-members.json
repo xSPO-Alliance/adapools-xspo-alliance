@@ -1032,6 +1032,11 @@
         "pool_id": "bc8553a9b0b33cc6622e0ed0e22bac378f5c2b4601d940e0eddbe79d",
         "member_since": "2022-07-10",
         "name": "The Scene Pool (SCENE)"
+      },
+      "224": {
+        "pool_id": "7a4c1ee9d663dd8d3b1bedf13155cc624c5dfa95f432c30d198cd3c6",
+        "member_since": "2022-07-21",
+        "name": "GranADA Staking Pool (GRANA)"
       }
     }
   }
