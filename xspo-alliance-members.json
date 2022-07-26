@@ -1034,6 +1034,11 @@
         "name": "The Scene Pool (SCENE)"
       },
       "224": {
+        "pool_id": "7a4c1ee9d663dd8d3b1bedf13155cc624c5dfa95f432c30d198cd3c6",
+        "member_since": "2022-07-21",
+        "name": "GranADA Staking Pool (GRANA)"
+      },
+      "225": {
         "pool_id": "74e98daf82b20099df575c83fe7b9fc828035aabbe34e5ed4990d1b8",
         "member_since": "2022-07-23",
         "name": "Cardano Center Poland (CCPL)"
