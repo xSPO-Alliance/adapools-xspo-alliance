@@ -1006,47 +1006,47 @@
       "218": {
         "pool_id": "213ccec05701bd77a8613e48f09ea42504c50d5d709ad16339ef0638",
         "member_since": "2022-07-02",
-        "name": "Fat Frog Cardano Stake Pool (FFR)"
+        "name": "FFR (Fat Frog Cardano Stake Pool)"
       },
       "219": {
         "pool_id": "359f35c5dbf9121784988355771054feb9c82d61d1f2b1226cea5448",
         "member_since": "2022-07-05",
-        "name": "Panda Panda Pool (PPP)"
+        "name": "PPP (Panda Panda Pool)"
       },
       "220": {
         "pool_id": "1ae6ca324f47cdc2b95bb7ca15e59e56666f5112136d83f069bf583a",
         "member_since": "2022-07-06",
-        "name": "Stake Green (STKGR)"
+        "name": "STKGR (Stake Green)"
       },
       "221": {
         "pool_id": "4be1c3218b5c9e36750734c79ea7a9f7c71bde50e0e9159354232598",
         "member_since": "2022-07-06",
-        "name": "Wild Pool (WILD)"
+        "name": "WILD (Wild Pool)"
       },
       "222": {
         "pool_id": "bb32c21c1ca7dc8f73fad1b6263987139a868fad820b3c3069fefcd6",
         "member_since": "2022-07-08",
-        "name": "Hamster Stake Pool (HAMDA)"
+        "name": "HAMDA (Hamster Stake Pool)"
       },
       "223": {
         "pool_id": "bc8553a9b0b33cc6622e0ed0e22bac378f5c2b4601d940e0eddbe79d",
         "member_since": "2022-07-10",
-        "name": "The Scene Pool (SCENE)"
+        "name": "SCENE (The Scene Pool)"
       },
       "224": {
         "pool_id": "7a4c1ee9d663dd8d3b1bedf13155cc624c5dfa95f432c30d198cd3c6",
         "member_since": "2022-07-21",
-        "name": "GranADA Staking Pool (GRANA)"
+        "name": "GRANA (GranADA Staking Pool)"
       },
       "225": {
         "pool_id": "74e98daf82b20099df575c83fe7b9fc828035aabbe34e5ed4990d1b8",
         "member_since": "2022-07-23",
-        "name": "Cardano Center Poland (CCPL)"
+        "name": "CCPL (Cardano Center Poland)"
       },
       "226": {
         "pool_id": "f6c74a55ccd5222aad6388c8d5d1b03234351c90e537f11718a74d15",
         "member_since": "2022-08-01",
-        "name": "Honey Stake Pool (HSP)"
+        "name": "HSP (Honey Stake Pool)"
       }
     }
   }
