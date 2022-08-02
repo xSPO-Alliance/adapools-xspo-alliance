@@ -1042,6 +1042,11 @@
         "pool_id": "74e98daf82b20099df575c83fe7b9fc828035aabbe34e5ed4990d1b8",
         "member_since": "2022-07-23",
         "name": "CCPL (Cardano Center Poland)"
+      },
+      "226": {
+        "pool_id": "f6c74a55ccd5222aad6388c8d5d1b03234351c90e537f11718a74d15",
+        "member_since": "2022-08-01",
+        "name": "HSP (Honey Stake Pool)"
       }
     }
   }
