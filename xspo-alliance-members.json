@@ -1057,6 +1057,11 @@
         "pool_id": "09fa1d3156d3ed6eb2370631777d66bf1c14b9405c8eb361d58603ed",
         "member_since": "2022-08-15",
         "name": "JNGL (JUNGLE Stake Pool)"
+      },
+      "230": {
+        "pool_id": "025a2bb1b5b2d6dcb8b6f84e592f8b8574d9e7066ca3afbba62c9592",
+        "member_since": "2021-05-18",
+        "name": "BEST1 (BEST1 Stake Pool)"
       }
     }
   }
