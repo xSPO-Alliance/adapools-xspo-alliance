@@ -58,21 +58,6 @@
         "member_since": "2021-07-20",
         "name": "APEX (APEX Cardano Pool)"
       },
-      "7": {
-        "pool_id": "72770c5d9dbf120676a6293d921fd7eeee454409620c3fdb671a405a",
-        "member_since": "2021-06-28",
-        "name": "MERO (Mero Cardano Stake Pool)"
-      },
-      "8": {
-        "pool_id": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
-        "member_since": "2021-07-14",
-        "name": "MINI1 (Cardano ADA Mini Pool Switzerland)"
-      },
-      "10": {
-        "pool_id": "576e0390ac54e3751afdaa8aa256f41b84a6324006f23991f6fdefb7",
-        "member_since": "2021-07-21",
-        "name": "USONE (Us As One)"
-      },
       "11": {
         "pool_id": "381ad61d5031c2a570c268d2f018bfb65c6eb7e32e535a58384f9a21",
         "member_since": "2021-07-21",
@@ -82,11 +67,6 @@
         "pool_id": "aa6dd7ae211c87f6cadd6031a641e224d00f49c5cb736a7a502d5056",
         "member_since": "2021-07-21",
         "name": "STAY (Here To STAY)"
-      },
-      "14": {
-        "pool_id": "51694f0d52a25a3ade521472a9c575205651b2c1253410449e1c1de9",
-        "member_since": "2021-07-23",
-        "name": "BOSON (Ada4Science Pool)"
       },
       "15": {
         "pool_id": "9837e1eca79504f57acd4e12f2db93ee04a76bca308cae61a6ee205a",
@@ -123,16 +103,6 @@
         "member_since": "2021-07-26",
         "name": "RSV (Reservoir Node)"
       },
-      "23": {
-        "pool_id": "c8a1648c3fdc0b7d5cd877bad022fb48d619eb04f74c7ec87ba5a6fc",
-        "member_since": "2021-07-27",
-        "name": "IPIB (Italians Pool It Better)"
-      },
-      "24": {
-        "pool_id": "51c46851f53579f04ac4dfe8cde1182976d78b058abd4f1f7a59d4b3",
-        "member_since": "2021-07-27",
-        "name": "CAPYB (Capybaral Pool)"
-      },
       "25": {
         "pool_id": "91991d9238f3f270a46fc237acc3abcdf2456ff163c1639951d75d15",
         "member_since": "2021-06-30",
@@ -147,11 +117,6 @@
         "pool_id": "6c1c1fc2b1e3e1ac056f6dd4dd4c3b78e66bd01896ca6e98a4d2431e",
         "member_since": "2021-05-28",
         "name": "RELAY (Relay Stake Pool)"
-      },
-      "29": {
-        "pool_id": "5e1c0f2519b2ea005de5c418568a3323d7a2dddb2dc1e6a39d88cd02",
-        "member_since": "2021-08-02",
-        "name": "STUPD (Stupid Cotton)"
       },
       "30": {
         "pool_id": "0089edb03016268a135babbbe8fb1f12f5789fc7718e67255bfbe570",
@@ -172,7 +137,7 @@
         "pool_id": "f2fa0dfea7f4caba8cbdd042c4940c783ee57f9516062725b04e19a3",
         "member_since": "2021-08-03",
         "name": "PSB (PSILOBYTE)"
-      },            
+      },
       "37": {
         "pool_id": "302f38b9b9cf8ace04859882b78e885cec18ee88832e7267224c2b28",
         "member_since": "2021-08-04",
@@ -193,30 +158,10 @@
         "member_since": "2021-08-05",
         "name": "HODLR (Hodler Staking Services)"
       },
-      "41": {
-        "pool_id": "8875e01215177b4506e9644ad6f9bda0aea6306ad217e4bb6653e1f9",
-        "member_since": "2021-08-06",
-        "name": "ASTRO (ASTROPOOL)"
-      },
       "42": {
         "pool_id": "3805681d8d4bc9c7f298c24fdeca3406849e2db84a0708718d96d0b2",
         "member_since": "2021-08-06",
-        "name": "one (EnigmA Stake pool)"
-      },
-      "43": {
-        "pool_id": "9084ebeb011e610e695068a74fa883dac5eda55faca77107b5f40064",
-        "member_since": "2021-08-06",
-        "name": "DOC (DOC Stake Pool)"
-      },
-      "45": {
-        "pool_id": "ad46d051c0eb09b8fad1f371d44d1e0d7f928d301e90bd4a4ed33a5a",
-        "member_since": "2021-08-06",
-        "name": "STEVE (Steve Pool)"
-      },
-      "46": {
-        "pool_id": "e1ae99532bbe499351d123769bb5d49a20a4607f067b0919d7a1ece7",
-        "member_since": "2021-08-08",
-        "name": "DECI (decentral.iced)"
+        "name": "ONE (EnigmA Stake pool)"
       },
       "47": {
         "pool_id": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
@@ -226,14 +171,14 @@
       "48": {
         "pool_id": "297b5acd8b90df8a1bfd98aa1a61f323b87fead4b8a2b55f2fb83ce6",
         "member_since": "2021-08-08",
-        "name": "AdaLoop (ALoop)"
+        "name": "ALOOP (AdaLoop)"
       },
-      "49": {    
+      "49": {
         "pool_id": "e2be8bcd95ee62227a2484be8619d2f2f800ec89eb2deacaa743d130",
         "member_since": "2021-08-09",
         "name": "ADEN (Cardano ADEN Stake Pool)"
       },
-      "50": {    
+      "50": {
         "pool_id": "ac4c79de638c8bb08997e939dccde43fe347a392d11a7ddf77bf3816",
         "member_since": "2021-08-10",
         "name": "XSEC (XSEC Cardano ADA Stake Pool)"
@@ -256,7 +201,7 @@
       "57": {
         "pool_id": "f765c73fa3700f6fa735310ebc0255265613db23fd7bb14e8d84e795",
         "member_since": "2021-09-01",
-        "name": "HELAS (Ellada)"    
+        "name": "HELAS (Ellada)"
       },
       "58": {
         "pool_id": "aed2477a1b56db48312eb9dc98803b482e33e51fd37d23e6817051e6",
@@ -337,7 +282,7 @@
         "pool_id": "f0e3c8d48efb750cdf256b68babc880787bc688972acfbbee1ffc537",
         "member_since": "2021-09-16",
         "name": "ADAR (ADA Rewards)"
-      },      
+      },
       "76": {
         "pool_id": "a5b7de0846612aa8ccdc4d0e8092e381dd34059b6584eacf0bcab7b9",
         "member_since": "2021-09-12",
@@ -347,7 +292,7 @@
         "pool_id": "d44442e0f92b4173205c4e8609cd48cbbb09c7dbcb805704c22be1ff",
         "member_since": "2021-09-19",
         "name": "MOAI (Moai Pool)"
-      },        
+      },
       "78": {
         "pool_id": "f06bccfa2d64e58989542975c105147e0872fcea2fd72c6739a6f118",
         "member_since": "2021-09-20",
@@ -361,7 +306,7 @@
       "84": {
         "pool_id": "682fd73eea4d7370b6f7a781c80b1252817b23f74688cea6257471f3",
         "member_since": "2021-09-27",
-        "name": "Chef (Chef Pool)"
+        "name": "CHEF (Chef Pool)"
       },
       "85": {
         "pool_id": "39025777f1d7c42746bc961b03b1690c26db08153d458dc74fcb034b",
@@ -373,28 +318,23 @@
         "member_since": "2021-10-02",
         "name": "MOKUM (Mokum Stake Pool)"
       },
-      "89": {
-        "pool_id": "ea3bcd0f7eef6dcc792b7530d2eed388f57e81204e307f6ba9b35c47",
-        "member_since": "2021-10-09",
-        "name": "BANTN (BANTN Stake Pool)"
-      },
       "90": {
-        "pool_id":  "c3b0794f0729a6d783e4fd5612a38ae275235f0a37485301ae59cf0d",
+        "pool_id": "c3b0794f0729a6d783e4fd5612a38ae275235f0a37485301ae59cf0d",
         "member_since": "2021-10-09",
         "name": "PPDAC (PPDAC LTD)"
       },
       "91": {
-        "pool_id":  "90e719ff625d4652a6f41568f9cdc0c8ddf90a7556929b4d30298e8c",
+        "pool_id": "90e719ff625d4652a6f41568f9cdc0c8ddf90a7556929b4d30298e8c",
         "member_since": "2021-10-12",
         "name": "MYLO (Mylo Pool)"
       },
       "92": {
-        "pool_id":  "70ab9e73071c50927631a218137d53e765665a578b744feeae3c5d81",
+        "pool_id": "70ab9e73071c50927631a218137d53e765665a578b744feeae3c5d81",
         "member_since": "2021-10-12",
-        "name": "Faso (FasoPool)"
+        "name": "FASO (FasoPool)"
       },
       "93": {
-        "pool_id":  "e26f5504209e57a5536007d49b63c50c73be0213da750d71062201df",
+        "pool_id": "e26f5504209e57a5536007d49b63c50c73be0213da750d71062201df",
         "member_since": "2021-10-13",
         "name": "NEMO (NEMO POOL)"
       },
@@ -407,11 +347,6 @@
         "pool_id": "59a5636fc0427e6eeb3cf23016fce0e749b2f4a3f0f589d6caa10f05",
         "member_since": "2021-09-10",
         "name": "ROG (Republic of Gamers)"
-      },
-      "96": {
-        "pool_id": "a0ba245eee2cfffe25ae6589084309755ee59a1f9d7c71a01c58f6f5",
-        "member_since": "2021-10-14",
-        "name": "BOLD (Bold ADA Pool)"
       },
       "97": {
         "pool_id": "5acb298631df3b460a636ecff975400ca7dd9dcffdcc53aa10964ccd",
@@ -433,16 +368,11 @@
         "member_since": "2021-10-20",
         "name": "LYNX (Lynx Cardano Stake Pool)"
       },
-      "101": {
-        "pool_id": "386c5cc510bb93b7a85d741af0170e873fe7477534199dec4b2725db",
-        "member_since": "2021-10-20",
-        "name": "001 (Cardano is the Way)"
-      }, 
       "102": {
         "pool_id": "5693aa7edfe81d12c9062bbe7b7c0b314b9665c6b3cd426152108347",
         "member_since": "2021-10-21",
         "name": "XPPX (Prophet)"
-      }, 
+      },
       "103": {
         "pool_id": "2c69918f9d408e48fec0a24986fa56f1325fb427d6a279cd7bdb825a",
         "member_since": "2021-10-22",
@@ -513,65 +443,45 @@
         "member_since": "2021-11-15",
         "name": "STLL (Share The LoveLace Pool)"
       },
-       "120": {
+      "120": {
         "pool_id": "8b315cd9c1b128c5cfe70925a786f6db96cf220bbcea8a2a9c6afdb9",
         "member_since": "2021-11-15",
         "name": "ANTRX (Antrix)"
       },
-       "121": {
+      "121": {
         "pool_id": "c9a397b8aa1d963030999d4edfd0f809f290f9899c73dfa1ad3a6d70",
         "member_since": "2021-11-18",
         "name": "SQRL (ADASquirrel Stake Pool)"
       },
-       "122": {
+      "122": {
         "pool_id": "14eae9da8ab6d322176ea88f40e9d32d843996bf2de88240e35594ea",
         "member_since": "2021-11-18",
         "name": "ENVY (Envy Stake Pool)"
       },
-       "123": {
-        "pool_id": "435f7f1af165a0696f8142f8f2863f2e2e71c5cab269d264ad5b6367",
-        "member_since": "2021-11-19",
-        "name": "RCKSP (Rckstr Stake Pool)"
-      },
-       "124": {
+      "124": {
         "pool_id": "fc0ef418b0cce20c7a1ac7b8aec9dabd8e9e83b3fcb88c228b4f2c1d",
         "member_since": "2021-11-20",
         "name": "LGBTQ (LGBTQ pride pool)"
       },
-       "125": {
-        "pool_id": "f685ec1bd556b584dc764b9c2aca83d65d4231268d42337dbd041a50",
-        "member_since": "2021-11-24",
-        "name": "WOOD (Forest Stake Pool)"
-      },
-       "126": {
+      "126": {
         "pool_id": "38c2ea35c92392314b84f70535632b1b8ac3d3bd99fa7786296b160c",
         "member_since": "2021-11-25",
         "name": "FLUID (FLUID pool)"
       },
-       "127": {
+      "127": {
         "pool_id": "4d9333fceb79761fb826b22395c4bff84740fbfa8af232d6f6944eb7",
         "member_since": "2021-11-26",
         "name": "FAM (Cardano Family Darkartopia)"
       },
-       "128": {
+      "128": {
         "pool_id": "f1ae552b032c2d87a416f4067eaf4636b3fe5e80230a1f63aa33f6bc",
         "member_since": "2021-11-27",
         "name": "SEA (Seaside Staking)"
       },
-       "129": {
+      "129": {
         "pool_id": "c22942e1b855136643d1e6e5a75266fb891d87727a8cbf06acd17208",
         "member_since": "2021-11-30",
         "name": "WOOF (WOOF pool)"
-      },
-      "130": {
-        "pool_id": "6255693643d2dcb804bb89effd50d8ea743bbae07ad62a3b5174ff25",
-        "member_since": "2021-11-30",
-        "name": "PLUTO (Pluto Stake Pool)"
-      },
-      "131": {
-        "pool_id": "d7876f8358f5e479ae2839de62d43353b07b2006a40fbf94e723c18c",
-        "member_since": "2021-12-09",
-        "name": "MADT (MAD TURK Stake Pool)"
       },
       "132": {
         "pool_id": "b67b0635ab2b26df9e44ba14fac3560720ca0902446d68fe282d4b97",
@@ -587,11 +497,6 @@
         "pool_id": "679b1d8a164791f21ab5a9a7fd2c8cfc108f76aad351912ec841847e",
         "member_since": "2021-12-12",
         "name": "ISLA (La ISLA ADA StakePool)"
-      },
-      "135": {
-        "pool_id": "fffda60991eafa48674f7137a76e11ddc2464e94c73a4319629072b4",
-        "member_since": "2021-12-15",
-        "name": "ROSE (Rose Pool Staking)"
       },
       "136": {
         "pool_id": "4dbdfb68de96a563719f7df2b3cf7c98fb547a3e7edca2a547d35852",
@@ -656,89 +561,84 @@
       "149": {
         "pool_id": "6d82b799c97b85779856008df211029c8a159c2ed41a2cfb103adad5",
         "member_since": "2022-01-05",
-        "name": "ADSND (adasound)"          
+        "name": "ADSND (adasound)"
       },
       "150": {
         "pool_id": "3ef2fd2433dd22627c88a1667232e48996c96563ec57d9d1631b07a2",
         "member_since": "2022-01-09",
-        "name": "FIRE (Financial Revolution)"          
-      },
-      "151": {
-        "pool_id": "d9931174a5260bf4ce6d94b3097fbaa0c4567e6a293ce91aa18c78fc",
-        "member_since": "2022-01-13",
-        "name": "SPIN (AdaSpin Stake Pool)"          
+        "name": "FIRE (Financial Revolution)"
       },
       "152": {
         "pool_id": "76e80e1b3f622c7051f222453497b0667e12892f5d94ee565d17dc52",
         "member_since": "2022-01-14",
-        "name": "EU01 (StakePool247.eu)"          
+        "name": "EU01 (StakePool247.eu)"
       },
       "153": {
         "pool_id": "063951946e3d221231229a73c92446fdb9532d813e3b0d6144f16ece",
         "member_since": "2022-01-15",
         "name": "MPOL (Maple Pool)"
       },
-       "154": {
+      "154": {
         "pool_id": "4ebf3e184e2bf7b6c4a5998126088432369ade380fa5a08690f1b618",
         "member_since": "2022-01-16",
         "name": "DYNO (Dyno Pool)"
       },
-       "155": {
+      "155": {
         "pool_id": "5808e8716e8b968c3043fc9bdc21db652c916ce97ffaddfe891db16c",
         "member_since": "2022-01-17",
         "name": "FBSD (FreeBSD Stake Pool)"
       },
-       "156": {
+      "156": {
         "pool_id": "ca97f539e6a878e7a7d87d762982a016ac6959d76719c8212a4a39e0",
         "member_since": "2022-01-23",
         "name": "DEV (Development Stake Pool)"
       },
-       "157": {
+      "157": {
         "pool_id": "b75a65868d3fd3583e423833381d104c02bedd3a83c9392d92e421b1",
         "member_since": "2021-05-26",
-        "name": "META (META Stake Pool)"  
+        "name": "META (META Stake Pool)"
       },
-       "158": {
+      "158": {
         "pool_id": "a39c252e5179a5919a0b74b22bfc279801c3c88c305f7d3655b09a0d",
         "member_since": "2022-01-29",
-        "name": "VETS (VETS Stake Pool)" 
+        "name": "VETS (VETS Stake Pool)"
       },
-       "159": {
+      "159": {
         "pool_id": "07c3280a92a3010a1713e3cb22bfa82624a33061ad20c7b359e7252d",
         "member_since": "2022-01-30",
-        "name": "ROAM (ROAM Stake Pool)" 
+        "name": "ROAM (ROAM Stake Pool)"
       },
-       "160": {
+      "160": {
         "pool_id": "dc3852b69aacfec0fc276e1971f03fa37984fc40b57fb97441c38f3e",
         "member_since": "2022-02-02",
-        "name": "EZPZ (EazyPeazy)" 
+        "name": "EZPZ (EazyPeazy)"
       },
-       "161": {
+      "161": {
         "pool_id": "cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0",
         "member_since": "2022-02-04",
         "name": "SRN (ADASRN)"
       },
-       "162": {
+      "162": {
         "pool_id": "12d4d2f7a7c5b4ae10853d093257d71bd3ac6d2abccc2b65fc0bff8f",
         "member_since": "2022-02-05",
         "name": "46S (46 South Stake Pool)"
       },
-       "163": {
+      "163": {
         "pool_id": "9fa14b049b735e287da702a2b0a7c2a6612e81db9cc4284339a6a2f1",
         "member_since": "2022-02-05",
         "name": "RABIT (rabbitholepools)"
       },
-       "164": {
+      "164": {
         "pool_id": "86d3b37680b0b5d91717d782774640823d85a0f64b4b2881de1ded86",
         "member_since": "2022-02-06",
         "name": "HAPPY (Happy Raspberry ❤️)"
       },
-       "165": {
+      "165": {
         "pool_id": "24bfb62716d755bbf035fcb3f7e87a8d325fde0f04062e692aff3216",
         "member_since": "2022-02-07",
         "name": "PFL01 (Pool For Lovelace 01)"
       },
-       "166": {
+      "166": {
         "pool_id": "88021ea76e8b0141feb976cccf0887a9a2385cc58370283c40abf06e",
         "member_since": "2022-02-08",
         "name": "CIEL (CIEL Stake Pool)"
@@ -798,12 +698,7 @@
         "member_since": "2022-02-23",
         "name": "OBI (obiPOOL)"
       },
-      "178": {
-        "pool_id": "4be4a454d63ef9aab7b44a31440a1f85eea3ee724bd13ca07b9ff255",
-        "member_since": "2022-02-26",
-        "name": "ADAV (AdaVerse)"
-      },
-       "179": {
+      "179": {
         "pool_id": "4b4e09f1acb8957ecff8c36091b9a6dedce48c9df8f64d7744d2b080",
         "member_since": "2022-03-01",
         "name": "MOST (Mostaking.com)"
@@ -813,17 +708,12 @@
         "member_since": "2022-03-01",
         "name": "ASTCH (Assurance Tech Pool)"
       },
-       "181": {
+      "181": {
         "pool_id": "3c28d08beab81c1852ef4787495f5c14cd31880cf0cf108cb6185bd2",
         "member_since": "2022-03-01",
         "name": "SSPO (Single Stake sspo.one)"
-      },      
-       "182": {
-        "pool_id": "cc7a01f31985bdbea49e87e9308a18d5318254c911f0b5289e763bd5",
-        "member_since": "2022-03-07",
-        "name": "KASH (Kash Pool)"
       },
-       "183": {
+      "183": {
         "pool_id": "39c6ec8fe6dd619d005f17905dde221e31cbd4aadf5eecef9c611311",
         "member_since": "2022-03-08",
         "name": "EQUTY (One Equity)"
@@ -858,11 +748,6 @@
         "member_since": "2022-03-21",
         "name": "SASP (Simple ADA Stake Pool)"
       },
-      "190": {
-        "pool_id": "d8cc8d4198e23dbc5685c6682e6ea06e82fbd93879e42086e64ccc21",
-        "member_since": "2022-03-15",
-        "name": "PET♥ (PetLoverStake)"
-      },
       "191": {
         "pool_id": "3bd3996595321d951291b11e1331061c5d8659d9e69390536dfc922c",
         "member_since": "2022-03-29",
@@ -887,11 +772,6 @@
         "pool_id": "46a1e410fab850127d532108d8c00c81c407b25cc5608baaa541c62f",
         "member_since": "2022-04-02",
         "name": "GETI (Geldtiger)"
-      },
-      "196": {
-        "pool_id": "222c897174e01dff2d8146d2d58dd5e8633336092f05ca8955d5e734",
-        "member_since": "2022-04-09",
-        "name": "CCART (Chimera Arc Reactor Pool)"
       },
       "197": {
         "pool_id": "23e146390a1b58999264bdd1779eed1b7d50e869bb8c260ccc4cc6c9",
@@ -932,11 +812,6 @@
         "pool_id": "0ca8e61d6ce513468766d3a8e5dc04ac111642a09339b4562563c3f3",
         "member_since": "2022-05-02",
         "name": "TFSF (The Free ADA)"
-      },
-      "205": {
-        "pool_id": "b9229907803d6ab5cd62c4c7193fd01ebf2bf8b94ea648f0f76b4eef",
-        "member_since": "2022-05-03",
-        "name": "PHXP (PhoenixPool)"
       },
       "206": {
         "pool_id": "666768d552a3408574bccea7361e951dd6aa7a35903a6ece6802c72b",
@@ -1012,11 +887,6 @@
         "pool_id": "1ae6ca324f47cdc2b95bb7ca15e59e56666f5112136d83f069bf583a",
         "member_since": "2022-07-06",
         "name": "STKGR (Stake Green)"
-      },
-      "221": {
-        "pool_id": "4be1c3218b5c9e36750734c79ea7a9f7c71bde50e0e9159354232598",
-        "member_since": "2022-07-06",
-        "name": "WILD (Wild Pool)"
       },
       "222": {
         "pool_id": "bb32c21c1ca7dc8f73fad1b6263987139a868fad820b3c3069fefcd6",
