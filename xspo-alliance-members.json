@@ -938,6 +938,12 @@
         "member_since": "2022-08-30",
         "name": "XMEX (X Mexico Stake Pool)"
       }
+        },
+      "232": {
+        "pool_id": "61c0f019c2993dbccf370a4b088c68747f0c7b419e8ef7b892d88c7e",
+        "member_since": "2022-03-15",
+        "name": "MAR (Marjun's Cardano Friends Pool)"
+      }
     }
   }
 }
