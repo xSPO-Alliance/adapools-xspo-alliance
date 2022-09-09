@@ -947,6 +947,11 @@
         "pool_id": "4389c1059c2b2f95233506d0a063a723c22d8b6e0f0fe531c27433a8",
         "member_since": "2022-09-08",
         "name": "HARM (ISPO | harmlesscoin.com)"
+      },
+      "234": {
+        "pool_id": "112bd1da11c5c23e1171505fbbb81c8802d410de9e64373f530723c1",
+        "member_since": "2022-09-09",
+        "name": "SPCP (Swiss Premium Cardano Pool)"
       }
     }
   }
