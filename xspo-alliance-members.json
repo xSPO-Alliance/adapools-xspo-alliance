@@ -952,6 +952,11 @@
         "pool_id": "112bd1da11c5c23e1171505fbbb81c8802d410de9e64373f530723c1",
         "member_since": "2022-09-09",
         "name": "SPCP (Swiss Premium Cardano Pool)"
+      },
+       "235": {
+        "pool_id": "d436a2dd1100ed4f903ea831f92e27f9f4ca09882d225a5ca800e7a0",
+        "member_since": "2022-09-10",
+        "name": "ZEBRA (Zebra Staking)"
       }
     }
   }
