@@ -957,6 +957,11 @@
         "pool_id": "d436a2dd1100ed4f903ea831f92e27f9f4ca09882d225a5ca800e7a0",
         "member_since": "2022-09-10",
         "name": "ZEBRA (Zebra Staking)"
+      },
+       "236": {
+        "pool_id": "e40edb5a243c9ef00296860c6b7c8272fd5923ac52b5050d68e80d9b",
+        "member_since": "2022-09-23",
+        "name": "SWARM (Catalyst Swarm)"
       }
     }
   }
