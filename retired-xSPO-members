@@ -19,7 +19,8 @@
     "36": {
         "pool_id": "fb82466458cb60c5295b8d335c24c83d85d510e0e012b877bcadbe98",
         "member_since": "2021-08-03",
-        "name": "GUI (GUI Pool)"
+        "name": "GUI (GUI Pool)",
+        "retiring_epoch": "306"
     },
     "44": {
       "pool_id": "a37460a9b761e67b18f0262ad18f80263f6b6d143c33a9873965ecd3",
@@ -114,19 +115,19 @@
     "87": {
         "pool_id": "c8ee084a463b89a6e7fe9f2e35506dd98d09047ea6d29866375e363d",
         "member_since": "2021-10-04",
-        "name": "TSAR (TSAR Stake Pool)"
+        "name": "TSAR (TSAR Stake Pool)",
         "retiring_epoch": "314"
     }, 
     "104": {
         "pool_id": "df0d1b70945b0c4d6560ee64837ca54e025eabbe710e256f6836273e",
         "member_since": "2021-10-26",
-        "name": "CARN (Carnegie Stake Pool)"
+        "name": "CARN (Carnegie Stake Pool)",
         "retiring_epoch": "313"
     },
     "145": {
         "pool_id": "dcc0b4406e0bec0d315446f9627365e7fba9e9e786e020c4dd19d25b",
         "member_since": "2021-12-29",
-        "name": "GECKO (Gecko Stake Pool)"
+        "name": "GECKO (Gecko Stake Pool)",
         "retiring_epoch": "318"
     }
   }
