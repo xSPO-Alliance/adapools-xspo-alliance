@@ -967,6 +967,11 @@
         "pool_id": "8881495966f1b73427233aa761c0fd04adfd91b3599a012d7d845472",
         "member_since": "2022-10-06",
         "name": "VICIS (Very Informal and Committed Independent Stakepool)"
+      },
+       "238": {
+        "pool_id": "387c1f515894d2511d1e791161e69882ddb427ab1701b7af719a8c9f",
+        "member_since": "2022-10-08",
+        "name": "SAGAN (Sagan Stake Pool)"
       }
     }
   }
