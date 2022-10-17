@@ -977,6 +977,11 @@
         "pool_id": "f218d7c550fecc856bdf09c6ec12d64f68a59b6727f29bedb06d88b1",
         "member_since": "2022-10-11",
         "name": "STPZ1 (Stacking Pizza Cardano Pool)"
+      },
+       "240": {
+        "pool_id": "fab24ffce0611c290e10211cac009b1366ae1cece4a1c57d110ddfa1",
+        "member_since": "2022-10-17",
+        "name": "CLYDE (CLYDEdev Stake Pool by phrankerCO)"
       }
     }
   }
