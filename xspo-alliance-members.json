@@ -982,6 +982,11 @@
         "pool_id": "fab24ffce0611c290e10211cac009b1366ae1cece4a1c57d110ddfa1",
         "member_since": "2022-10-17",
         "name": "CLYDE (CLYDEdev Stake Pool by phrankerCO)"
+      },
+       "241": {
+        "pool_id": "5a4b9516179026576109a1536a907203948017cefd9a0c954254d196",
+        "member_since": "2022-10-24",
+        "name": "BLABS (Block Labs)"
       }
     }
   }
