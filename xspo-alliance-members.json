@@ -987,6 +987,11 @@
         "pool_id": "5a4b9516179026576109a1536a907203948017cefd9a0c954254d196",
         "member_since": "2022-10-24",
         "name": "BLABS (Block Labs)"
+      },
+       "242": {
+        "pool_id": "5a4b9516179026576109a1536a907203948017cefd9a0c954254d196",
+        "member_since": "2021-08-21",
+        "name": "HAWAK (The Hawak Pool)"
       }
     }
   }
