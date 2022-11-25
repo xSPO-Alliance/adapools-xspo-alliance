@@ -10,6 +10,12 @@
       "name": "D13 (DREAM13 Pool)",
       "retiring_epoch": "286"
     },
+    "15": {
+      "pool_id": "9837e1eca79504f57acd4e12f2db93ee04a76bca308cae61a6ee205a",
+      "member_since": "2021-07-23",
+      "member_until": "2022-11-27",
+      "name": "SANTO (Santo Staking Pool)"
+    },
     "20": {
       "pool_id": "7a58916420571bcb037159d772275a04e968e83dfad750af26f943fd",
       "member_since": "2021-05-18",
