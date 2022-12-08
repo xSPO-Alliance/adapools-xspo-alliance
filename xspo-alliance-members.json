@@ -1007,6 +1007,11 @@
         "pool_id": "7cd510133850b195b1f989bc96c88d86203fe574806eaba169c78d41",
         "member_since": "2022-11-20",
         "name": "DOTAR (Dotare - To endow, equip, and provide for all)"
+      },
+       "247": {
+        "pool_id": "4fde86a71b122b24c6ee3c4b90b579e745b546694d6ac6b7a17bc6f8",
+        "member_since": "2022-12-07",
+        "name": "AVA (AVA Cardano Stake Pool)"
       }
     }
   }
