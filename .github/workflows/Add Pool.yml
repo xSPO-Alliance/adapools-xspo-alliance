@@ -65,12 +65,22 @@ jobs:
                               -H "Content-Type: application/json" \
                               -d '{"_pool_bech32_ids":["'${pool_bech32_id}'"]}' \
                               | jq -r '.[].pool_id_hex')
-              #echo ${pool_hex_id} >> xspo-alliance-members.json
-              sed -i s/$(sed -n 'x;$p' xSPO-list-cexplorer.json)/$(sed -n 'x;$p' xSPO-list-cexplorer.json),/ xSPO-list-cexplorer.json
-              sed -i '$i'\"${pool_bech32_id}\"'' xSPO-list-cexplorer.json
+              
+              pool_name=$(curl -sS -X POST "https://api.koios.rest/api/v0/pool_info" \
+                              -H "Content-Type: application/json" \
+                              -d '{"_pool_bech32_ids":["'${pool_bech32_id}'"]}' \
+                              | jq -r '.[].meta_json.name')
+              
+              m_count=$(($(tail -8 xspo-alliance-members.json | head -1 | cut -d'"' -f2) + 1))
+              m_since=$(date +%Y-%m-%d)
+              jq '.adapools.members += {"'${m_count}'":{"pool_id": "'${pool_hex_id}'", "member_since": "'${m_since}'", "name": "'${pool_name}'" }}' xspo-alliance-members.json >> _temp0.json
+              mv _temp0.json xspo-alliance-members.json
+
+              jq -r '. += ["'${pool_bech32_id}'"]' xSPO-list-cexplorer.json >> _temp.json
+              mv _temp.json xSPO-list-cexplorer.json
 
               else
-                echo "Pool does not meet xSPO minimal requirement!"
+                echo "Pool does not meet xSPO-Alliance minimal requirement!"
                 exit -1
             fi
 
