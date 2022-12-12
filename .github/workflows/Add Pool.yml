@@ -74,7 +74,7 @@ jobs:
               m_count=$(($(tail -8 xspo-alliance-members.json | head -1 | cut -d'"' -f2) + 1))
               m_since=$(date +%Y-%m-%d)
 
-              echo ${pool_name} | xargs -I {} jq '.adapools.members += {"'${m_count}'":{"pool_id": "'${pool_hex_id}'", "member_since": "'${m_since}'", "name": "'${}'" }}' xspo-alliance-members.json >> _temp0.json
+              echo ${pool_name} | xargs -I {} jq '.adapools.members += {"'${m_count}'":{"pool_id": "'${pool_hex_id}'", "member_since": "'${m_since}'", "name": "'{}'" }}' xspo-alliance-members.json >> _temp0.json
               mv _temp0.json xspo-alliance-members.json
 
               jq -r '. += ["'${pool_bech32_id}'"]' xSPO-list-cexplorer.json >> _temp.json
