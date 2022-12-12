@@ -71,10 +71,17 @@ jobs:
                               -d '{"_pool_bech32_ids":["'${pool_bech32_id}'"]}' \
                               | jq -r '.[].meta_json.name')
               
+              pool_ticker=$(curl -sS -X POST "https://api.koios.rest/api/v0/pool_info" \
+                              -H "Content-Type: application/json" \
+                              -d '{"_pool_bech32_ids":["'${pool_bech32_id}'"]}' \
+                              | jq -r '.[].meta_json.ticker')
+              
               m_count=$(($(tail -8 xspo-alliance-members.json | head -1 | cut -d'"' -f2) + 1))
               m_since=$(date +%Y-%m-%d)
 
-              echo ${pool_name} | xargs -I {} jq '.adapools.members += {"'${m_count}'":{"pool_id": "'${pool_hex_id}'", "member_since": "'${m_since}'", "name": "'{}'" }}' xspo-alliance-members.json >> _temp0.json
+              echo "Adding the Pool to the xSPO-Alliance"
+
+              echo ${pool_name} | xargs -I {} jq '.adapools.members += {"'${m_count}'":{"pool_id": "'${pool_hex_id}'", "member_since": "'${m_since}'", "name": "'${pool_ticker}' ('{}')" }}' xspo-alliance-members.json >> _temp0.json
               mv _temp0.json xspo-alliance-members.json
 
               jq -r '. += ["'${pool_bech32_id}'"]' xSPO-list-cexplorer.json >> _temp.json
