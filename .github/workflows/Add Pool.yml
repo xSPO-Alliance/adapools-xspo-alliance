@@ -50,22 +50,32 @@ jobs:
                           | jq -r '.[].pool_status') == "registered" ]]; then
               
               echo "Pool is registered on Cardano mainnet"
-              
+              else
+                echo "Pool is not registered on Cardano mainnet"
+                exit -1
+            fi
+
+            pool_active_stake=$(curl -sS -X POST "https://api.koios.rest/api/v0/pool_info" \
+                              -H "Content-Type: application/json" \
+                              -d '{"_pool_bech32_ids":["'${pool_bech32_id}'"]}' \
+                              | jq -r '.[].active_stake')
+
+            if [[ ! $((pool_active_stake / 1000000 )) -gt 1000000 ]]; then
               pool_hex_id=$(curl -sS -X POST "https://api.koios.rest/api/v0/pool_info" \
                               -H "Content-Type: application/json" \
                               -d '{"_pool_bech32_ids":["'${pool_bech32_id}'"]}' \
                               | jq -r '.[].pool_id_hex')
-
               #echo ${pool_hex_id} >> xspo-alliance-members.json
               sed -i s/$(sed -n 'x;$p' xSPO-list-cexplorer.json)/$(sed -n 'x;$p' xSPO-list-cexplorer.json),/ xSPO-list-cexplorer.json
               sed -i '$i'\"${pool_bech32_id}\"'' xSPO-list-cexplorer.json
 
               else
-                echo "Pool is not registered on Cardano mainnet"
+                echo "Pool does not meet xSPO minimal requirement!"
                 exit -1
             fi
+
             else
-                echo "Pool is already added"
+                echo "Pool is already added!"
                 exit -1
           fi
 
