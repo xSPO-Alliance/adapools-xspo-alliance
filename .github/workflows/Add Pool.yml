@@ -1,0 +1,96 @@
+name: Add new Pool to xSPO-Alliance
+
+on:
+  issues:
+    types: [opened, reopened]
+
+jobs:
+  issue-to-json:
+    name: Convert issue body to json
+    if: contains(github.event.issue.body, '>>pool_bech32_id<<')
+    runs-on: ubuntu-latest
+    outputs:
+      payload-parsed: ${{ steps.payload.outputs.json_var }}
+    steps:
+      - name: Run parser
+        id: parse
+        uses: peter-murray/issue-forms-body-parser@v2.0.0
+        with:
+          issue_id: ${{ github.event.issue.number }}
+          separator: '###'
+          label_marker_start: '>>'
+          label_marker_end: '<<'
+      - name: Set Output
+        id: payload
+        run: echo json_var='${{ steps.parse.outputs.payload }}' >> $GITHUB_OUTPUT
+
+  execute-pipe:
+    name: Adding new Pool
+    if: contains(github.event.issue.body, '>>pool_bech32_id<<')
+    runs-on: ubuntu-latest
+    needs: issue-to-json
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        #### Important, in case main branch is protected (for direct commits) it has to checkout in a valid branch
+        ### In this case, change below
+        #with:
+        #  ref: '<branch_name>'
+     
+      - name: 'Pool add'
+        id: status
+        continue-on-error: true
+        env:
+          pool_bech32_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['pool_bech32_id'] }}
+        run: |
+          if [[ ! $(cat xSPO-list-cexplorer.json | grep ${pool_bech32_id}) ]]; then
+            if [[ $(curl -sS -X POST "https://api.koios.rest/api/v0/pool_info" \
+                          -H "Content-Type: application/json" \
+                          -d '{"_pool_bech32_ids":["'${pool_bech32_id}'"]}' \
+                          | jq -r '.[].pool_status') == "registered" ]]; then
+              
+              echo "Pool is registered on Cardano mainnet"
+              
+              pool_hex_id=$(curl -sS -X POST "https://api.koios.rest/api/v0/pool_info" \
+                              -H "Content-Type: application/json" \
+                              -d '{"_pool_bech32_ids":["'${pool_bech32_id}'"]}' \
+                              | jq -r '.[].pool_id_hex')
+
+              #echo ${pool_hex_id} >> xspo-alliance-members.json
+              sed -i s/$(sed -n 'x;$p' xSPO-list-cexplorer.json)/$(sed -n 'x;$p' xSPO-list-cexplorer.json),/ xSPO-list-cexplorer.json
+              sed -i '$i'\"${pool_bech32_id}\"'' xSPO-list-cexplorer.json
+
+              else
+                echo "Pool is not registered on Cardano mainnet"
+                exit -1
+            fi
+            else
+                echo "Pool is already added"
+                exit -1
+          fi
+
+      - name: "commit"
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: add new pool
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
+      
+      - id: close
+        name: 'Close issue'
+        uses: peter-evans/close-issue@v2
+        if: steps.status.outcome == 'success'
+        with:
+          comment: Poll added. Verify - https://github.com/xSPO-Alliance/adapools-xspo-alliance/commits/main
+          labels: |
+            pool_added
+            
+      - id: close_error
+        name: 'Close issue as not implemented'
+        uses: peter-evans/close-issue@v2
+        if: steps.status.outcome != 'success'
+        with:
+          close-reason: not_planned
+          comment: Probably pool not found nor registered. Maybe API was unavailable, please try again later
+          labels: |
+            pool_not_added
