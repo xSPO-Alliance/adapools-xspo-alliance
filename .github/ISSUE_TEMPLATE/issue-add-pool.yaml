@@ -1,0 +1,20 @@
+name: add-pool
+description: Add your Pool to xSPO-Alliance
+title: "[add-pool]: "
+labels: [poolrequest]
+assignees:
+  - dodopontocom
+  #- cardano-apexpool
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Here you can request to add your pool to xSPO-Alliance!
+  - type: input
+    id: pool_bech32
+    attributes:
+      label: ">>pool_bech32_id<<"
+      description: Please use your bech32 id. IF your pool is activated, it will be added soon!
+      placeholder: ex. pool1xzfrmeux886ckdm2ekk3t3xe2ch5666m7zxa6dt0zrfm5mq2ksm
+    validations:
+      required: true
