@@ -1017,11 +1017,6 @@
         "pool_id": "dacf06a23e4aaf119024e63deb79861ca175b24e7d44d97fb92b1a22",
         "member_since": "2022-12-12",
         "name": "ABLE (Able Stake Pool)"
-      },
-      "250": {
-        "pool_id": "30923de78639f58b376acdad15c4d9562f4d6b5bf08ddd356f10d3ba",
-        "member_since": "2022-12-12",
-        "name": "Yet_Another_Cool_Pool"
       }
     }
   }
