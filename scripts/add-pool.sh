@@ -2,8 +2,10 @@
 
 export BASEDIR="$(cd $(dirname ${BASH_SOURCE[0]}) >/dev/null 2>&1 && pwd)"
 
+API="https://api.koios.rest/api/v0"
+
 if [[ ! $(cat ${BASEDIR}/../xSPO-list-cexplorer.json | grep ${pool_bech32_id}) ]]; then
-    if [[ $(curl -sS -X POST "https://api.koios.rest/api/v0/pool_info" \
+    if [[ $(curl -sS -X POST "${API}/pool_info" \
                     -H "Content-Type: application/json" \
                     -d '{"_pool_bech32_ids":["'${pool_bech32_id}'"]}' \
                     | jq -r '.[].pool_status') == "registered" ]]; then
@@ -14,23 +16,23 @@ if [[ ! $(cat ${BASEDIR}/../xSPO-list-cexplorer.json | grep ${pool_bech32_id}) ]
         exit -1
     fi
 
-    pool_active_stake=$(curl -sS -X POST "https://api.koios.rest/api/v0/pool_info" \
+    pool_active_stake=$(curl -sS -X POST "${API}/pool_info" \
                         -H "Content-Type: application/json" \
                         -d '{"_pool_bech32_ids":["'${pool_bech32_id}'"]}' \
                         | jq -r '.[].active_stake')
 
     if [[ ! $((pool_active_stake / 1000000 )) -gt 1000000 ]]; then
-        pool_hex_id=$(curl -sS -X POST "https://api.koios.rest/api/v0/pool_info" \
+        pool_hex_id=$(curl -sS -X POST "${API}/pool_info" \
                         -H "Content-Type: application/json" \
                         -d '{"_pool_bech32_ids":["'${pool_bech32_id}'"]}' \
                         | jq -r '.[].pool_id_hex')
         
-        pool_name=$(curl -sS -X POST "https://api.koios.rest/api/v0/pool_info" \
+        pool_name=$(curl -sS -X POST "${API}/pool_info" \
                         -H "Content-Type: application/json" \
                         -d '{"_pool_bech32_ids":["'${pool_bech32_id}'"]}' \
                         | jq -r '.[].meta_json.name')
         
-        pool_ticker=$(curl -sS -X POST "https://api.koios.rest/api/v0/pool_info" \
+        pool_ticker=$(curl -sS -X POST "${API}/pool_info" \
                         -H "Content-Type: application/json" \
                         -d '{"_pool_bech32_ids":["'${pool_bech32_id}'"]}' \
                         | jq -r '.[].meta_json.ticker')

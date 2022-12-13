@@ -3,8 +3,7 @@ description: Add your Pool to xSPO-Alliance
 title: "[add-pool]: "
 labels: [poolrequest]
 assignees:
-  - dodopontocom
-  #- cardano-apexpool
+  - cardano-apexpool
 body:
   - type: markdown
     attributes:
