@@ -1017,11 +1017,6 @@
         "pool_id": "50a7d6c3ad4aaf5668d749e4e063481c8d01b67a4d237a6603b76540",
         "member_since": "2022-12-11",
         "name": "HWRLD (Hello World! Cardano Stake Pool)"
-      },
-         "249": {
-        "pool_id": "dacf06a23e4aaf119024e63deb79861ca175b24e7d44d97fb92b1a22",
-        "member_since": "2022-12-12",
-        "name": "ABLE (Able Stake Pool)"
       }
     }
   }
