@@ -43,6 +43,9 @@ jobs:
         env:
           pool_bech32_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['pool_bech32_id'] }}
         run: |
+          echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+          cat $GITHUB_OUTPUT
+          echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++"
           if [[ ! $(cat xSPO-list-cexplorer.json | grep ${pool_bech32_id}) ]]; then
             if [[ $(curl -sS -X POST "https://api.koios.rest/api/v0/pool_info" \
                           -H "Content-Type: application/json" \
@@ -99,6 +102,7 @@ jobs:
 
       - name: "commit"
         uses: EndBug/add-and-commit@v9
+        if: steps.status.outcome == 'success'
         with:
           message: add new pool
           committer_name: GitHub Actions
