@@ -43,9 +43,6 @@ jobs:
         env:
           pool_bech32_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['pool_bech32_id'] }}
         run: |
-          echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++"
-          cat $GITHUB_OUTPUT
-          echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++"
           if [[ ! $(cat xSPO-list-cexplorer.json | grep ${pool_bech32_id}) ]]; then
             if [[ $(curl -sS -X POST "https://api.koios.rest/api/v0/pool_info" \
                           -H "Content-Type: application/json" \
@@ -113,7 +110,7 @@ jobs:
         uses: peter-evans/close-issue@v2
         if: steps.status.outcome == 'success'
         with:
-          comment: Poll added. Verify - https://github.com/xSPO-Alliance/adapools-xspo-alliance/commits/main
+          comment: Poll added. Verify - https://github.com/xSPO-Alliance/adapools-xspo-alliance/blob/main/xspo-alliance-members.json
           labels: |
             pool_added
             
@@ -123,6 +120,6 @@ jobs:
         if: steps.status.outcome != 'success'
         with:
           close-reason: not_planned
-          comment: Probably pool not found nor registered. Maybe API was unavailable, please try again later
+          comment: Probably pool not found nor registered. Maybe API was unavailable, please try again later. Also verify minimal requirements at - https://github.com/xSPO-Alliance/adapools-xspo-alliance#requirements
           labels: |
             pool_not_added
