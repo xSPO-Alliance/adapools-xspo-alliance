@@ -68,7 +68,7 @@ jobs:
         with:
           issue-number: 27
           close-reason: not_planned
-          comment: "oi ${VAR_VAR}"
+          comment: "oi ${HOME} $(echo ${VAR_VAR})"
           labels: |
             pool_not_added
       
