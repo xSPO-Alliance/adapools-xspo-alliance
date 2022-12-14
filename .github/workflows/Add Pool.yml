@@ -18,7 +18,7 @@ jobs:
         id: parse
         uses: peter-murray/issue-forms-body-parser@v2.0.0
         with:
-          issue_id: ${{ github.event.issue.number }}
+          issue_id: 27
           separator: '###'
           label_marker_start: '>>'
           label_marker_end: '<<'
