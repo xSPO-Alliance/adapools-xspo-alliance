@@ -75,4 +75,6 @@ jobs:
         continue-on-error: true
         env:
           VAR_VAR: ${{ steps.status.outputs.docker_tag }}
-        run: echo \${VAR_VAR}
+        run: |
+          echo ${VAR_VAR}
+          cat $GITHUB_OUTPUT 
