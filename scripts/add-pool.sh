@@ -47,6 +47,6 @@ else
     pool_json_already=$(jq -r --arg hex ${pool_hex_id} '.adapools.members[] | select(.pool_id == $hex)' ${BASEDIR}/../xspo-alliance-members.json)
     _message+=${pool_json_already}
     echo -e ${_message}
-    echo "error_message=${_message}" >> $GITHUB_OUTPUT
+    echo "error_message=$(echo -e ${_message})" >> $GITHUB_OUTPUT
     exit -1
 fi
