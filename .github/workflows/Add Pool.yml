@@ -63,7 +63,7 @@ jobs:
         uses: peter-evans/close-issue@v2
         if: steps.status.outcome != 'success'
         env:
-          VAR_VAR: echo ${{ steps.status.outputs.docker_tag }}
+          VAR_VAR: ${{ steps.status.outputs.docker_tag }}
         with:
           issue-number: 27
           close-reason: not_planned
@@ -74,5 +74,5 @@ jobs:
       - name: 'test'
         continue-on-error: true
         env:
-          VAR_VAR: echo ${{ steps.status.outputs.docker_tag }}
-        run: echo ${VAR_VAR}
+          VAR_VAR: ${{ steps.status.outputs.docker_tag }}
+        run: echo \${VAR_VAR}
