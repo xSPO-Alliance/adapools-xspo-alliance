@@ -45,11 +45,16 @@ jobs:
         env:
           pool_bech32_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['pool_bech32_id'] }}
         run: ./scripts/add-pool.sh          
-      
+  
+  close-issue:
+    name: Close Issue
+    runs-on: ubuntu-latest
+    needs: execute-pipe
+    steps:    
       - id: close
         name: 'Close issue'
         uses: peter-evans/close-issue@v2
-        if: steps.status.outcome == 'success'
+        if: needs.execute-pipe.status.outcome == 'success'
         with:
           issue-number: 27
           comment: Pool added. Verify - https://github.com/xSPO-Alliance/adapools-xspo-alliance/blob/main/xspo-alliance-members.json
@@ -59,7 +64,7 @@ jobs:
       - id: close_error
         name: 'Close issue as not implemented'
         uses: peter-evans/close-issue@v2
-        if: steps.status.outcome != 'success'
+        if: needs.execute-pipe.status.outcome != 'success'
         with:
           issue-number: 27
           close-reason: not_planned
