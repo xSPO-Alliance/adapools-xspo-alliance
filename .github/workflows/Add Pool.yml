@@ -75,7 +75,7 @@ jobs:
         uses: peter-evans/close-issue@v2
         if: ${{contains(steps.status.outputs.status_output,'already')}}
         with:
-          issue-number: 27
+          issue-number: 28
           close-reason: not_planned
           comment: Pool is already added!
           labels: |
@@ -84,7 +84,6 @@ jobs:
       - id: close-3
         name: 'Close issue'
         uses: peter-evans/close-issue@v2
-        if: ${{ steps.status.outputs.status_output }} == ''
         with:
           issue-number: 27
           comment: Pool added!
