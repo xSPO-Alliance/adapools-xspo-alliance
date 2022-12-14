@@ -9,7 +9,7 @@ on:
 jobs:
   issue-to-json:
     name: Convert issue body to json
-    if: contains(github.event.issue.body, '>>pool_bech32_id<<')
+    #if: contains(github.event.issue.body, '>>pool_bech32_id<<')
     runs-on: ubuntu-latest
     outputs:
       payload-parsed: ${{ steps.payload.outputs.json_var }}
@@ -28,7 +28,7 @@ jobs:
 
   execute-pipe:
     name: Adding new Pool
-    if: contains(github.event.issue.body, '>>pool_bech32_id<<')
+    #if: contains(github.event.issue.body, '>>pool_bech32_id<<')
     runs-on: ubuntu-latest
     needs: issue-to-json
     steps:
@@ -45,20 +45,13 @@ jobs:
         env:
           pool_bech32_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['pool_bech32_id'] }}
         run: ./scripts/add-pool.sh          
-
-      - name: "commit"
-        uses: EndBug/add-and-commit@v9
-        if: steps.status.outcome == 'success'
-        with:
-          message: add new pool
-          committer_name: GitHub Actions
-          committer_email: actions@github.com
       
       - id: close
         name: 'Close issue'
         uses: peter-evans/close-issue@v2
         if: steps.status.outcome == 'success'
         with:
+          issue-number: 27
           comment: Pool added. Verify - https://github.com/xSPO-Alliance/adapools-xspo-alliance/blob/main/xspo-alliance-members.json
           labels: |
             pool_added
@@ -68,6 +61,7 @@ jobs:
         uses: peter-evans/close-issue@v2
         if: steps.status.outcome != 'success'
         with:
+          issue-number: 27
           close-reason: not_planned
           comment: Probably pool not found nor registered. Maybe API was unavailable, please try again later. Also verify minimal requirements at - https://github.com/xSPO-Alliance/adapools-xspo-alliance#requirements
           labels: |
