@@ -62,15 +62,20 @@ jobs:
           comment: Poll added. Verify - https://github.com/xSPO-Alliance/adapools-xspo-alliance/blob/main/xspo-alliance-members.json
           labels: |
             pool_added
-            
+  
+  comment-issue:
+    name: Comment issue When Error
+    runs-on: ubuntu-latest
+    needs: execute-pipe
+    steps:
       - id: close_error
         name: 'Close issue as not implemented'
         uses: peter-evans/close-issue@v2
-        if: steps.status.outcome != 'success'
+        if: needs.execute-pipe.outcome != 'success'
         env:
-          ERR: ${{ steps.status.outputs.output }}
+          ERR: ${{ needs.execute-pipe.outputs.output }}
         with:
           close-reason: not_planned
-          comment: ${{ steps.status.outputs.output }}
+          comment: ${{ steps.execute-pipe.outputs.output }}
           labels: |
             pool_not_added
