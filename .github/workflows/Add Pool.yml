@@ -45,9 +45,7 @@ jobs:
         env:
           pool_bech32_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['pool_bech32_id'] }}
         run: |
-          ./scripts/add-pool.sh
           echo "docker_tag="out_of_service" >> $GITHUB_OUTPUT
-          cat $GITHUB_OUTPUT 
 
       - id: close
         name: 'Close issue'
