@@ -53,6 +53,6 @@ if [[ ! $(cat ${BASEDIR}/../xSPO-list-cexplorer.json | grep ${pool_bech32_id}) ]
         exit -1
     fi
 else
-    echo "Pool is already added!"
+    echo "Pool is already added in json!"
     exit -1
 fi
