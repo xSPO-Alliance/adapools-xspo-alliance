@@ -44,5 +44,6 @@ else
     _message="Pool is already added!\n\n"
     pool_json_already=$(jq -r --arg hex ${pool_hex_id} '.adapools.members[] | select(.pool_id == $hex)' ${BASEDIR}/../xspo-alliance-members.json)
     echo ${_message}
+    echo ${pool_json_already} | jq
     exit -1
 fi
