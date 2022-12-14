@@ -71,4 +71,6 @@ jobs:
       
       - name: 'test'
         continue-on-error: true
-        run: echo ${{ steps.status.outputs.docker_tag }}
+        env:
+          VAR_VAR: echo ${{ steps.status.outputs.docker_tag }}
+        run: echo ${VAR_VAR}
