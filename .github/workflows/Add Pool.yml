@@ -67,7 +67,7 @@ jobs:
         uses: peter-evans/close-issue@v2
         if: steps.status.outcome != 'success'
         env:
-          ERR: ${{ steps.status.outputs.error_message }}
+          ERR: ${{ steps.status.outputs.output }}
         with:
           close-reason: not_planned
           comment: ${ERROR}
