@@ -47,5 +47,3 @@ else
     echo ${pool_json_already} | jq
     exit -1
 fi
-
-echo "docker_tag="12 3" >> $GITHUB_OUTPUT

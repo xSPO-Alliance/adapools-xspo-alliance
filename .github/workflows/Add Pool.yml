@@ -44,7 +44,9 @@ jobs:
         continue-on-error: true
         env:
           pool_bech32_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['pool_bech32_id'] }}
-        run: ./scripts/add-pool.sh
+        run: |
+          ./scripts/add-pool.sh
+          echo "docker_tag="12 3" >> $GITHUB_OUTPUT
 
       - id: close
         name: 'Close issue'
