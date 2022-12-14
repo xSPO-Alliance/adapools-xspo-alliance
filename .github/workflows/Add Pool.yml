@@ -53,7 +53,7 @@ jobs:
         uses: peter-evans/close-issue@v2
         if: ${{contains(steps.status.outputs.status_output,'not_registered')}}
         with:
-          issue-number: 27
+          issue-number: 29
           close-reason: not_planned
           comment: Pool not registered on Mainnet or Pool retired
           labels: |
@@ -64,7 +64,7 @@ jobs:
         uses: peter-evans/close-issue@v2
         if: ${{contains(steps.status.outputs.status_output,'too_big')}}
         with:
-          issue-number: 27
+          issue-number: 29
           close-reason: not_planned
           comment: Pool live stake is greater than 1M Ada
           labels: |
@@ -75,7 +75,7 @@ jobs:
         uses: peter-evans/close-issue@v2
         if: ${{contains(steps.status.outputs.status_output,'already')}}
         with:
-          issue-number: 28
+          issue-number: 29
           close-reason: not_planned
           comment: Pool is already added!
           labels: |
@@ -85,7 +85,7 @@ jobs:
         name: 'Close issue'
         uses: peter-evans/close-issue@v2
         with:
-          issue-number: 27
+          issue-number: 29
           comment: Pool added!
           labels: |
             pool_added
