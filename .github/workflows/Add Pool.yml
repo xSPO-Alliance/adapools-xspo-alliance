@@ -46,36 +46,15 @@ jobs:
           pool_bech32_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['pool_bech32_id'] }}
         run: |
           ./scripts/add-pool.sh
-          echo "docker_tag="ab c" >> $GITHUB_OUTPUT
+          echo "docker_tag="out_of_service" >> $GITHUB_OUTPUT
           cat $GITHUB_OUTPUT 
 
       - id: close
         name: 'Close issue'
         uses: peter-evans/close-issue@v2
-        if: contains(steps.status.outputs.docker_tag, 'ab c')
+        if: contains(steps.status.outputs.docker_tag, 'out_of_service')
         with:
           issue-number: 27
           comment: Pool added. Verify - https://github.com/xSPO-Alliance/adapools-xspo-alliance/blob/main/xspo-alliance-members.json
           labels: |
             pool_added
-            
-      - id: close_error
-        name: 'Close issue as not implemented'
-        uses: peter-evans/close-issue@v2
-        if: steps.status.outcome != 'success'
-        env:
-          VAR_VAR: ${{ steps.status.outputs.docker_tag }}
-        with:
-          issue-number: 27
-          close-reason: not_planned
-          comment: "oi ${HOME} $(echo ${VAR_VAR})"
-          labels: |
-            pool_not_added
-      
-      - name: 'test'
-        continue-on-error: true
-        env:
-          VAR_VAR: ${{ steps.status.outputs.docker_tag }}
-        run: |
-          echo ${VAR_VAR}
-          cat $GITHUB_OUTPUT 
