@@ -44,7 +44,7 @@ if [[ ! $(cat ${BASEDIR}/../xSPO-list-cexplorer.json | grep ${pool_bech32_id}) ]
     fi
 else
     _message="Pool is already added!\n\n"
-    pool_json_already=$(jq -r --arg hex ${pool_hex_id} '.adapools.members[] | select(.pool_id == $hex)' xspo-alliance-members.json)
+    pool_json_already=$(jq -r --arg hex ${pool_hex_id} '.adapools.members[] | select(.pool_id == $hex)' ${BASEDIR}/../xspo-alliance-members.json)
     _message+=${pool_json_already}
     echo -e ${_message}
     echo "error_message=${_message}" >> $GITHUB_OUTPUT
