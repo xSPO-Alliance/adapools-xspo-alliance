@@ -50,7 +50,7 @@ jobs:
 
       - name: 'Get error'
         id: get-error
-        run: echo error_message='${{ steps.status.outputs.payload }}' >> $GITHUB_OUTPUT
+        run: echo error_message='${{ steps.status.outputs._message }}' >> $GITHUB_OUTPUT
   
   close-issue:
     name: Close Issue
