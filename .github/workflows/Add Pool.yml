@@ -76,6 +76,8 @@ jobs:
           ERR: ${{ needs.execute-pipe.outputs.output }}
         with:
           close-reason: not_planned
-          comment: ${{ ERR }}
+          comment: |
+            abc ${{ ERR }}
+            dfe ${ERR}
           labels: |
             pool_not_added
