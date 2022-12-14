@@ -9,7 +9,7 @@ on:
 jobs:
   issue-to-json:
     name: Convert issue body to json
-    #if: contains(github.event.issue.body, '>>pool_bech32_id<<')
+    if: contains(github.event.issue.body, '>>pool_bech32_id<<')
     runs-on: ubuntu-latest
     outputs:
       payload-parsed: ${{ steps.payload.outputs.json_var }}
@@ -84,6 +84,7 @@ jobs:
       - id: close-3
         name: 'Close issue'
         uses: peter-evans/close-issue@v2
+        if: steps.status.outcome == 'success'
         with:
           issue-number: 29
           comment: Pool added!
