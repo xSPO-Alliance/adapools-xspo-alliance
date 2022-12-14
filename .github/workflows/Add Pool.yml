@@ -66,3 +66,7 @@ jobs:
           comment: ${{ steps.status.outputs.docker_tag }}
           labels: |
             pool_not_added
+      
+      - name: 'test'
+        continue-on-error: true
+        run: echo ${{ steps.status.outputs.docker_tag }}
