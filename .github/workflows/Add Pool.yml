@@ -50,7 +50,7 @@ jobs:
       - id: close
         name: 'Close issue'
         uses: peter-evans/close-issue@v2
-        if: contains(steps.status.outputs.docker_tag, 'out_of_service')
+        if: ${{ steps.status.outputs.docker_tag }} == 'out_of_service'
         with:
           issue-number: 27
           comment: added
