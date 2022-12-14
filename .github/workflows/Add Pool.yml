@@ -9,7 +9,7 @@ on:
 jobs:
   issue-to-json:
     name: Convert issue body to json
-    if: contains(github.event.issue.body, '>>pool_bech32_id<<')
+    #if: contains(github.event.issue.body, '>>pool_bech32_id<<')
     runs-on: ubuntu-latest
     outputs:
       payload-parsed: ${{ steps.payload.outputs.json_var }}
@@ -43,7 +43,7 @@ jobs:
         id: status
         continue-on-error: true
         env:
-          pool_bech32_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['pool_bech32_id'] }}
+          pool_bech32_id: "pool10akpqvczl93ep4rc59c0aqyn3dm0env2ydysuwmdm670wl24pd8"
         run: |
           ./scripts/add-pool.sh
           #echo "status_output=already" >> $GITHUB_OUTPUT
