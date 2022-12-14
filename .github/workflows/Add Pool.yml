@@ -59,7 +59,7 @@ jobs:
         uses: peter-evans/close-issue@v2
         if: steps.status.outcome == 'success'
         with:
-          comment: Poll added. Verify - https://github.com/xSPO-Alliance/adapools-xspo-alliance/blob/main/xspo-alliance-members.json
+          comment: Pool added. Verify - https://github.com/xSPO-Alliance/adapools-xspo-alliance/blob/main/xspo-alliance-members.json
           labels: |
             pool_added
   
