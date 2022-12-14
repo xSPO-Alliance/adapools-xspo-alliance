@@ -29,13 +29,15 @@ jobs:
     if: contains(github.event.issue.body, '>>pool_bech32_id<<')
     runs-on: ubuntu-latest
     needs: issue-to-json
+    outputs:
+      output: ${{ steps.status.outputs.error_message }}
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
         #### Important, in case main branch is protected (for direct commits) it has to checkout in a valid branch
         ### In this case, change below
         #with:
-        #  ref: '<branch_name>'
+        #  ref: '<your_branch>'
      
       - name: 'Pool add'
         id: status
@@ -60,13 +62,21 @@ jobs:
           comment: Pool added. Verify - https://github.com/xSPO-Alliance/adapools-xspo-alliance/blob/main/xspo-alliance-members.json
           labels: |
             pool_added
-            
+  
+  comment-issue:
+    name: Comment issue When Error
+    runs-on: ubuntu-latest
+    needs: execute-pipe
+    steps:
       - id: close_error
         name: 'Close issue as not implemented'
         uses: peter-evans/close-issue@v2
-        if: steps.status.outcome != 'success'
+        if: needs.execute-pipe.outcome != 'success'
+        env:
+          ERR: ${{ needs.execute-pipe.outputs.output }}
         with:
           close-reason: not_planned
-          comment: Probably pool not found nor registered. Maybe API was unavailable, please try again later. Also verify minimal requirements at - https://github.com/xSPO-Alliance/adapools-xspo-alliance#requirements
+          comment: |
+            abc ${ERR}
           labels: |
             pool_not_added
