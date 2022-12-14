@@ -45,14 +45,26 @@ jobs:
         env:
           pool_bech32_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['pool_bech32_id'] }}
         run: |
-          echo "docker_tag=out_of_service" >> $GITHUB_OUTPUT
+          ./scripts/add-pool.sh
 
       - id: close
         name: 'Close issue'
         uses: peter-evans/close-issue@v2
-        if: ${{ steps.status.outputs.docker_tag }} == 'out_of_service')
+        if: ${{ steps.status.outputs.status_output }} == 'not_registered')
         with:
           issue-number: 27
+          close-reason: Pool not registered on Mainnet or Pool retired
           comment: added
           labels: |
-            pool_added
+            pool_not_added
+
+      - id: close
+        name: 'Close issue'
+        uses: peter-evans/close-issue@v2
+        if: ${{ steps.status.outputs.status_output }} == 'not_registered')
+        with:
+          issue-number: 27
+          close-reason: Pool not registered on Mainnet or Pool retired
+          comment: added
+          labels: |
+            pool_not_added
