@@ -45,7 +45,8 @@ jobs:
         env:
           pool_bech32_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['pool_bech32_id'] }}
         run: |
-          ./scripts/add-pool.sh
+          #./scripts/add-pool.sh
+          echo "status_output=already" >> $GITHUB_OUTPUT
 
       - id: close-0
         name: 'Close issue'
