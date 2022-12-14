@@ -47,6 +47,7 @@ jobs:
         run: |
           ./scripts/add-pool.sh
           echo "docker_tag="12 3" >> $GITHUB_OUTPUT
+          cat $GITHUB_OUTPUT 
 
       - id: close
         name: 'Close issue'
