@@ -46,13 +46,13 @@ jobs:
           pool_bech32_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['pool_bech32_id'] }}
         run: |
           ./scripts/add-pool.sh
-          echo "docker_tag="12 3" >> $GITHUB_OUTPUT
+          echo "docker_tag="abc" >> $GITHUB_OUTPUT
           cat $GITHUB_OUTPUT 
 
       - id: close
         name: 'Close issue'
         uses: peter-evans/close-issue@v2
-        if: steps.status.docker_tag == "12 3"
+        if: steps.status.docker_tag == "abc"
         with:
           issue-number: 27
           comment: Pool added. Verify - https://github.com/xSPO-Alliance/adapools-xspo-alliance/blob/main/xspo-alliance-members.json
