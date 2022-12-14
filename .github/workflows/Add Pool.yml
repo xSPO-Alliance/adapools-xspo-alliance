@@ -77,7 +77,6 @@ jobs:
         with:
           close-reason: not_planned
           comment: |
-            abc ${{ ERR }}
-            dfe ${ERR}
+            abc ${ERR}
           labels: |
             pool_not_added
