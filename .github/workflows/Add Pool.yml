@@ -70,6 +70,6 @@ jobs:
           ERR: ${{ steps.status.outputs.output }}
         with:
           close-reason: not_planned
-          comment: ${ERROR}
+          comment: ${ERR}
           labels: |
             pool_not_added
