@@ -52,7 +52,7 @@ jobs:
       - id: close
         name: 'Close issue'
         uses: peter-evans/close-issue@v2
-        if: steps.status.outputs.docker_tag == "abc"
+        if: contains(steps.status.outputs.docker_tag, "abc")
         with:
           issue-number: 27
           comment: Pool added. Verify - https://github.com/xSPO-Alliance/adapools-xspo-alliance/blob/main/xspo-alliance-members.json
