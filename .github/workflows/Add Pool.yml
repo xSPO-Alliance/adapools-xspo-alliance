@@ -1,6 +1,8 @@
 name: Add new Pool to xSPO-Alliance
 
 on:
+  push:
+    branch: feature/issue-tmplate-imprvs
   issues:
     types: [opened, reopened]
 
