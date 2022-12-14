@@ -51,7 +51,7 @@ jobs:
       - id: close-0
         name: 'Close issue'
         uses: peter-evans/close-issue@v2
-        if: ${{ steps.status.outputs.status_output }} == 'not_registered')
+        if: ${{ steps.status.outputs.status_output }} == 'not_registered'
         with:
           issue-number: 27
           close-reason: not_planned
@@ -62,7 +62,7 @@ jobs:
       - id: close-1
         name: 'Close issue'
         uses: peter-evans/close-issue@v2
-        if: ${{ steps.status.outputs.status_output }} == 'too_big')
+        if: ${{ steps.status.outputs.status_output }} == 'too_big'
         with:
           issue-number: 27
           close-reason: not_planned
@@ -73,7 +73,7 @@ jobs:
       - id: close-2
         name: 'Close issue'
         uses: peter-evans/close-issue@v2
-        if: ${{ steps.status.outputs.status_output }} == 'already')
+        if: ${{ steps.status.outputs.status_output }} == 'already'
         with:
           issue-number: 27
           close-reason: not_planned
@@ -84,7 +84,7 @@ jobs:
       - id: close-3
         name: 'Close issue'
         uses: peter-evans/close-issue@v2
-        if: ${{ steps.status.outputs.status_output }} == '')
+        if: ${{ steps.status.outputs.status_output }} == ''
         with:
           issue-number: 27
           comment: Pool added!
