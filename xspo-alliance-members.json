@@ -1022,6 +1022,11 @@
         "pool_id": "dacf06a23e4aaf119024e63deb79861ca175b24e7d44d97fb92b1a22",
         "member_since": "2022-12-12",
         "name": "ABLE (Able Stake Pool)"
+      },
+         "250": {
+        "pool_id": "febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d",
+        "member_since": "2022-15-12",
+        "name": "OYSTR (OYSTR Pool - Supporting Seabed Regeneration)"
       }
     }
   }
