@@ -102,7 +102,7 @@ jobs:
       - execute-pipe
       - issue-to-json
     env:
-        ODROID_DISCORD_BTOKEN: ${{secrets.ODROID_DISCORD_BTOKEN}}
+        DISCORD_BTOKEN: ${{secrets.DISCORD_BTOKEN}}
         DISCORD_CHANNEL_ID: ${{secrets.DISCORD_CHANNEL_ID}}
         pool_bech32_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['pool_bech32_id'] }}
     steps:
@@ -111,7 +111,7 @@ jobs:
         run: |
           url="https://cexplorer.io/pool/${pool_bech32_id}"
           curl -X POST https://discord.com/api/channels/${DISCORD_CHANNEL_ID}/messages \
-          -H "Authorization: Bot ${ODROID_DISCORD_BTOKEN}" \
+          -H "Authorization: Bot ${DISCORD_BTOKEN}" \
           -H "Content-Type:application/json" --data \
           '{"content": "###############################\n\nPool Added Successfully to xSPA\nCheck it out: '${url}'\n\n###############################"}'
       
