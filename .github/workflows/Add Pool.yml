@@ -107,6 +107,7 @@ jobs:
         pool_bech32_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['pool_bech32_id'] }}
     steps:
       - name: Send notification to Discord Channel
+        if: needs.execute-pipe.steps.status.outcome == 'success'
         run: |
           url="https://cexplorer.io/pool/${pool_bech32_id}"
           curl -X POST https://discord.com/api/channels/${DISCORD_CHANNEL_ID}/messages \
