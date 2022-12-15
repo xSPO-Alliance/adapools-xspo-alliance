@@ -48,7 +48,7 @@ jobs:
           ./scripts/add-pool.sh
           #echo "status_output=already" >> $GITHUB_OUTPUT
 
-        name: 'Pool not registered on Mainnet or Pool retired'
+      - name: 'Pool not registered on Mainnet or Pool retired'
         uses: peter-evans/close-issue@v2
         if: ${{contains(steps.status.outputs.status_output,'not_registered')}}
         with:
@@ -58,7 +58,7 @@ jobs:
           labels: |
             pool_not_added
 
-        name: 'Pool live stake is greater than 1M Ada'
+      - name: 'Pool live stake is greater than 1M Ada'
         uses: peter-evans/close-issue@v2
         if: ${{contains(steps.status.outputs.status_output,'too_big')}}
         with:
@@ -68,7 +68,7 @@ jobs:
           labels: |
             pool_not_added
 
-        name: 'Pool is already in xSPO-Alliance'
+      - name: 'Pool is already in xSPO-Alliance'
         uses: peter-evans/close-issue@v2
         if: ${{contains(steps.status.outputs.status_output,'already')}}
         with:
@@ -78,7 +78,7 @@ jobs:
           labels: |
             pool_not_added
 
-        name: 'Close issue: Pool added!'
+      - name: 'Close issue: Pool added!'
         uses: peter-evans/close-issue@v2
         if: steps.status.outcome == 'success'
         with:
