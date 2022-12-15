@@ -9,7 +9,7 @@ on:
 jobs:
   issue-to-json:
     name: Convert issue body to json
-    #if: contains(github.event.issue.body, '>>pool_bech32_id<<')
+    if: contains(github.event.issue.body, '>>pool_bech32_id<<')
     runs-on: ubuntu-latest
     outputs:
       payload-parsed: ${{ steps.payload.outputs.json_var }}
@@ -18,7 +18,7 @@ jobs:
         id: parse
         uses: peter-murray/issue-forms-body-parser@v2.0.0
         with:
-          issue_id: 27
+          issue_id: ${{ github.event.issue.number }}
           separator: '###'
           label_marker_start: '>>'
           label_marker_end: '<<'
@@ -28,7 +28,7 @@ jobs:
 
   execute-pipe:
     name: Adding new Pool
-    #if: contains(github.event.issue.body, '>>pool_bech32_id<<')
+    if: contains(github.event.issue.body, '>>pool_bech32_id<<')
     runs-on: ubuntu-latest
     needs: issue-to-json
     steps:
@@ -46,13 +46,19 @@ jobs:
           pool_bech32_id: "pool10akpqvczl93ep4rc59c0aqyn3dm0env2ydysuwmdm670wl24pd8"
         run: |
           ./scripts/add-pool.sh
-          #echo "status_output=already" >> $GITHUB_OUTPUT
+
+      - name: "Commit changes"
+        uses: EndBug/add-and-commit@v9
+        if: steps.status.outcome == 'success'
+        with:
+          message: add new pool
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
 
       - name: 'Pool not registered on Mainnet or Pool retired'
         uses: peter-evans/close-issue@v2
         if: ${{contains(steps.status.outputs.status_output,'not_registered')}}
         with:
-          issue-number: 29
           close-reason: not_planned
           comment: Pool not registered on Mainnet or Pool retired
           labels: |
@@ -62,7 +68,6 @@ jobs:
         uses: peter-evans/close-issue@v2
         if: ${{contains(steps.status.outputs.status_output,'too_big')}}
         with:
-          issue-number: 29
           close-reason: not_planned
           comment: Pool live stake is greater than 1M Ada
           labels: |
@@ -72,7 +77,6 @@ jobs:
         uses: peter-evans/close-issue@v2
         if: ${{contains(steps.status.outputs.status_output,'already')}}
         with:
-          issue-number: 29
           close-reason: not_planned
           comment: Pool is already added!
           labels: |
@@ -82,7 +86,6 @@ jobs:
         uses: peter-evans/close-issue@v2
         if: steps.status.outcome == 'success'
         with:
-          issue-number: 29
           comment: Pool added!
           labels: |
             pool_added
