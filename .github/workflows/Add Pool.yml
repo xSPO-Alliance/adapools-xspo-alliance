@@ -35,7 +35,7 @@ jobs:
         #### Important, in case main branch is protected (for direct commits) it has to checkout in a valid branch
         ### In this case, change below
         #with:
-        #  ref: 'feature/issue-tmplate-imprvs'
+        #  ref: '<branch_name>'
      
       - name: 'Pool add'
         id: status
