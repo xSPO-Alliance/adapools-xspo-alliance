@@ -1,8 +1,6 @@
 name: Add new Pool to xSPO-Alliance
 
 on:
-  push:
-    branch: feature/issue-tmplate-imprvs
   issues:
     types: [opened, reopened]
 
@@ -36,16 +34,15 @@ jobs:
         uses: actions/checkout@v3
         #### Important, in case main branch is protected (for direct commits) it has to checkout in a valid branch
         ### In this case, change below
-        with:
-          ref: 'feature/issue-tmplate-imprvs'
+        #with:
+        #  ref: 'feature/issue-tmplate-imprvs'
      
       - name: 'Pool add'
         id: status
         continue-on-error: true
         env:
-          pool_bech32_id: "pool10akpqvczl93ep4rc59c0aqyn3dm0env2ydysuwmdm670wl24pd8"
-        run: |
-          ./scripts/add-pool.sh
+          pool_bech32_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['pool_bech32_id'] }}
+        run: ./scripts/add-pool.sh
 
       - name: "Commit changes"
         uses: EndBug/add-and-commit@v9
