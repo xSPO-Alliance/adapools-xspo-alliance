@@ -1,0 +1,117 @@
+name: Add new Pool to xSPO-Alliance
+
+on:
+  issues:
+    types: [opened, reopened]
+
+jobs:
+  issue-to-json:
+    name: Convert issue body to json
+    if: contains(github.event.issue.body, '>>pool_bech32_id<<')
+    runs-on: ubuntu-latest
+    outputs:
+      payload-parsed: ${{ steps.payload.outputs.json_var }}
+    steps:
+      - name: Run parser
+        id: parse
+        uses: peter-murray/issue-forms-body-parser@v2.0.0
+        with:
+          issue_id: ${{ github.event.issue.number }}
+          separator: '###'
+          label_marker_start: '>>'
+          label_marker_end: '<<'
+      - name: Set Output
+        id: payload
+        run: echo json_var='${{ steps.parse.outputs.payload }}' >> $GITHUB_OUTPUT
+
+  execute-pipe:
+    name: Adding new Pool
+    if: contains(github.event.issue.body, '>>pool_bech32_id<<')
+    runs-on: ubuntu-latest
+    needs: issue-to-json
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        #### Important, in case main branch is protected (for direct commits) it has to checkout in a valid branch
+        ### In this case, change below
+        #with:
+        #  ref: '<branch_name>'
+     
+      - name: 'Pool add'
+        id: status
+        continue-on-error: true
+        env:
+          pool_bech32_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['pool_bech32_id'] }}
+        run: ./scripts/add-pool.sh
+
+      - name: "Commit changes"
+        uses: EndBug/add-and-commit@v9
+        if: steps.status.outcome == 'success'
+        with:
+          message: add new pool
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
+
+      - name: 'Pool not registered on Mainnet or Pool retired'
+        uses: peter-evans/close-issue@v2
+        if: ${{contains(steps.status.outputs.status_output,'not_registered')}}
+        with:
+          close-reason: not_planned
+          comment: |
+            Closing issue as not planned
+            Reason: Pool not registered on Mainnet or Pool retired
+          labels: |
+            pool_not_added
+
+      - name: 'Pool live stake is greater than 1M Ada'
+        uses: peter-evans/close-issue@v2
+        if: ${{contains(steps.status.outputs.status_output,'too_big')}}
+        with:
+          close-reason: not_planned
+          comment: |
+            Closing issue as not planned
+            Reason: Pool live stake is greater than 1M Ada
+          labels: |
+            pool_not_added
+
+      - name: 'Pool is already in xSPO-Alliance'
+        uses: peter-evans/close-issue@v2
+        if: ${{contains(steps.status.outputs.status_output,'already')}}
+        with:
+          close-reason: not_planned
+          comment: |
+            Closing issue as not planned
+            Reason: Pool is already added!
+          labels: |
+            pool_not_added
+
+      - name: 'Close issue: Pool added!'
+        uses: peter-evans/close-issue@v2
+        if: steps.status.outcome == 'success'
+        with:
+          comment: |
+            Closing issue with success status
+            Reason: Pool added!
+          labels: |
+            pool_added
+  
+  send-notification:
+    runs-on: ubuntu-latest
+    name: Send notification to Discord Channel
+    needs:
+      - execute-pipe
+      - issue-to-json
+    env:
+        DISCORD_BTOKEN: ${{secrets.DISCORD_BTOKEN}}
+        DISCORD_CHANNEL_ID: ${{secrets.DISCORD_CHANNEL_ID}}
+        pool_bech32_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['pool_bech32_id'] }}
+    steps:
+      - name: Send notification to Discord Channel
+        if: needs.execute-pipe.steps.status.outcome == 'success'
+        run: |
+          url="https://cexplorer.io/pool/${pool_bech32_id}"
+          curl -X POST https://discord.com/api/channels/${DISCORD_CHANNEL_ID}/messages \
+          -H "Authorization: Bot ${DISCORD_BTOKEN}" \
+          -H "Content-Type:application/json" --data \
+          '{"content": "###############################\n\nPool Added Successfully to xSPA\nCheck it out: '${url}'\n\n###############################"}'
+      
