@@ -13,6 +13,7 @@ if [[ ! $(cat ${BASEDIR}/../xSPO-list-cexplorer.json | grep ${pool_bech32_id}) ]
         echo ${_message}
     else
         _message="Pool is not registered on Cardano mainnet"
+        echo "status_output=not_registered" >> $GITHUB_OUTPUT
         echo ${_message}
         exit -1
     fi
@@ -38,6 +39,7 @@ if [[ ! $(cat ${BASEDIR}/../xSPO-list-cexplorer.json | grep ${pool_bech32_id}) ]
     else
         _message="Pool does not meet xSPO-Alliance minimal requirement!"
         echo ${_message}
+        echo "status_output=too_big" >> $GITHUB_OUTPUT
         exit -1
     fi
 else
@@ -45,5 +47,6 @@ else
     pool_json_already=$(jq -r --arg hex ${pool_hex_id} '.adapools.members[] | select(.pool_id == $hex)' ${BASEDIR}/../xspo-alliance-members.json)
     echo ${_message}
     echo ${pool_json_already} | jq
+    echo "status_output=already" >> $GITHUB_OUTPUT
     exit -1
 fi

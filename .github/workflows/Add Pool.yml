@@ -42,31 +42,48 @@ jobs:
         continue-on-error: true
         env:
           pool_bech32_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['pool_bech32_id'] }}
-        run: ./scripts/add-pool.sh          
+        run: ./scripts/add-pool.sh
 
-      - name: "commit"
+      - name: "Commit changes"
         uses: EndBug/add-and-commit@v9
         if: steps.status.outcome == 'success'
         with:
           message: add new pool
           committer_name: GitHub Actions
           committer_email: actions@github.com
-      
-      - id: close
-        name: 'Close issue'
+
+      - name: 'Pool not registered on Mainnet or Pool retired'
+        uses: peter-evans/close-issue@v2
+        if: ${{contains(steps.status.outputs.status_output,'not_registered')}}
+        with:
+          close-reason: not_planned
+          comment: Pool not registered on Mainnet or Pool retired
+          labels: |
+            pool_not_added
+
+      - name: 'Pool live stake is greater than 1M Ada'
+        uses: peter-evans/close-issue@v2
+        if: ${{contains(steps.status.outputs.status_output,'too_big')}}
+        with:
+          close-reason: not_planned
+          comment: Pool live stake is greater than 1M Ada
+          labels: |
+            pool_not_added
+
+      - name: 'Pool is already in xSPO-Alliance'
+        uses: peter-evans/close-issue@v2
+        if: ${{contains(steps.status.outputs.status_output,'already')}}
+        with:
+          close-reason: not_planned
+          comment: Pool is already added!
+          labels: |
+            pool_not_added
+
+      - name: 'Close issue: Pool added!'
         uses: peter-evans/close-issue@v2
         if: steps.status.outcome == 'success'
         with:
-          comment: Pool added. Verify - https://github.com/xSPO-Alliance/adapools-xspo-alliance/blob/main/xspo-alliance-members.json
+          comment: Pool added!
           labels: |
             pool_added
-            
-      - id: close_error
-        name: 'Close issue as not implemented'
-        uses: peter-evans/close-issue@v2
-        if: steps.status.outcome != 'success'
-        with:
-          close-reason: not_planned
-          comment: Probably pool not found nor registered. Maybe API was unavailable, please try again later. Also verify minimal requirements at - https://github.com/xSPO-Alliance/adapools-xspo-alliance#requirements
-          labels: |
-            pool_not_added
+      
