@@ -68,7 +68,7 @@ jobs:
           DISCORD_BTOKEN: ${{secrets.ODROID_DISCORD_BTOKEN}}
         run: |
           pip install discord
-          python ./scripts/discord-bot.py ${discord_user_id} ${DISCORD_BTOKEN}
+          python ./scripts/discord-bot.py ${discord_user_id} ${DISCORD_BTOKEN} ${{ steps.code.outputs.code_var }}
 
       - name: "Commit changes"
         uses: EndBug/add-and-commit@v9

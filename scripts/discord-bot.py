@@ -7,9 +7,7 @@ import sys
 
 _user = sys.argv[1]
 _token = sys.argv[2]
-
-ver_code = ''.join((random.choice('xSPOAdisc') for i in range(9)))
-print(ver_code)
+_code = sys.argv[3]
 
 bot = commands.Bot(
     intents=discord.Intents.all() ,
@@ -24,7 +22,7 @@ async def code(ctx):
     if ver_author == _user:
         try:
             ver_code_from_author=str(ctx.message.content).split(" ")[1]
-            if ver_code == ver_code_from_author:
+            if _code == ver_code_from_author:
                 await ctx.send(ver_author)
                 await ctx.send("Code verified successfully")
                 print("the correct code received")
