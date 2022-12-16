@@ -49,6 +49,7 @@ jobs:
         run: echo code_var=$(python -c "import random; print(''.join((random.choice('xSPOAdisc') for i in range(9))))") >> $GITHUB_OUTPUT
       
       - name: 'Comment code'
+        #if: steps.status.outcome == 'success'
         uses: peter-evans/close-issue@v2
         with:
           close-reason: not_planned
@@ -116,7 +117,7 @@ jobs:
       - execute-pipe
       - issue-to-json
     env:
-        DISCORD_BTOKEN: ${{secrets.DISCORD_BTOKEN}}
+        DISCORD_BTOKEN: ${{secrets.ODROID_DISCORD_BTOKEN}}
         DISCORD_CHANNEL_ID: ${{secrets.DISCORD_CHANNEL_ID}}
         pool_bech32_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['pool_bech32_id'] }}
     steps:
