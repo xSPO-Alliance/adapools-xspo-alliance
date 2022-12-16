@@ -13,7 +13,7 @@ print(ver_code)
 
 bot = commands.Bot(
     intents=discord.Intents.all() ,
-    command_prefix='>' ,
+    command_prefix='/' ,
     description='Registration verification code'
     )
 

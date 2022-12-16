@@ -54,8 +54,9 @@ jobs:
         with:
           close-reason: not_planned
           comment: |
+            **This is your verification code**
             Copy and paste the following line in #member-registration channel:
-            \>code ${{ steps.code.outputs.code_var }}
+            > /code ${{ steps.code.outputs.code_var }}
           labels: |
             code_send_to_user
 
