@@ -5,6 +5,7 @@ from discord.ext import commands, tasks
 import random
 import sys
 
+#### TODO - get env var ODROID_DISCORD_BTOKEN
 _user = sys.argv[1]
 
 ver_code = ''.join((random.choice('xSPOAdisc') for i in range(9)))
@@ -35,4 +36,4 @@ async def code(ctx):
         except Exception:
             exit(-1)
 
-bot.run('NjAwMzY1OTcxNjcyMTM3NzQ4.GkdDm5.eUh_kj4lrTqUkOXJ40marS4-I2UgRIo8OZuH8c')
+bot.run(ODROID_DISCORD_BTOKEN)

@@ -44,6 +44,20 @@ jobs:
           pool_bech32_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['pool_bech32_id'] }}
         run: ./scripts/add-pool.sh
 
+      - name: 'Generate verification code'
+        id: code
+        run: echo code_var=$(python -c "import random; print(''.join((random.choice('xSPOAdisc') for i in range(9))))") >> $GITHUB_OUTPUT
+      
+      - name: 'Comment code'
+        uses: peter-evans/close-issue@v2
+        with:
+          close-reason: not_planned
+          comment: |
+            Copy and paste the following line in #member-registration channel:
+            >code ${{ steps.code.outputs.code_var }}
+          labels: |
+            code_send_to_user
+
       - name: "Commit changes"
         uses: EndBug/add-and-commit@v9
         if: steps.status.outcome == 'success'
@@ -81,7 +95,6 @@ jobs:
           close-reason: not_planned
           comment: |
             Closing issue as not planned
-            ${{ steps.status.outputs.status_output }}
             Reason: Pool is already added!
           labels: |
             pool_not_added
@@ -115,8 +128,3 @@ jobs:
           -H "Authorization: Bot ${DISCORD_BTOKEN}" \
           -H "Content-Type:application/json" --data \
           '{"content": "###############################\n\nPool Added Successfully to xSPA\nCheck it out: '${url}'\n\n###############################"}'
-      
-
-
-
-#var=$(python -c "import random; print(''.join((random.choice('xSPOAdisc') for i in range(9))))")
