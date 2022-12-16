@@ -27,6 +27,7 @@ async def code(ctx):
             if ver_code == ver_code_from_author:
                 await ctx.send(ver_author)
                 await ctx.send("Code verified successfully")
+                print("the correct code received")
                 exit()
             else:
                 await ctx.send(ver_author)
