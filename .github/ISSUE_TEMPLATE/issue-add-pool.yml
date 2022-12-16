@@ -17,3 +17,11 @@ body:
       placeholder: ex. pool1xzfrmeux886ckdm2ekk3t3xe2ch5666m7zxa6dt0zrfm5mq2ksm
     validations:
       required: true
+  - type: input
+    id: discord_id
+    attributes:
+      label: ">>discord_user_id<<"
+      description: Please share your discord user id!
+      placeholder: ex. user_name#0000
+    validations:
+      required: true

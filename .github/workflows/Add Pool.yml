@@ -60,9 +60,17 @@ jobs:
           labels: |
             code_send_to_user
 
+      - name: 'Wait user to input code'
+        id: wait
+        continue-on-error: true
+        env:
+          discord_user_id: ${{ fromJson(needs.issue-to-json.outputs.payload-parsed)['discord_user_id'] }}
+          DISCORD_BTOKEN: ${{secrets.ODROID_DISCORD_BTOKEN}}
+        run: python ./scripts/discord-bot.py ${discord_user_id} ${DISCORD_BTOKEN}
+
       - name: "Commit changes"
         uses: EndBug/add-and-commit@v9
-        if: steps.status.outcome == 'success'
+        if: steps.wait.outcome == 'success'
         with:
           message: add new pool
           committer_name: GitHub Actions
