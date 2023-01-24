@@ -1,0 +1,223 @@
+[
+  {
+    "pool_id": "5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b",
+    "pool_id_bech32": "pool12ur7gf2psr2grf83u6gturpv2je6vxq9rkg8malygdxqkwnqc5h",
+    "name": "ST4NA (Stake for Nature)",
+    "metadata": {
+      "name": "Stake for Nature",
+      "ticker": "ST4NA",
+      "homepage": "https://stakefornature.com",
+      "description": "Collaborating with Cardano project for making our planet a better place. Delegate in Stake for Nature and you will be helping us to take care of the planet."
+    },
+    "ticker": "ST4NA",
+    "status": "retired"
+  },
+  {
+    "pool_id": "0089edb03016268a135babbbe8fb1f12f5789fc7718e67255bfbe570",
+    "pool_id_bech32": "pool1qzy7mvpszcng5y6m4wa737clzt6h3878wx8xwf2ml0jhqkk7h8l",
+    "name": "ESG (ESGpool)",
+    "metadata": {
+      "name": "ESGpool",
+      "ticker": "ESG",
+      "homepage": "https://esgpool.co.uk",
+      "description": "100% of our margin profits are donated to Environmental and Social causes. Namely supporting local bat care and rehabilitation."
+    },
+    "ticker": "ESG",
+    "status": "retired"
+  },
+  {
+    "pool_id": "f9317946c36f6ea5625732382ba4de05ddf4a3fe5952caa838cee051",
+    "pool_id_bech32": "pool1lychj3krdah22cjhxguzhfx7qhwlfgl7t9fv42pcems9zvknahx",
+    "name": "HELLO (ADAttitude)",
+    "metadata": {
+      "name": "ADAttitude",
+      "ticker": "HELLO",
+      "homepage": "https://adattitude.github.io",
+      "description": "ADAttitude Stake Pool"
+    },
+    "ticker": "HELLO",
+    "status": "retired"
+  },
+  {
+    "pool_id": "b9147445047312aa139a331390bba715eebb58f1b66c96e660e48986",
+    "pool_id_bech32": "pool1hy28g3gywvf25yu6xvfepwa8zhhtkk83kekfdenqujycvqjc96g",
+    "name": "BLU (ADABLUE Stake Pool)",
+    "metadata": {
+      "name": "ADABLUE Stake Pool",
+      "ticker": "BLU",
+      "homepage": "https://www.adablue.io/",
+      "description": "A Cardano Stake Pool \u2013 Not Just Any Stake Pool. A Vision, A Reality, The Future"
+    },
+    "ticker": "BLU",
+    "status": "retired"
+  },
+  {
+    "pool_id": "27b1b4470c84db78ce1ffbfff77bb068abb4e47d43cb6009caaa3523",
+    "pool_id_bech32": "pool1y7cmg3cvsndh3nsll0llw7asdz4mferag09kqzw24g6jx2ce5ws",
+    "name": "CSCS (CloudStruct Cardano Staking)",
+    "metadata": {
+      "name": "CloudStruct Cardano Staking",
+      "ticker": "CSCS",
+      "homepage": "https://cloudstruct.net",
+      "description": "Highly-available, secure cloud-based pool with multiple relays, managed by cloud infrastructure specialists - Contributing to and supporting Cardano ecosystem open source development."
+    },
+    "ticker": "CSCS",
+    "status": "retired"
+  },
+  {
+    "pool_id": "48b18f581c5e77a19870e8399e4d2100c66b2e15243c9557e79f2165",
+    "pool_id_bech32": "pool1fzcc7kqutem6rxrsaqueunfpqrrxkts4ys7f24l8nusk23v9zac",
+    "name": "SOIL (ADA4 SOIL)",
+    "metadata": {
+      "name": "ADA4 SOIL",
+      "ticker": "SOIL",
+      "homepage": "https://ada4.io/soil",
+      "description": "When staking with SOIL you are rewarded with ADA for running & securing Cardano, while rejuvenating the world's top soils & ecosystems! SOIL donates: 25% of profits to the Savory Institute + 5% to Veritree"
+    },
+    "ticker": "SOIL",
+    "status": "retired"
+  },
+  {
+    "pool_id": "6858fc0ed225ad40157e358cff1d08ccc306b6ab00bdc96301fbedef",
+    "pool_id_bech32": "pool1dpv0crkjykk5q9t7xkx078ggenpsdd4tqz7ujccpl0k77pr2yxk",
+    "name": "DODO (The DODO Pool)",
+    "metadata": {
+      "name": "The Dodo Pool",
+      "ticker": "DODO",
+      "homepage": "https://dodopool.io/",
+      "description": "Swiss Stake Pool Operator wants to give delegates the power to decide which humanitarian cause to support. By partnering with non-profit organizations that are focused on children education, fighting injustice, ending poverty and preserving human dignity."
+    },
+    "ticker": "DODO",
+    "status": "retired"
+  },
+  {
+    "pool_id": "86d3b37680b0b5d91717d782774640823d85a0f64b4b2881de1ded86",
+    "pool_id_bech32": "pool1smfmxa5qkz6aj9ch67p8w3jqsg7ctg8kfd9j3qw7rhkcvrmdv3f",
+    "name": "HAPPY (Happy Raspberry \u2764\ufe0f)",
+    "metadata": {
+      "name": "Happy Raspberry \u2764\ufe0f",
+      "ticker": "HAPPY",
+      "homepage": "https://happyraspberrypool.com",
+      "description": "Passionate IT enthusiast, looking forward to all the opportunities for Technologies to improve peoples lives, like Cardano. Raspberry Pi's, 99,9% up-time, on-premise, whole household is powered by renewable energy, Czech Republic, 10% planting trees."
+    },
+    "ticker": "HAPPY",
+    "status": "retired"
+  },
+  {
+    "pool_id": "6782865c91a230fb379a433a0630a68a9adcdca9e518ad73302ef805",
+    "pool_id_bech32": "pool1v7pgvhy35gc0kdu6gvaqvv9x32ddeh9fu5v26ues9muq26pvk8m",
+    "name": "CBITS (CardanoBits Stake Pool)",
+    "metadata": {
+      "name": "CardanoBits Stake Pool",
+      "ticker": "CBITS",
+      "homepage": "https://cardanobits.art",
+      "description": "Stake with us to support the CardanoBits Community and for regular airdrops! Join our discord server: https://discord.gg/prKRY8ZTtn"
+    },
+    "ticker": "CBITS",
+    "status": "retired"
+  },
+  {
+    "pool_id": "3c28d08beab81c1852ef4787495f5c14cd31880cf0cf108cb6185bd2",
+    "pool_id_bech32": "pool18s5dpzl2hqwps5h0g7r5jh6uznxnrzqv7r83pr9krpdayu2vq9v",
+    "name": "SSPO (Single Stake sspo.one)",
+    "metadata": {
+      "name": "Single Stake",
+      "ticker": "SSPO",
+      "homepage": "http://sspo.one",
+      "description": "SSPO is a veteran-owned, lowest-cost, mission-driven pool that prioritizes decentralization over wealth creation. Our interests are that of our delegators, charity, and providing peak performance via hybrid-cloud and bare-metal relays."
+    },
+    "ticker": "SSPO",
+    "status": "retired"
+  },
+  {
+    "pool_id": "46a1e410fab850127d532108d8c00c81c407b25cc5608baaa541c62f",
+    "pool_id_bech32": "pool1g6s7gy86hpgpyl2nyyyd3sqvs8zq0vjuc4sgh249g8rz7fycumq",
+    "name": "GETI (Geldtiger)",
+    "metadata": {
+      "name": "GELDTIGER",
+      "ticker": "GETI",
+      "homepage": "https://www.geldtiger.at",
+      "description": "Support of the Cardano EcoSystem. Operated from Austria - hosted in the EU."
+    },
+    "ticker": "GETI",
+    "status": "retired"
+  },
+  {
+    "pool_id": "3162c21a847e9869471ae27b7f1f52600291c1f5bbbea8e3572d3f8f",
+    "pool_id_bech32": "pool1x93vyx5y06vxj3c6ufah786jvqpfrs04hwl23c6h95lc7yhwu5y",
+    "name": "MAMBA (Mamba Pool)",
+    "metadata": {
+      "name": "Mamba Pool",
+      "ticker": "MAMBA",
+      "homepage": "https://mambapool.org",
+      "description": "\u00a1Bienvenido a Mamba Pool! Participe en este maravilloso proyecto, en el cual nos comprometemos a proporcionar servicios de staking de alta calidad mediante fiabilidad, honestidad y rendimiento de clase empresarial. \u00a1Feliz staking!"
+    },
+    "ticker": "MAMBA",
+    "status": "retired"
+  },
+  {
+    "pool_id": "EC5B48B7106B22CA49C4FBAFAD4B46D0524D6D8527CC90432DDD4862",
+    "pool_id_bech32": "pool1a3d53dcsdv3v5jwylwh66j6x6pfy6mv9ylxfqsedm4yxy7zu03d",
+    "name": "PLZ (Poolarized Pool)",
+    "metadata": {
+      "name": "Poolarized",
+      "ticker": "PLZ",
+      "homepage": "https://poolarized.com",
+      "description": "Our reliable & trustworthy staking pool from Portugal"
+    },
+    "ticker": "PLZ",
+    "status": "retired"
+  },
+  {
+    "pool_id": "4b9049b66d926ada722408b9beeaae9ef3d2ffe2377d9b17f6e078ef",
+    "pool_id_bech32": "pool1fwgyndndjf4d5u3ypzuma64wnmea9llzxa7ek9lkupuw786zv32",
+    "name": "CLP (Charity Lounge Pool)",
+    "metadata": {
+      "name": "Charity Lounge",
+      "ticker": "CLP",
+      "homepage": "https://www.charitylounge.info",
+      "description": "Charity Stake Pool | 0% Margin | 30% Donations of Pool Rewards (fixed fees) | Stake with us - BIG returns for you and ppl in NEED"
+    },
+    "ticker": "CLP",
+    "status": "retired"
+  },
+  {
+    "pool_id": "1c220012e987c342ec4b4c6cea04501d0cf003459804b0e7018d3c73",
+    "pool_id_bech32": "pool1rs3qqyhfslp59mztf3kw5pzsr5x0qq69nqztpecp3578xq64cd3",
+    "name": "ALICE (Alice Stake Pool)",
+    "metadata": {
+      "name": "Alice Stake Pool",
+      "ticker": "ALICE",
+      "homepage": "https://skilov3.github.io/AliceStakePool/",
+      "description": "Single stake pool operator w/ 100% uptime. Come down the rabbit hole with us!"
+    },
+    "ticker": "ALICE",
+    "status": "retired"
+  },
+  {
+    "pool_id": "fc326584793485896db00cd60d37688e41f87031d106e957f76ed7ba",
+    "pool_id_bech32": "pool1lsextprexjzcjmdspntq6dmg3eqlsup36yrwj4lhdmtm5jmlsut",
+    "name": "XMEX (X Mexico Stake Pool)",
+    "metadata": {
+      "name": "X Mexico Stake Pool",
+      "ticker": "XMEX",
+      "homepage": "https://xmexicostakepool.com",
+      "description": "De M\u00e9xico para el mundo. Somos XMEX, una pool que busca ayudar a la descentralizaci\u00f3n de Cardano y apoyar a los m\u00e1s necesitados. Cada mes donaremos 15% de nuestras ganancias a caridades en M\u00e9xico. \u00bfTe gustar\u00eda ayudar? haz stake con nosotros XMEX!"
+    },
+    "ticker": "XMEX",
+    "status": "retired"
+  },
+  {
+    "pool_id": "61c0f019c2993dbccf370a4b088c68747f0c7b419e8ef7b892d88c7e",
+    "pool_id_bech32": "pool1v8q0qxwzny7menehpf9s3rrgw3lsc76pn6800wyjmzx8ujphu7n",
+    "name": "MAR (Marjun's Cardano Friends Pool)",
+    "metadata": {
+      "name": "Marjun's Cardano Friends Pool",
+      "ticker": "MAR",
+      "homepage": "https://marjun.net/",
+      "description": "MARJUN Friends and Family Stake Pool helping the Cardano decentralization!"
+    },
+    "ticker": "MAR",
+    "status": "retired"
+  }
+]
