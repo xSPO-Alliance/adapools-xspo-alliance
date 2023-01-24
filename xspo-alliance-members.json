@@ -68,11 +68,6 @@
         "member_since": "2021-07-21",
         "name": "STAY (Here To STAY)"
       },
-      "16": {
-        "pool_id": "5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b",
-        "member_since": "2021-07-25",
-        "name": "ST4NA (Stake for Nature)"
-      },
       "17": {
         "pool_id": "111646b0848804b1c0ff51888432c9c4b0b0aa3b55f11ecbd0e36624",
         "member_since": "2021-07-25",
@@ -112,11 +107,6 @@
         "pool_id": "6c1c1fc2b1e3e1ac056f6dd4dd4c3b78e66bd01896ca6e98a4d2431e",
         "member_since": "2021-05-28",
         "name": "RELAY (Relay Stake Pool)"
-      },
-      "30": {
-        "pool_id": "0089edb03016268a135babbbe8fb1f12f5789fc7718e67255bfbe570",
-        "member_since": "2021-08-02",
-        "name": "ESG (ESGpool)"
       },
       "31": {
         "pool_id": "d7dc0487d80b04e9eb77e3d128debded2da917647df35da25267689f",
@@ -203,16 +193,6 @@
         "member_since": "2021-09-01",
         "name": "ARA (Ara)"
       },
-      "60": {
-        "pool_id": "f9317946c36f6ea5625732382ba4de05ddf4a3fe5952caa838cee051",
-        "member_since": "2021-09-03",
-        "name": "HELLO (ADAttitude)"
-      },
-      "61": {
-        "pool_id": "b9147445047312aa139a331390bba715eebb58f1b66c96e660e48986",
-        "member_since": "2021-09-03",
-        "name": "BLU (ADABLUE Stake Pool)"
-      },
       "62": {
         "pool_id": "cf0f698eaf884ea22ef9442ceda4eed30ff538f43b4f21780c60052f",
         "member_since": "2021-09-04",
@@ -267,11 +247,6 @@
         "pool_id": "559a8f376d4ddeb2df64ac42cfc4e95f28d6042499f4e45b15900f4a",
         "member_since": "2021-09-14",
         "name": "RENEW (RenewPool)"
-      },
-      "74": {
-        "pool_id": "27b1b4470c84db78ce1ffbfff77bb068abb4e47d43cb6009caaa3523",
-        "member_since": "2021-09-14",
-        "name": "CSCS (CloudStruct Cardano Staking)"
       },
       "75": {
         "pool_id": "f0e3c8d48efb750cdf256b68babc880787bc688972acfbbee1ffc537",
@@ -351,7 +326,7 @@
       "98": {
         "pool_id": "4f3410f074e7363091a1cc1c21b128ae423d1cce897bd19478e534bb",
         "member_since": "2021-07-21",
-        "name": "9000 (ADA 9000)"
+        "name": "PIXEL (Pixel pool)"
       },
       "99": {
         "pool_id": "74d66da57368e12f12bd07f303da7f8cd3c2494af9e32e4dea210c58",
@@ -377,11 +352,6 @@
         "pool_id": "4ec6dab61e2c65dae29be13d774b40f5a10e5d6652b3baf1bb61b45a",
         "member_since": "2021-10-27",
         "name": "TLP (Terry's Lair)"
-      },
-      "106": {
-        "pool_id": "48b18f581c5e77a19870e8399e4d2100c66b2e15243c9557e79f2165",
-        "member_since": "2021-10-31",
-        "name": "SOIL (ADA4 SOIL)"
       },
       "107": {
         "pool_id": "a463f246be423fa966aa5f7dff358ad2ae87fa670d487645530a19d9",
@@ -513,11 +483,6 @@
         "member_since": "2021-12-19",
         "name": "JED (JED Stakepool)"
       },
-      "140": {
-        "pool_id": "6858fc0ed225ad40157e358cff1d08ccc306b6ab00bdc96301fbedef",
-        "member_since": "2021-12-20",
-        "name": "DODO (The DODO Pool)"
-      },
       "141": {
         "pool_id": "e3f8a83cefed03fe4ebdc4f50f3cdd880a7c2fd0b2ce7ff9da9cdce2",
         "member_since": "2021-12-21",
@@ -623,11 +588,6 @@
         "member_since": "2022-02-05",
         "name": "RABIT (rabbitholepools)"
       },
-      "164": {
-        "pool_id": "86d3b37680b0b5d91717d782774640823d85a0f64b4b2881de1ded86",
-        "member_since": "2022-02-06",
-        "name": "HAPPY (Happy Raspberry ❤️)"
-      },
       "165": {
         "pool_id": "24bfb62716d755bbf035fcb3f7e87a8d325fde0f04062e692aff3216",
         "member_since": "2022-02-07",
@@ -663,11 +623,6 @@
         "member_since": "2022-02-19",
         "name": "CCYT (Crypto Catalyst)"
       },
-      "172": {
-        "pool_id": "6782865c91a230fb379a433a0630a68a9adcdca9e518ad73302ef805",
-        "member_since": "2022-02-20",
-        "name": "CBITS (CardanoBits Stake Pool)"
-      },
       "173": {
         "pool_id": "d7e062ee4a829c38c7d7616af5666e79cfa6bca819a987b6a1b17ced",
         "member_since": "2022-02-20",
@@ -702,11 +657,6 @@
         "pool_id": "029378e3fa199ee6510325406a7eb7d5001927c6294db06b53049499",
         "member_since": "2022-03-01",
         "name": "ASTCH (Assurance Tech Pool)"
-      },
-      "181": {
-        "pool_id": "3c28d08beab81c1852ef4787495f5c14cd31880cf0cf108cb6185bd2",
-        "member_since": "2022-03-01",
-        "name": "SSPO (Single Stake sspo.one)"
       },
       "183": {
         "pool_id": "39c6ec8fe6dd619d005f17905dde221e31cbd4aadf5eecef9c611311",
@@ -763,35 +713,10 @@
         "member_since": "2022-03-30",
         "name": "RCADA (80s Arcade Synth Wave Stake Cardano Pool)"
       },
-      "195": {
-        "pool_id": "46a1e410fab850127d532108d8c00c81c407b25cc5608baaa541c62f",
-        "member_since": "2022-04-02",
-        "name": "GETI (Geldtiger)"
-      },
       "197": {
         "pool_id": "23e146390a1b58999264bdd1779eed1b7d50e869bb8c260ccc4cc6c9",
         "member_since": "2022-04-13",
         "name": "ILUKA (Iluka Pool)"
-      },
-      "198": {
-        "pool_id": "3162c21a847e9869471ae27b7f1f52600291c1f5bbbea8e3572d3f8f",
-        "member_since": "2021-04-14",
-        "name": "MAMBA (Mamba Pool)"
-      },
-      "199": {
-        "pool_id": "EC5B48B7106B22CA49C4FBAFAD4B46D0524D6D8527CC90432DDD4862",
-        "member_since": "2022-04-15",
-        "name": "PLZ (Poolarized Pool)"
-      },
-      "200": {
-        "pool_id": "4b9049b66d926ada722408b9beeaae9ef3d2ffe2377d9b17f6e078ef",
-        "member_since": "2022-04-28",
-        "name": "CLP (Charity Lounge Pool)"
-      },
-      "201": {
-        "pool_id": "1c220012e987c342ec4b4c6cea04501d0cf003459804b0e7018d3c73",
-        "member_since": "2022-04-30",
-        "name": "ALICE (Alice Stake Pool)"
       },
       "202": {
         "pool_id": "61a8252b7fb1a2fde1bda9c6bd0927995701f799e7fac8227c61ab4e",
@@ -927,116 +852,6 @@
         "pool_id": "025a2bb1b5b2d6dcb8b6f84e592f8b8574d9e7066ca3afbba62c9592",
         "member_since": "2022-08-21",
         "name": "BEST1 (BEST1 Stake Pool)"
-      },
-      "231": {
-        "pool_id": "fc326584793485896db00cd60d37688e41f87031d106e957f76ed7ba",
-        "member_since": "2022-08-30",
-        "name": "XMEX (X Mexico Stake Pool)"
-      },
-      "232": {
-        "pool_id": "61c0f019c2993dbccf370a4b088c68747f0c7b419e8ef7b892d88c7e",
-        "member_since": "2022-08-31",
-        "name": "MAR (Marjun's Cardano Friends Pool)"
-      },
-      "233": {
-        "pool_id": "4389c1059c2b2f95233506d0a063a723c22d8b6e0f0fe531c27433a8",
-        "member_since": "2022-09-08",
-        "name": "HARM (ISPO | harmlesscoin.com)"
-      },
-      "234": {
-        "pool_id": "112bd1da11c5c23e1171505fbbb81c8802d410de9e64373f530723c1",
-        "member_since": "2022-09-09",
-        "name": "SPCP (Swiss Premium Cardano Pool)"
-      },
-       "235": {
-        "pool_id": "d436a2dd1100ed4f903ea831f92e27f9f4ca09882d225a5ca800e7a0",
-        "member_since": "2022-09-10",
-        "name": "ZEBRA (Zebra Staking)"
-      },
-       "236": {
-        "pool_id": "e40edb5a243c9ef00296860c6b7c8272fd5923ac52b5050d68e80d9b",
-        "member_since": "2022-09-23",
-        "name": "SWARM (Catalyst Swarm)"
-      },
-       "237": {
-        "pool_id": "8881495966f1b73427233aa761c0fd04adfd91b3599a012d7d845472",
-        "member_since": "2022-10-06",
-        "name": "VICIS (Very Informal and Committed Independent Stakepool)"
-      },
-       "238": {
-        "pool_id": "387c1f515894d2511d1e791161e69882ddb427ab1701b7af719a8c9f",
-        "member_since": "2022-10-08",
-        "name": "SAGAN (Sagan Stake Pool)"
-      },
-       "239": {
-        "pool_id": "f218d7c550fecc856bdf09c6ec12d64f68a59b6727f29bedb06d88b1",
-        "member_since": "2022-10-11",
-        "name": "STPZ1 (Stacking Pizza Cardano Pool)"
-      },
-       "240": {
-        "pool_id": "fab24ffce0611c290e10211cac009b1366ae1cece4a1c57d110ddfa1",
-        "member_since": "2022-10-17",
-        "name": "CLYDE (CLYDEdev Stake Pool by phrankerCO)"
-      },
-       "241": {
-        "pool_id": "5a4b9516179026576109a1536a907203948017cefd9a0c954254d196",
-        "member_since": "2022-10-24",
-        "name": "BLABS (Block Labs)"
-      },
-       "242": {
-        "pool_id": "a24d65818d2aa00387f788e4d1da1cdaca138c50e9136af6cc55e68a",
-        "member_since": "2022-10-25",
-        "name": "HAWAK (The Hawak Pool)"
-      },
-       "243": {
-        "pool_id": "30923de78639f58b376acdad15c4d9562f4d6b5bf08ddd356f10d3ba",
-        "member_since": "2022-10-27",
-        "name": "YACP (Yet Another Cool Pool - A Cardano Ecosystem Believer)"
-      },
-       "244": {
-        "pool_id": "0df0f6e5a3191520aa0a58268c38fe608d1d931766fc006635f3f2b1",
-        "member_since": "2022-11-14",
-        "name": "RTIST (RTIST Pool - Onboarding artists to mint their work on Cardano)"
-      },
-       "245": {
-        "pool_id": "7e0bf8d9e2a3c8b5d6c3b272bf3a287058569660afad62e704562895",
-        "member_since": "2022-11-16",
-        "name": "BIRTH (Building for midwifery to reduce mortality related to pregnancy)"
-      },
-       "246": {
-        "pool_id": "7cd510133850b195b1f989bc96c88d86203fe574806eaba169c78d41",
-        "member_since": "2022-11-20",
-        "name": "DOTAR (Dotare - To endow, equip, and provide for all)"
-      },
-       "247": {
-        "pool_id": "4fde86a71b122b24c6ee3c4b90b579e745b546694d6ac6b7a17bc6f8",
-        "member_since": "2022-12-07",
-        "name": "AVA (AVA Cardano Stake Pool)"
-      },
-        "248": {
-        "pool_id": "50a7d6c3ad4aaf5668d749e4e063481c8d01b67a4d237a6603b76540",
-        "member_since": "2022-12-11",
-        "name": "HWRLD (Hello World! Cardano Stake Pool)"
-      },
-         "249": {
-        "pool_id": "dacf06a23e4aaf119024e63deb79861ca175b24e7d44d97fb92b1a22",
-        "member_since": "2022-12-12",
-        "name": "ABLE (Able Stake Pool)"
-      },
-         "250": {
-        "pool_id": "febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d",
-        "member_since": "2022-12-15",
-        "name": "OYSTR (OYSTR Pool - Supporting Seabed Regeneration)"
-      },
-      "251": {
-        "pool_id": "3e83527db3abcd7c819899523e60d74bc7f6981c9c06fe09a46e23a3",
-        "member_since": "2023-01-05",
-        "name": "CRY (CRY Pool - Crying My Best)"
-      },
-      "252": {
-        "pool_id": "4af5266d2b3ad11fb848d393008ff934678e02989e2ce263ac05a80d",
-        "member_since": "2023-01-06",
-        "name": "FRCA🍁 (0% Fees! Canadian Pool 🇨🇦)"
       }
     }
   }
