@@ -852,6 +852,11 @@
         "pool_id": "025a2bb1b5b2d6dcb8b6f84e592f8b8574d9e7066ca3afbba62c9592",
         "member_since": "2022-08-21",
         "name": "BEST1 (BEST1 Stake Pool)"
+      },
+      "231": {
+        "pool_id": "7cdca5168129ace5883b56b2e9f8ac8ed59128825c840e43079eac03",
+        "member_since": "2023-02-14",
+        "name": "EULP (Eucalyptus Stake Pool)"
       }
     }
   }
