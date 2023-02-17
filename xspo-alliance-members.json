@@ -857,6 +857,11 @@
         "pool_id": "7cdca5168129ace5883b56b2e9f8ac8ed59128825c840e43079eac03",
         "member_since": "2023-02-14",
         "name": "EULP (Eucalyptus Stake Pool)"
+      },
+      "231": {
+        "pool_id": "1af9675471ebcf3dd3d6eac7cafb8e3e1df10c82bbccae5dca0e26fc",
+        "member_since": "2023-02-17",
+        "name": "BAKE (Bake Empire Staking)"
       }
     }
   }
