@@ -862,6 +862,11 @@
         "pool_id": "1af9675471ebcf3dd3d6eac7cafb8e3e1df10c82bbccae5dca0e26fc",
         "member_since": "2023-02-17",
         "name": "BAKE (Bake Empire Staking)"
+      },
+      "233": {
+        "pool_id": "4e46972f7896ca3361efe216d70f65dbeaa926a693219d74fca43660",
+        "member_since": "2023-02-24",
+        "name": "MOCHI (MOCHI Stake Pool)"
       }
     }
   }
