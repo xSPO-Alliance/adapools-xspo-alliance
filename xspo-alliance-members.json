@@ -872,6 +872,11 @@
         "pool_id": "02c7fc9aa1f415c8596f0957f68a3908dbdf458da4d09be93ddd608b",
         "member_since": "2023-03-02",
         "name": "LIT (LIT Staking)"
+         },
+      "235": {
+        "pool_id": "2f5750897a45f2bbf3f0f66e37b286d5308f6e4f1727e2e733ca7aff",
+        "member_since": "2023-03-05",
+        "name": "SOCAL (Southern California Stake Pool)"
       }
     }
   }
