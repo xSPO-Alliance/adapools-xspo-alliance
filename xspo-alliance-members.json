@@ -872,6 +872,11 @@
         "pool_id": "02c7fc9aa1f415c8596f0957f68a3908dbdf458da4d09be93ddd608b",
         "member_since": "2023-03-02",
         "name": "LIT (LIT Staking)"
+      },
+      "235": {
+        "pool_id": "e9e7e497cdda1681cff48e4d8c5a726e2e030c65a3cf7f9be8007466",
+        "member_since": "2023-03-19",
+        "name": "HAPPY (HAPPY Staking Pool 🥳)"
       }
     }
   }
