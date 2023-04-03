@@ -882,6 +882,11 @@
         "pool_id": "9baaa3027d0fcd034520a917fa9aa0032f0f229c26e7b2bf414b0d4d",
         "member_since": "2023-03-26",
         "name": "VIVID (The Vivid Pool)"
+      },
+      "237": {
+        "pool_id": "707cc05abbb19ee7b8c2090fd65d2ba81d8469e6fb5d9dab972cea17",
+        "member_since": "2021-03-12",
+        "name": "BEEHI (Beehive Staking Pool)"
       }
     }
   }
