@@ -887,6 +887,11 @@
         "pool_id": "707cc05abbb19ee7b8c2090fd65d2ba81d8469e6fb5d9dab972cea17",
         "member_since": "2023-04-03",
         "name": "BEEHI (Beehive Staking Pool)"
+      },
+      "238": {
+        "pool_id": "85896fc473c6f3e009c47ae94759543deb9ac0ad27703dc6f3813b1e",
+        "member_since": "2023-04-07",
+        "name": "SAFST (Safe Stake)"
       }
     }
   }
