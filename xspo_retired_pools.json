@@ -219,5 +219,78 @@
     },
     "ticker": "MAR",
     "status": "retired"
+  },
+  {
+    "pool_id": "a5b7de0846612aa8ccdc4d0e8092e381dd34059b6584eacf0bcab7b9",
+    "pool_id_bech32": "pool15kmauzzxvy423nxuf58gpyhrs8wngpvmvkzw4ncte2mmjn2wpvt",
+    "name": "GAME (Gaming Cardano)",
+    "metadata": {
+      "name": "Gaming Cardano",
+      "ticker": "GAME",
+      "homepage": "https://gamingcardano.com",
+      "description": "0% Fees, Stake-to-Play | Exclusive access to tournaments rewarding ADA + CNFTs"
+    },
+    "ticker": "GAME",
+    "status": "retired"
+  },
+  {
+    "pool_id": "d44442e0f92b4173205c4e8609cd48cbbb09c7dbcb805704c22be1ff",
+    "pool_id_bech32": "pool163zy9c8e9dqhxgzuf6rqnn2gewasn37mewq9wpxz90sl7rtj60h",
+    "name": "MOAI (Moai Pool)",
+    "metadata": {
+      "name": "Moai Stake Pool \ud83d\uddff",
+      "ticker": "MOAI",
+      "homepage": "https://moaipool.com/",
+      "description": "A reliable and green Cardano staking pool running on 100% renewable energy."
+    },
+    "ticker": "MOAI",
+    "status": "retired"
+  },
+  {
+    "pool_id": "679b1d8a164791f21ab5a9a7fd2c8cfc108f76aad351912ec841847e",
+    "pool_id_bech32": "pool1v7d3mzskg7glyx444xnl6tyvlsgg7a426dgeztkggxz8ucj8yhj",
+    "name": "ISLA (La ISLA ADA StakePool)",
+    "metadata": {
+      "name": "La Isla ADA Stakepool",
+      "ticker": "ISLA",
+      "homepage": "https://0xisla.live",
+      "description": "Supporting the decentralization of Cardano ecosystem from the island."
+    },
+    "ticker": "ISLA",
+    "status": "retired"
+  },
+  {
+    "pool_id": "72b90b4cce444f1ede43323879d8bbed7219801b2928a736df89dfa5",
+    "pool_id_bech32": "pool1w2usknxwg383ahjrxgu8nk9ma4epnqqm9y52wdkl38062mea4da",
+    "name": "VET (Cardano VET pool)",
+    "metadata": {
+      "name": "Cardano VET Pool",
+      "ticker": "VET",
+      "homepage": "https://vet05.webnode.kr",
+      "description": "This pool is for Cardano and animals. It is made by a veterinarian. We respect animals as a dignified life and dream of a world where all lives coexist peacefully. We welcome many Cardano investors who love animals."
+    },
+    "ticker": "VET",
+    "status": "retired"
+  },
+  {
+    "pool_id": "45dfa4d34b9da5ae5fe91fe6b74f02fa77a5c05bdeb9b4763d9e5935",
+    "pool_id_bech32": "pool1gh06f56tnkj6uhlfrlntwnczlfm6tszmm6umga3anevn2tvcds4",
+    "name": "TTL (Time to Live)",
+    "metadata": {
+      "name": "Time to Live",
+      "ticker": "TTL",
+      "homepage": "https://ttl-pool.site",
+      "description": "RELIABLE. SECURE. MISSION-DRIVEN. TIME TO LIVE. TIME TO STAKE. We donate at least 40% of our pool rewards to ocean conservation projects."
+    },
+    "ticker": "TTL",
+    "status": "retired"
+  },
+  {
+    "pool_id": "1af9675471ebcf3dd3d6eac7cafb8e3e1df10c82bbccae5dca0e26fc",
+    "pool_id_bech32": "pool1rtukw4r3a08nm57katru47uw8cwlzryzh0x2uhw2pcn0c84xjxw",
+    "name": "BAKE (Bake Empire Staking)",
+    "metadata": null,
+    "ticker": "",
+    "status": "retired"
   }
 ]
