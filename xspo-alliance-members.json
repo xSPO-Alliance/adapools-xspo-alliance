@@ -962,6 +962,11 @@
         "pool_id": "85896fc473c6f3e009c47ae94759543deb9ac0ad27703dc6f3813b1e",
         "member_since": "2023-04-07",
         "name": "SAFST (Safe Stake)"
+      },
+      "258": {
+        "pool_id": "5cf6dd741a1ce3859000038f8833f467c13c1a297741638e0686c13a",
+        "member_since": "2023-04-23",
+        "name": "CORAL (Coral Pool)"
       }
     }
   }
