@@ -972,6 +972,11 @@
         "pool_id": "41996c3e9ed67d47ea81a59f8831dbc948a00f296d11dd6a6678b543",
         "member_since": "2023-04-26",
         "name": "CLINK (Cardano Link Stake Pool)"
+      },
+      "260": {
+        "pool_id": "6b3cb7c72720378fcdf509135591173b9734afab8a96cacb9f508528",
+        "member_since": "2023-05-02",
+        "name": "CCCC (Cardano Community Charity Coin Stake Pool)"
       }
     }
   }
