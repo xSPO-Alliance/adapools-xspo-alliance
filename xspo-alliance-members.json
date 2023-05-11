@@ -977,6 +977,11 @@
         "pool_id": "6b3cb7c72720378fcdf509135591173b9734afab8a96cacb9f508528",
         "member_since": "2023-05-02",
         "name": "CCCC (Cardano Community Charity Coin Stake Pool)"
+      },
+      "261": {
+        "pool_id": "5059d31b0c8c11d6d2404266844e31f13dab05eae77815db8994a598",
+        "member_since": "2023-05-11",
+        "name": "SVRN (Commercial Sovereignty Restoration)"
       }
     }
   }
