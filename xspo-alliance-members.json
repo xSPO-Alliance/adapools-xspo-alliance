@@ -994,9 +994,14 @@
         "name": "LAPO (Laponia)"
       },
         "264": {
+        "pool_id": "0bc92cdf065d9a7ab4a984a322791f28d8c1a28c383d17654d13c823",
+        "member_since": "2023-06-24",
+        "name": "PGP (Pretty Good Pool)"
+      },
+        "265": {
         "pool_id": "48cfc42a91bfd8f0aeb03722e53c6f88661b5d4e0e5b94069459e703",
         "member_since": "2023-06-26",
-        "name": "JOKER (JOKER)"    
+        "name": "JOKER (JOKER)"
       }
     }
   }
