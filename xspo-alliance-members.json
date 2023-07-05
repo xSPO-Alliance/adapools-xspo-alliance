@@ -1002,6 +1002,11 @@
         "pool_id": "48cfc42a91bfd8f0aeb03722e53c6f88661b5d4e0e5b94069459e703",
         "member_since": "2023-06-26",
         "name": "JOKER (JOKER)"
+      },
+        "266": {
+        "pool_id": "2d7f70b699d74f33cde2c669741534578a10670d3e89f791693cc4bb",
+        "member_since": "2023-07-04",
+        "name": "ARTMS (Artemis Stakepool)"
       }
     }
   }
