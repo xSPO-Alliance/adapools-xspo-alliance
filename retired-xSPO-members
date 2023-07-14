@@ -141,6 +141,11 @@
       "member_since": "2021-08-17",
       "name": "PGWAD (PGWADA Stake pool)",
       "retiring_epoch": "333"
-    }
+    },
+      "261": {
+        "pool_id": "5059d31b0c8c11d6d2404266844e31f13dab05eae77815db8994a598",
+        "member_since": "2023-05-11",
+        "name": "SVRN (Commercial Sovereignty Restoration)"
+      }
   }
 }
