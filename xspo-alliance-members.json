@@ -1002,6 +1002,11 @@
         "pool_id": "2d7f70b699d74f33cde2c669741534578a10670d3e89f791693cc4bb",
         "member_since": "2023-07-04",
         "name": "ARTMS (Artemis Stakepool)"
+      },
+        "267": {
+        "pool_id": "84a289f6f0dc3d1e18dcac4687604d750baccfcd5c1380274a2f9824",
+        "member_since": "2023-08-20",
+        "name": "VIP (Very Important Pool)"
       }
     }
   }
