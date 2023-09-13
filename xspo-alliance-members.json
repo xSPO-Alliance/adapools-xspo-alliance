@@ -1007,6 +1007,11 @@
         "pool_id": "84a289f6f0dc3d1e18dcac4687604d750baccfcd5c1380274a2f9824",
         "member_since": "2023-08-20",
         "name": "VIP (Very Important Pool)"
+      },
+        "268": {
+        "pool_id": "4288f97870679a1e1c3a92d4d6762332412fa85c7f5056b5f84ece8e",
+        "member_since": "2023-09-07",
+        "name": "SOCIO (Socious StakePool)"
       }
     }
   }
