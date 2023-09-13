@@ -1012,6 +1012,11 @@
         "pool_id": "4288f97870679a1e1c3a92d4d6762332412fa85c7f5056b5f84ece8e",
         "member_since": "2023-09-07",
         "name": "SOCIO (Socious StakePool)"
+      },
+        "269": {
+          "pool_id": "c45ff02e8559e129d3e87d47475a99e60dda5cb893e8681502c1ff34",
+          "member_since": "2023-09-13",
+          "name": "RUMOR (Rumor)"
       }
     }
   }
