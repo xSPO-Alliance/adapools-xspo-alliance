@@ -1007,7 +1007,12 @@
         "pool_id": "84a289f6f0dc3d1e18dcac4687604d750baccfcd5c1380274a2f9824",
         "member_since": "2023-08-20",
         "name": "VIP (Very Important Pool)"
-      }
+      },
+        "268": {
+          "pool_id": "c45ff02e8559e129d3e87d47475a99e60dda5cb893e8681502c1ff34",
+          "member_since": "2023-09-13",
+          "name": "RUMOR"
+        }
     }
   }
 }
