@@ -1017,6 +1017,11 @@
           "pool_id": "c45ff02e8559e129d3e87d47475a99e60dda5cb893e8681502c1ff34",
           "member_since": "2023-09-13",
           "name": "RUMOR (Rumor)"
+      },
+        "270": {
+          "pool_id": "333bd4419f2847f1a9f7621406563524214c1ce356ffa9d62ec07213",
+          "member_since": "2023-08-01",
+          "name": "DCONE (DCOne Crypto Pool)"
       }
     }
   }
