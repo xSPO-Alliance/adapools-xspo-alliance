@@ -1027,6 +1027,11 @@
         "pool_id": "3adfc2b13579d2b924a668655f21aeb641190a3201217e6f7e4b169b",
         "member_since": "2023-10-29",
         "name": "KAPY (Kapypool)"
+      },
+      "272": {
+        "pool_id": "c5e367e5fe6dc0ee6cf5f43af56099c0c2f7bfbaca1a639522a0c5d5",
+        "member_since": "2024-01-28",
+        "name": "ZAM (Mission Zambia Stake Pool)"
       }
     }
   }
