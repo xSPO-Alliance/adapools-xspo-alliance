@@ -1034,11 +1034,16 @@
         "name": "ZAM (Mission Zambia Stake Pool)"
       },
       "273": {
+        "pool_id": "3a0903012e156471ee2cfdf5af79902cd5108d891f90ec9cfbbce9ce",
+        "member_since": "2024-03-06",
+        "name": "EUR (ADA Pool Europe)"
+      },
+      "274": {
         "pool_id": "f7811118c400834b2539bd24684266b786e986c97d74a3db104bf049",
         "member_since": "2024-04-22",
         "name": "ADAHR (ADAHero Stake Pool)"
       },
-      "274": {
+      "275": {
         "pool_id": "846725102fd1c65c144138f1ec18ddefc612853f708b2e77e33e3cc2",
         "member_since": "2024-04-27",
         "name": "BOOTY (BootyPool - All your booty are belong to us! 🍑)"
