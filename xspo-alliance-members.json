@@ -1032,6 +1032,11 @@
         "pool_id": "c5e367e5fe6dc0ee6cf5f43af56099c0c2f7bfbaca1a639522a0c5d5",
         "member_since": "2024-01-28",
         "name": "ZAM (Mission Zambia Stake Pool)"
+      },
+      "273": {
+        "pool_id": "f7811118c400834b2539bd24684266b786e986c97d74a3db104bf049",
+        "member_since": "2024-04-22",
+        "name": "ADAHR (ADAHero Stake Pool)"
       }
     }
   }
