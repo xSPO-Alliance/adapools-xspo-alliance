@@ -1054,9 +1054,14 @@
         "name": "SSX (Stealth Syntax)"
       },
       "277": {
-        "pool_id": "pool13zagy9a4nnhgme5wcnl0w3xzt523yn76jxh52360rryexc9f9dc",
+        "pool_id": "88ba8217b59cee8de68ec4fef744c25d15124fda91af45474f18c993",
         "member_since": "2024-10-01",
         "name": "XODO (XODO Stake Pool)"
+       },
+      "278": {
+        "pool_id": "d24b4e069ca7c809e69b99b7fbe5e34351b2755ed86ea39c7a439fcb",
+        "member_since": "2024-10-03",
+        "name": "MARAC (Maracuja Pool)"
       }
     }
   }
