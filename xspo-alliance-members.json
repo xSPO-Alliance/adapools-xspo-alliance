@@ -1072,6 +1072,11 @@
         "pool_id": "8923eeac4dc58437a1923ed73df6a5d3d5292f0e536e328b612547d8",
         "member_since": "2024-12-14",
         "name": "BKRY (Bakery)"
+      },
+      "281": {
+        "pool_id": "f66a36de855d53b9d5110bd46640f48dbab1c848c9e2f5c36d8c12dc",
+        "member_since": "2025-01-12",
+        "name": "GAIA (GAIA Stake Pool)"
       }
     }
   }
