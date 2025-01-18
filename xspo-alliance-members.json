@@ -1077,6 +1077,11 @@
         "pool_id": "f66a36de855d53b9d5110bd46640f48dbab1c848c9e2f5c36d8c12dc",
         "member_since": "2025-01-12",
         "name": "GAIA (GAIA Stake Pool)"
+      },
+      "282": {
+        "pool_id": "a79aedbfe592557a1779f521f4b9c7693f89f36d449970c0974efe32",
+        "member_since": "2025-01-18",
+        "name": "ASY (AshiyaPool)"
       }
     }
   }
