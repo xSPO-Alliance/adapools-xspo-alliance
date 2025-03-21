@@ -1092,6 +1092,11 @@
         "pool_id": "b2576e447a58f9764b7ea2217287718892cf4f8eec0e7dd206002d32",
         "member_since": "2025-02-18",
         "name": "NORBY (norby.io ADA Stake Pool #1)"
+      },
+      "285": {
+        "pool_id": "a54db65c3594c5e0ddd8ff5e5e30409ce38bd2bfba8821ad42999a8c",
+        "member_since": "2025-03-20",
+        "name": "LEAP (Frogs on Cardano)"
       }
     }
   }
