@@ -1097,6 +1097,11 @@
         "pool_id": "a54db65c3594c5e0ddd8ff5e5e30409ce38bd2bfba8821ad42999a8c",
         "member_since": "2025-03-20",
         "name": "LEAP (Frogs on Cardano)"
+      },
+      "286": {
+        "pool_id": "504aff7150f5ee7ae26734d5ab9c8b6ad2b1b2bc3a73a30a7fa9bb06",
+        "member_since": "2025-07-04",
+        "name": "APL (APL)"
       }
     }
   }
