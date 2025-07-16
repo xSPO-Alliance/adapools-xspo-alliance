@@ -7,7 +7,7 @@ Please like the latter so we stay on top of the list!
 By submitting a pull request you agree that all the submited information will be made publicly available to everyone.
 Also, by submitting you agree that you fit the critera of an xSPO.  Our rules are very simple, just have less than ₳1M in total active stake as you join, and be an active member of our community on discord.
 
-# REQUIREMENTS:
+# REQUIREMENTSS:
 - Github Account
 - Pool_id
 - Less than 1m Stake
