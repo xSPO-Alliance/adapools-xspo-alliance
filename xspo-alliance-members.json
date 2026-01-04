@@ -1102,6 +1102,11 @@
         "pool_id": "504aff7150f5ee7ae26734d5ab9c8b6ad2b1b2bc3a73a30a7fa9bb06",
         "member_since": "2025-07-04",
         "name": "APL (APL)"
+      },
+      "287": {
+        "pool_id": "18260a989a4dde87b2b6eea8f13940895ceb5bd72a5b65386ba962df",
+        "member_since": "2026-01-04",
+        "name": "VENSP (VEN)"
       }
     }
   }
