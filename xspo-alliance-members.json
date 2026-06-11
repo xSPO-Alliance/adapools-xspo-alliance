@@ -1107,6 +1107,11 @@
         "pool_id": "0e430a017eb4b13826f48bee4e95ddf39d4187ec7467e8e5363bdfbb",
         "member_since": "2026-02-21",
         "name": "Venables-Babymetal (VSPBM)"
+      },
+      "288": {
+        "pool_id": "6b6e95f7b10b14aa4c3ffef2c01479ddb3d4bd3787486f1c57ece726",
+        "member_since": "2026-06-11",
+        "name": "LUMP (Lump Pool)"
       }
     }
   }
