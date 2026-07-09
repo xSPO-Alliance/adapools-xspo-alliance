@@ -1107,6 +1107,11 @@
         "pool_id": "0e430a017eb4b13826f48bee4e95ddf39d4187ec7467e8e5363bdfbb",
         "member_since": "2026-02-21",
         "name": "Venables-Babymetal (VSPBM)"
+      },
+      "288": {
+        "pool_id": "05527596a917cb9eee5c7db6f2bc4781ba46dab3ed020906df173969",
+        "member_since": "2026-06-25",
+        "name": "HAVN (Haven Stake Pool)"
       }
     }
   }
