@@ -1109,8 +1109,18 @@
         "name": "Venables-Babymetal (VSPBM)"
       },
       "288": {
+        "pool_id": "e1ea402bec9f495096d7ab0de98139d65224e6f9a6d96746e9af4e5e",
+        "member_since": "2026-07-13",
+        "name": "BLOKY (Blockiy)"
+      },
+      "289": {
+        "pool_id": "6b6e95f7b10b14aa4c3ffef2c01479ddb3d4bd3787486f1c57ece726",
+        "member_since": "2026-07-13",
+        "name": "LUMP (Lump Pool)"
+      },
+      "290": {
         "pool_id": "05527596a917cb9eee5c7db6f2bc4781ba46dab3ed020906df173969",
-        "member_since": "2026-06-25",
+        "member_since": "2026-07-13",
         "name": "HAVN (Haven Stake Pool)"
       }
     }
