@@ -1123,6 +1123,11 @@
         "member_since": "2026-07-13",
         "name": "HAVN (Haven Stake Pool)"
       }
+      "287": {
+        "pool_id": "pool1pup39uk3d9hl8vg3v0evn3hxkxygkas0asekng7x9cpx5f2r6d6",
+        "member_since": " 2025-06-30",
+        "name": "TAMED (Domesticated)"
+      }
     }
   }
 }
